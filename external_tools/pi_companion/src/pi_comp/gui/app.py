@@ -33,13 +33,22 @@ class CompanionApp(tk.Tk):
         super().__init__()
 
         self.title("Tilting Maze — Companion")
-        self.geometry("1080x820")
+        self.geometry("1920x1080")
         self.minsize(900, 700)
+        try: 
+            self.attributes("-fullscreen", True)
+        except tk.TclError:
+            self.state("zoomed")
+        self.bind("<Escape>", self._toggle_fullscreen);
+        self.bind("<F11>", self._toggle_fullscreen);
+        self.bind("<Control-q>", lambda e: self._on_close())
+            
         self.configure(bg=COLORS["bg"])
 
         self._events: queue.Queue = queue.Queue()
         self._source: Any | None = None
         self._seed = seed
+        self._simulate = simulate
 
         self._last_maze: dict[str, Any] | None = None
         self._last_message_at: float | None = None
@@ -62,6 +71,7 @@ class CompanionApp(tk.Tk):
             self._on_connect,
             self._on_disconnect,
             on_freq=self._on_set_freq,
+            simulate=self._simulate
         )
         self.connection.pack(fill=tk.X, padx=12, pady=(12, 8))
 
@@ -264,6 +274,12 @@ class CompanionApp(tk.Tk):
     def _on_close(self) -> None:
         self._stop_source()
         self.destroy()
+
+    def _toggle_fullscreen(self, event=None) -> None:
+        is_full = self.attributes("-fullscreen")
+        self.attributes("-fullscreen", not is_full)
+        if is_full:
+            self.geometry("1080x820")
 
 
 def _format_uptime(tick_ms: int) -> str:

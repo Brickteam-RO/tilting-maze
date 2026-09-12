@@ -36,6 +36,7 @@ class ConnectionBar(tk.Frame):
         on_connect: Callable[[str, int], None],
         on_disconnect: Callable[[], None],
         on_freq: Callable[[float], None] | None = None,
+        simulate: bool = False
     ) -> None:
         super().__init__(master, bg=COLORS["panel"])
 
@@ -44,49 +45,52 @@ class ConnectionBar(tk.Frame):
         self._on_freq = on_freq
         self._connected = False
 
-        self.connect_btn = tk.Button(
-            self,
-            text="CONNECT",
-            command=self._toggle,
-            bg=COLORS["accent"],
-            fg=COLORS["on_accent"],
-            activebackground=COLORS["accent_active"],
-            activeforeground=COLORS["on_accent"],
-            relief=tk.FLAT,
-            font=FONT_UI_BOLD,
-            cursor="hand2",
-            padx=16,
-        )
-        self.connect_btn.pack(side=tk.LEFT, padx=14, pady=10)
-
         self.state_label = tk.Label(
             self, text="disconnected", bg=COLORS["panel"], fg=COLORS["muted"], font=FONT_UI
         )
         self.state_label.pack(side=tk.LEFT, padx=6, pady=10)
 
-        # Simulation Frequency Selector
-        freq_frame = tk.Frame(self, bg=COLORS["panel"])
-        freq_frame.pack(side=tk.RIGHT, padx=14, pady=10)
-
-        tk.Label(
-            freq_frame, text="SIM FREQ:", bg=COLORS["panel"], fg=COLORS["muted"], font=FONT_LABEL
-        ).pack(side=tk.LEFT, padx=(0, 6))
-
-        for hz in (1, 2, 5, 10, 20):
-            btn = tk.Button(
-                freq_frame,
-                text=f"{hz}Hz",
-                command=lambda val=hz: self._set_freq(val),
-                bg=COLORS["bg"],
-                fg=COLORS["text"],
-                activebackground=COLORS["border"],
+        # Connection button
+        if not simulate:
+            self.connect_btn = tk.Button(
+                self,
+                text="CONNECT",
+                command=self._toggle,
+                bg=COLORS["accent"],
+                fg=COLORS["on_accent"],
+                activebackground=COLORS["accent_active"],
+                activeforeground=COLORS["on_accent"],
                 relief=tk.FLAT,
-                font=FONT_LABEL,
+                font=FONT_UI_BOLD,
                 cursor="hand2",
-                padx=5,
-                pady=2,
+                padx=16,
             )
-            btn.pack(side=tk.LEFT, padx=2)
+            self.connect_btn.pack(side=tk.LEFT, padx=14, pady=10)    
+        
+        # Simulation Frequency Selector
+        if simulate:
+            freq_frame = tk.Frame(self, bg=COLORS["panel"])
+            freq_frame.pack(side=tk.RIGHT, padx=14, pady=10)
+
+            tk.Label(
+                freq_frame, text="SIM FREQ:", bg=COLORS["panel"], fg=COLORS["muted"], font=FONT_LABEL
+            ).pack(side=tk.LEFT, padx=(0, 6))
+
+            for hz in (1, 2, 5, 10, 20):
+                btn = tk.Button(
+                    freq_frame,
+                    text=f"{hz}Hz",
+                    command=lambda val=hz: self._set_freq(val),
+                    bg=COLORS["bg"],
+                    fg=COLORS["text"],
+                    activebackground=COLORS["border"],
+                    relief=tk.FLAT,
+                    font=FONT_LABEL,
+                    cursor="hand2",
+                    padx=5,
+                    pady=2,
+                )
+                btn.pack(side=tk.LEFT, padx=2)
 
     def _set_freq(self, hz: float) -> None:
         if self._on_freq is not None:
@@ -105,10 +109,11 @@ class ConnectionBar(tk.Frame):
 
     def set_state(self, state: str, detail: str = "") -> None:
         self._connected = state in (reader.STATE_CONNECTING, reader.STATE_CONNECTED)
-        self.connect_btn.config(
-            text="DISCONNECT" if self._connected else "CONNECT",
-            bg=COLORS["error"] if self._connected else COLORS["accent"],
-        )
+        if hasattr(self, "connect_btn"):
+            self.connect_btn.config(
+                text="DISCONNECT" if self._connected else "CONNECT",
+                bg=COLORS["error"] if self._connected else COLORS["accent"],
+            )
 
         text = state
         if detail:
