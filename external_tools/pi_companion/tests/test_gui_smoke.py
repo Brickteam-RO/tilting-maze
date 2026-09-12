@@ -8,8 +8,10 @@ up in the view without raising.
 Needs a display. On a Pi that is the desktop session; headless, use xvfb-run.
 """
 
+import gc
 import os
 import time
+import tkinter as tk
 
 import pytest
 
@@ -22,6 +24,28 @@ pytestmark = pytest.mark.skipif(
 
 #: Generous, because the first maze waits on the oracle subprocess.
 READY_TIMEOUT_S = 20.0
+
+
+@pytest.fixture(autouse=True)
+def _collect_tk_garbage_on_the_main_thread():
+    """Keep cyclic garbage collection off the simulator thread.
+
+    A Tk object may only be deallocated on the thread that owns the Tcl interpreter, but
+    CPython's cyclic collector runs on whichever thread happens to trip the allocation
+    threshold. Each test here builds and destroys a whole window, so the simulator thread
+    of the *next* test would sooner or later run a collection that frees the previous
+    window's widgets - calling into Tcl from the wrong thread, corrupting the heap, and
+    aborting the interpreter. Automatic collection is therefore off while a window and
+    its worker thread are alive; the explicit collect below runs after the app fixture
+    has already joined the worker and destroyed the window, so it is on the main thread
+    with nothing else running.
+    """
+    gc.disable()
+    try:
+        yield
+    finally:
+        gc.collect()
+        gc.enable()
 
 
 @pytest.fixture
@@ -102,3 +126,55 @@ def test_no_lines_are_dropped_from_a_clean_source(app):
     pump_until(app, lambda: len(app._recent) > 5, timeout=5.0)
 
     assert app._dropped == 0
+
+
+def test_connection_bar_has_no_connect_button_when_simulating(app):
+    """--simulate drives itself; a manual CONNECT/DISCONNECT toggle makes no sense here."""
+    assert not hasattr(app.connection, "connect_btn")
+    assert _find_label_text(app.connection, "SIM FREQ:")
+
+
+def test_simulated_state_still_reaches_the_state_label(app):
+    """Regression test for a real crash: set_state() used to assume connect_btn always
+    exists and raised in simulate mode before ever reaching state_label, which would then
+    stay stuck on the initial "disconnected" text forever. Tk swallows exceptions raised
+    inside callbacks (prints to stderr, does not fail the test), so asserting the label
+    actually changed is the only way to catch this - "no exception propagated" is not
+    enough.
+    """
+    assert pump_until(
+        app, lambda: "disconnected" not in app.connection.state_label.cget("text")
+    ), "state_label never updated - set_state() likely raised before reaching it"
+
+    assert "simulated board" in app.connection.state_label.cget("text")
+
+
+def _find_label_text(widget: object, text: str) -> bool:
+    """Recursively search a widget tree for a Label with this exact text."""
+    for child in widget.winfo_children():
+        if isinstance(child, tk.Label) and child.cget("text") == text:
+            return True
+        if _find_label_text(child, text):
+            return True
+    return False
+
+
+def test_connection_bar_has_connect_button_and_no_sim_freq_when_not_simulating():
+    """Real hardware needs a manual CONNECT/DISCONNECT toggle, but SIM FREQ only makes
+    sense when a simulated source is actually driving the ball at a configurable rate.
+    """
+    tk_mod = pytest.importorskip("tkinter")
+
+    from pi_comp.gui.panels import ConnectionBar
+
+    try:
+        root = tk_mod.Tk()
+    except tk_mod.TclError as exc:
+        pytest.skip(f"no usable display: {exc}")
+
+    try:
+        bar = ConnectionBar(root, on_connect=lambda *a: None, on_disconnect=lambda: None)
+        assert hasattr(bar, "connect_btn")
+        assert not _find_label_text(bar, "SIM FREQ:")
+    finally:
+        root.destroy()
