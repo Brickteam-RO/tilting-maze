@@ -36,7 +36,8 @@ class ConnectionBar(tk.Frame):
         on_connect: Callable[[str, int], None],
         on_disconnect: Callable[[], None],
         on_freq: Callable[[float], None] | None = None,
-        simulate: bool = False
+        simulate: bool = False,
+        port: str | None = None,
     ) -> None:
         super().__init__(master, bg=COLORS["panel"])
 
@@ -44,14 +45,42 @@ class ConnectionBar(tk.Frame):
         self._on_disconnect = on_disconnect
         self._on_freq = on_freq
         self._connected = False
+        self._port_map: dict[str, str] = {}
+        self._current_device: str | None = None
 
         self.state_label = tk.Label(
             self, text="disconnected", bg=COLORS["panel"], fg=COLORS["muted"], font=FONT_UI
         )
         self.state_label.pack(side=tk.LEFT, padx=6, pady=10)
 
-        # Connection button
+        # Port picker + connection button
         if not simulate:
+            self._port_var = tk.StringVar(self)
+
+            self.port_menu = tk.OptionMenu(self, self._port_var, "")
+            self.port_menu.config(
+                bg=COLORS["bg"],
+                fg=COLORS["text"],
+                activebackground=COLORS["border"],
+                activeforeground=COLORS["text"],
+                relief=tk.FLAT,
+                font=FONT_UI,
+                highlightthickness=0,
+                cursor="hand2",
+            )
+            self.port_menu["menu"].config(
+                bg=COLORS["panel"],
+                fg=COLORS["text"],
+                activebackground=COLORS["border"],
+                activeforeground=COLORS["text"],
+            )
+            self.port_menu.pack(side=tk.LEFT, padx=(6, 0), pady=10)
+
+            self.refresh_btn = _button(self, "⟳", self.refresh_ports, padx=8)
+            self.refresh_btn.pack(side=tk.LEFT, padx=(4, 10), pady=10)
+
+            self._populate_ports(preferred=port)
+
             self.connect_btn = tk.Button(
                 self,
                 text="CONNECT",
@@ -65,8 +94,8 @@ class ConnectionBar(tk.Frame):
                 cursor="hand2",
                 padx=16,
             )
-            self.connect_btn.pack(side=tk.LEFT, padx=14, pady=10)    
-        
+            self.connect_btn.pack(side=tk.LEFT, padx=14, pady=10)
+
         # Simulation Frequency Selector
         if simulate:
             freq_frame = tk.Frame(self, bg=COLORS["panel"])
@@ -97,15 +126,55 @@ class ConnectionBar(tk.Frame):
             self._on_freq(hz)
 
     def refresh_ports(self) -> None:
-        pass
+        """Re-scan serial ports, keeping the current selection if it's still there."""
+        self._populate_ports(preferred=self._current_device)
+
+    def _populate_ports(self, preferred: str | None = None) -> None:
+        """Rebuild the port dropdown from ``reader.available_ports()``.
+
+        ``preferred`` is selected if present - either the port that was already chosen
+        (on a manual refresh) or the ``--port`` the app was launched with (on first
+        build). It is added to the menu even if the OS doesn't currently list it (e.g. a
+        pty from ``--serve-pty``, or an adapter that was just unplugged), so a
+        deliberately-chosen port is never silently dropped from the picker.
+        """
+        self._port_map = {
+            f"{device} {description}": device
+            for device, description in reader.available_ports()
+        }
+
+        if preferred and preferred not in self._port_map.values():
+            self._port_map[f"{preferred} manual"] = preferred
+
+        menu = self.port_menu["menu"]
+        menu.delete(0, tk.END)
+
+        for label, device in self._port_map.items():
+            menu.add_command(
+                label=label, command=lambda l=label, d=device: self._select_port(l, d)
+            )
+
+        for label, device in self._port_map.items():
+            if device == preferred:
+                self._select_port(label, device)
+                return
+
+        if self._port_map:
+            label, device = next(iter(self._port_map.items()))
+            self._select_port(label, device)
+        else:
+            self._port_var.set("")
+            self._current_device = None
+
+    def _select_port(self, label: str, device: str) -> None:
+        self._port_var.set(label)
+        self._current_device = device
 
     def _toggle(self) -> None:
         if self._connected:
             self._on_disconnect()
-        else:
-            ports = reader.available_ports()
-            port = ports[0][0] if ports else "COM1"
-            self._on_connect(port, reader.DEFAULT_BAUD)
+        elif self._current_device:
+            self._on_connect(self._current_device, reader.DEFAULT_BAUD)
 
     def set_state(self, state: str, detail: str = "") -> None:
         self._connected = state in (reader.STATE_CONNECTING, reader.STATE_CONNECTED)
@@ -115,9 +184,9 @@ class ConnectionBar(tk.Frame):
                 bg=COLORS["error"] if self._connected else COLORS["accent"],
             )
 
-        text = state
+        text = state.capitalize()
         if detail:
-            text += f" — {detail}"
+            text += f" {detail}"
         color = COLORS["ok"] if state == reader.STATE_CONNECTED else COLORS["muted"]
         self.state_label.config(text=text, fg=color)
 

@@ -49,6 +49,7 @@ class CompanionApp(tk.Tk):
         self._source: Any | None = None
         self._seed = seed
         self._simulate = simulate
+        self._port = port
 
         self._last_maze: dict[str, Any] | None = None
         self._last_message_at: float | None = None
@@ -71,7 +72,8 @@ class CompanionApp(tk.Tk):
             self._on_connect,
             self._on_disconnect,
             on_freq=self._on_set_freq,
-            simulate=self._simulate
+            simulate=self._simulate,
+            port=self._port,
         )
         self.connection.pack(fill=tk.X, padx=12, pady=(12, 8))
 

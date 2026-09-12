@@ -44,6 +44,15 @@ READ_TIMEOUT_S = 0.2
 DEFAULT_BAUD = 115200
 
 
+def _format_error(exc: Exception) -> str:
+    message = str(exc)
+    if "device reports readiness" in message:
+        return "adapter unplugged"
+    if isinstance(exc, OSError) and exc.strerror:
+        return f"{exc.strerror}: {exc.filename}" if exc.filename else exc.strerror
+    return message
+
+
 def available_ports() -> list[tuple[str, str]]:
     """List candidate serial ports as (device, human description) pairs.
 
@@ -142,6 +151,10 @@ class SerialReader:
 
             try:
                 with serial.Serial(self.port, self.baud, timeout=READ_TIMEOUT_S) as port:
+                    # Discard whatever the adapter already had buffered before this open -
+                    # the board keeps transmitting with nobody listening, and stale bytes
+                    # from before we started reading can never be framed correctly anyway.
+                    port.reset_input_buffer()
                     self._emit(
                         kind="state",
                         state=STATE_CONNECTED,
@@ -156,7 +169,7 @@ class SerialReader:
                             self._port = None
 
             except (serial.SerialException, OSError) as exc:
-                self._emit(kind="state", state=STATE_DISCONNECTED, detail=str(exc))
+                self._emit(kind="state", state=STATE_DISCONNECTED, detail=_format_error(exc))
             else:
                 self._emit(kind="state", state=STATE_DISCONNECTED, detail="closed")
 
