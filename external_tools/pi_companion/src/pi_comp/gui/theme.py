@@ -29,8 +29,8 @@ COLORS = {
     "error": "#ef4444",
 }
 
-FONT_UI = ("Segoe UI", 10)
+FONT_UI = ("Segoe UI", 12)
 FONT_UI_BOLD = ("Segoe UI", 10, "bold")
-FONT_LABEL = ("Segoe UI", 9)
-FONT_MONO = ("Consolas", 9)
-FONT_TITLE = ("Segoe UI", 11, "bold")
+FONT_LABEL = ("Segoe UI", 12)
+FONT_MONO = ("Consolas", 10)
+FONT_TITLE = ("Segoe UI", 13, "bold")

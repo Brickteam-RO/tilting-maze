@@ -84,7 +84,7 @@ class CompanionApp(tk.Tk):
         self.maze_view = MazeView(left, size=520)
         self.maze_view.pack(fill=tk.BOTH, expand=True)
 
-        side = tk.Frame(middle, bg=COLORS["bg"], width=300)
+        side = tk.Frame(middle, bg=COLORS["bg"], width=440)
         side.pack(side=tk.LEFT, fill=tk.Y, padx=(12, 0))
         side.pack_propagate(False)
 

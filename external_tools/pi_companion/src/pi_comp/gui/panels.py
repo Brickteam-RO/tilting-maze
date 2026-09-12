@@ -184,7 +184,7 @@ class LogPane(tk.Frame):
         header.pack(fill=tk.X)
 
         tk.Label(
-            header, text="RAW STREAM", bg=COLORS["panel"], fg=COLORS["text"], font=FONT_TITLE
+            header, text="RAW STREAM", bg=COLORS["panel"], fg=COLORS["text"], font=FONT_UI_BOLD
         ).pack(side=tk.LEFT, padx=12, pady=(10, 6))
 
         body = tk.Frame(self, bg=COLORS["panel"])
