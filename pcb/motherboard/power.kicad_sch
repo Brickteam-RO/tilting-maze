@@ -2158,6 +2158,12 @@
 		(uuid "59e1d492-2ed9-41ca-b3f1-e19b77da9343")
 	)
 	(junction
+		(at 175.26 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bcf3612-b1eb-4df5-8952-a903c76bdfd3")
+	)
+	(junction
 		(at 121.92 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2168,6 +2174,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8aaa2d0f-a98b-47b2-a249-c6571cde697b")
+	)
+	(junction
+		(at 217.17 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b35aadf-ce55-41a0-af29-e5468f67583b")
 	)
 	(junction
 		(at 104.14 82.55)
@@ -2238,6 +2250,16 @@
 			(type default)
 		)
 		(uuid "017f24c0-7ca4-4bf3-88ee-7254f4a76488")
+	)
+	(wire
+		(pts
+			(xy 217.17 133.35) (xy 217.17 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "019908f8-48d5-4079-8961-99179126e1f9")
 	)
 	(wire
 		(pts
@@ -2391,6 +2413,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 121.92) (xy 175.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c0b07f-7f91-489a-9de6-501a885248ce")
+	)
+	(wire
+		(pts
 			(xy 111.76 132.08) (xy 116.84 132.08)
 		)
 		(stroke
@@ -2431,6 +2463,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 121.92) (xy 217.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c42707a-03d3-48dc-8106-52f695567caf")
+	)
+	(wire
+		(pts
 			(xy 102.87 132.08) (xy 106.68 132.08)
 		)
 		(stroke
@@ -2468,6 +2510,16 @@
 			(type default)
 		)
 		(uuid "6bc8b778-7bdb-4121-b154-d4bc0850770a")
+	)
+	(wire
+		(pts
+			(xy 175.26 140.97) (xy 217.17 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7679809a-4c8b-4355-8c8f-179978fd1322")
 	)
 	(wire
 		(pts
@@ -2591,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 121.92) (xy 214.63 121.92)
+			(xy 205.74 121.92) (xy 217.17 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2618,6 +2670,16 @@
 			(type default)
 		)
 		(uuid "c223b922-28b0-40b7-9771-a02f0429249a")
+	)
+	(wire
+		(pts
+			(xy 217.17 121.92) (xy 222.25 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e6d729-f3bc-45b0-b063-ad04f2c31cc1")
 	)
 	(wire
 		(pts
@@ -2651,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 121.92) (xy 185.42 121.92)
+			(xy 171.45 121.92) (xy 185.42 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2833,7 +2895,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 214.63 121.92 0)
+		(at 222.25 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2843,7 +2905,7 @@
 		(dnp no)
 		(uuid "174dcef3-412c-4c55-9432-3bb24c57a96e")
 		(property "Reference" "#PWR058"
-			(at 214.63 125.73 0)
+			(at 222.25 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2854,7 +2916,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 214.122 118.11 0)
+			(at 221.742 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2864,7 +2926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 121.92 0)
+			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2875,7 +2937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 121.92 0)
+			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,7 +2948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 214.63 121.92 0)
+			(at 222.25 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5387,7 +5449,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 181.61 121.92 0)
+		(at 171.45 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5397,7 +5459,7 @@
 		(dnp no)
 		(uuid "c32d2913-6990-4fcf-ac5d-a1ba5f71b445")
 		(property "Reference" "#PWR057"
-			(at 181.61 125.73 0)
+			(at 171.45 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5470,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 181.102 118.11 0)
+			(at 170.942 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5418,7 +5480,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 121.92 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5429,7 +5491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 121.92 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5440,7 +5502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 181.61 121.92 0)
+			(at 171.45 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6191,6 +6253,88 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B340")
+		(at 217.17 129.54 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e399a79b-ef1e-4ae0-ad2c-1327c18a32b2")
+		(property "Reference" "D3"
+			(at 219.71 128.5874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B340"
+			(at 219.71 131.1274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMC"
+			(at 221.615 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMC"
+			(at 217.17 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "56f1df21-ffd3-4d2a-a018-b5a8ce24a6cf")
+		)
+		(pin "1"
+			(uuid "b3726949-a4d2-4131-b5c5-1562401c1c59")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
+					(reference "D3")
 					(unit 1)
 				)
 			)

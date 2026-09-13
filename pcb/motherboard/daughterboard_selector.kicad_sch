@@ -910,6 +910,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Pull up on E2\n"
+		(exclude_from_sim no)
+		(at 86.36 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "17b753d5-3d60-4781-a87c-0610f9b85fc3")
+	)
+	(text "Decoupling for VCC & GND on IC1"
+		(exclude_from_sim no)
+		(at 125.984 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f0eb4990-f98b-4afe-ab23-3ff812f46101")
+	)
 	(no_connect
 		(at 125.73 106.68)
 		(uuid "278abacb-6746-47b2-8f4d-2bf0dd35d4d0")
@@ -1034,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 59.69) (xy 88.9 59.69)
+			(xy 120.65 118.11) (xy 125.73 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1304,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 88.9 69.85)
+			(xy 125.73 125.73) (xy 125.73 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 88.9 69.85)
+			(xy 120.65 128.27) (xy 125.73 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1394,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 62.23) (xy 88.9 59.69)
+			(xy 125.73 120.65) (xy 125.73 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1503,7 +1523,7 @@
 		(uuid "2e05a948-46a3-489c-8394-efb16dc7aa3f")
 	)
 	(label "3.3V"
-		(at 80.01 59.69 0)
+		(at 120.65 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1773,7 +1793,7 @@
 		(uuid "ba683a07-6895-4eaa-9f39-2d05d8917b68")
 	)
 	(label "GND"
-		(at 80.01 69.85 0)
+		(at 120.65 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2067,7 +2087,7 @@
 		(uuid "8058c3f0-9ca2-432e-ac1d-7217be2837cc")
 	)
 	(hierarchical_label "MISO_3"
-		(shape output)
+		(shape input)
 		(at 194.31 121.92 0)
 		(effects
 			(font
@@ -2133,7 +2153,7 @@
 		(uuid "aac2dee1-d888-43de-be91-a04aa6a7d348")
 	)
 	(hierarchical_label "MISO_4"
-		(shape output)
+		(shape input)
 		(at 194.31 140.97 0)
 		(effects
 			(font
@@ -2155,7 +2175,7 @@
 		(uuid "bffa088d-c269-4efb-8347-1c0f21c6271a")
 	)
 	(hierarchical_label "MISO_0"
-		(shape output)
+		(shape input)
 		(at 194.31 59.69 0)
 		(effects
 			(font
@@ -2166,7 +2186,7 @@
 		(uuid "dcf48ab6-6f2d-415e-9158-1e7b08ee08be")
 	)
 	(hierarchical_label "MISO_2"
-		(shape output)
+		(shape input)
 		(at 194.31 101.6 0)
 		(effects
 			(font
@@ -2177,7 +2197,7 @@
 		(uuid "e2a94237-2cef-495e-b5d3-4496d99bc656")
 	)
 	(hierarchical_label "MISO_1"
-		(shape output)
+		(shape input)
 		(at 194.31 80.01 0)
 		(effects
 			(font
@@ -2422,7 +2442,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 88.9 64.77 0)
+		(at 125.73 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2433,7 +2453,7 @@
 		(fields_autoplaced yes)
 		(uuid "521982c9-17a1-4887-950f-d75cab4f649c")
 		(property "Reference" "C11"
-			(at 91.44 63.5062 0)
+			(at 128.27 121.9262 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2444,7 +2464,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 91.44 66.0462 0)
+			(at 128.27 124.4662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2455,7 +2475,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 88.9 64.77 0)
+			(at 125.73 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2466,7 +2486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 64.77 0)
+			(at 125.73 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2477,7 +2497,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 88.9 64.77 0)
+			(at 125.73 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

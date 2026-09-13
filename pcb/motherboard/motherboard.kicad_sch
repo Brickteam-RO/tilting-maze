@@ -2187,6 +2187,14 @@
 		(uuid "413e2ed8-3f24-4207-b73d-d38606186170")
 	)
 	(no_connect
+		(at 68.58 99.06)
+		(uuid "7f8ab533-3db3-4df7-9044-721650d9755a")
+	)
+	(no_connect
+		(at 68.58 96.52)
+		(uuid "8d0ae218-51e3-4433-9163-90a13a3f1e39")
+	)
+	(no_connect
 		(at 116.84 173.99)
 		(uuid "9d42a9dc-6328-4ee2-a96a-a6cffa434251")
 	)
@@ -6668,7 +6676,7 @@
 				(justify left)
 			)
 		)
-		(pin "MISO_0" output
+		(pin "MISO_0" input
 			(at 132.08 87.63 90)
 			(uuid "1161f162-7d4d-4acc-8963-6fb91adb3af2")
 			(effects
@@ -6678,7 +6686,7 @@
 				(justify right)
 			)
 		)
-		(pin "MISO_1" output
+		(pin "MISO_1" input
 			(at 147.32 92.71 0)
 			(uuid "f8b057af-04ef-44b2-8abc-6f952c000cfa")
 			(effects
@@ -6688,7 +6696,7 @@
 				(justify right)
 			)
 		)
-		(pin "MISO_2" output
+		(pin "MISO_2" input
 			(at 147.32 105.41 0)
 			(uuid "85d8e971-16c3-496d-9f92-33f151ac15f7")
 			(effects
@@ -6698,7 +6706,7 @@
 				(justify right)
 			)
 		)
-		(pin "MISO_3" output
+		(pin "MISO_3" input
 			(at 147.32 118.11 0)
 			(uuid "75fb7a5a-6ba0-4223-a9a9-add419e86859")
 			(effects
@@ -6708,7 +6716,7 @@
 				(justify right)
 			)
 		)
-		(pin "MISO_4" output
+		(pin "MISO_4" input
 			(at 132.08 125.73 270)
 			(uuid "f473112e-81ac-467b-94d5-f7e57d29be9f")
 			(effects
