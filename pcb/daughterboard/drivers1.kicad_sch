@@ -2864,7 +2864,7 @@
 		)
 		(uuid "16d16078-5695-497a-9f24-ab57b08d6c09")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 86.36 48.26 180)
 		(effects
 			(font
@@ -2876,7 +2876,7 @@
 		)
 		(uuid "1c6e5a61-279d-4cae-80ff-959c937c27f8")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 151.13 48.26 180)
 		(effects
 			(font
@@ -2900,7 +2900,7 @@
 		)
 		(uuid "229f5862-754d-4036-952a-0a568f03ff64")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 86.36 60.96 180)
 		(effects
 			(font
@@ -2922,7 +2922,7 @@
 		)
 		(uuid "28dd0c97-1327-4e25-bb4e-08e2d5bd3103")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 283.21 48.26 180)
 		(effects
 			(font
@@ -2978,7 +2978,7 @@
 		)
 		(uuid "36cfb49d-72d5-45b1-baf8-43875c448098")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 152.4 60.96 180)
 		(effects
 			(font
@@ -3010,7 +3010,7 @@
 		)
 		(uuid "44b6006c-7f53-4bb7-8ffe-e60fca304009")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 135.89 99.06 180)
 		(effects
 			(font
@@ -3032,7 +3032,7 @@
 		)
 		(uuid "4b4ad803-8266-4cd6-b531-567b099e7baf")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 259.08 99.06 180)
 		(effects
 			(font
@@ -3054,7 +3054,7 @@
 		)
 		(uuid "4fdbe1d7-f279-430d-a0cb-434da31047b2")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 63.5 99.06 180)
 		(effects
 			(font
@@ -3168,7 +3168,7 @@
 		)
 		(uuid "a75b2011-e3a2-4b2c-891a-4046e37f00f3")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 40.64 143.51 180)
 		(effects
 			(font
@@ -3180,7 +3180,7 @@
 		)
 		(uuid "ae460be8-915f-4bca-8118-2422609c06b9")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 212.09 48.26 180)
 		(effects
 			(font
@@ -3214,7 +3214,7 @@
 		)
 		(uuid "b96359c1-e664-44ed-8de2-7448116fc266")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 215.9 60.96 180)
 		(effects
 			(font
@@ -3258,7 +3258,7 @@
 		)
 		(uuid "c282def1-7830-40db-acff-17a99aa15bc0")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 283.21 60.96 180)
 		(effects
 			(font
@@ -3302,7 +3302,7 @@
 		)
 		(uuid "d328255f-48db-40c4-ad99-4f1fe1f666bc")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 198.12 97.79 180)
 		(effects
 			(font
@@ -4694,7 +4694,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1aaae6b8-09f4-4749-a146-7f2e076434bd")
 		(property "Reference" "#PWR012"
 			(at 33.02 143.51 0)
@@ -4707,15 +4706,14 @@
 				)
 			)
 		)
-		(property "Value" "+9V"
-			(at 25.4 143.5099 90)
+		(property "Value" "+5.5V"
+			(at 22.352 143.256 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""

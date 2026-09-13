@@ -2301,7 +2301,7 @@
 		)
 		(uuid "02434a46-e6fd-4283-8c5e-ba560f54c3d7")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 102.87 69.85 180)
 		(effects
 			(font
@@ -2335,7 +2335,7 @@
 		)
 		(uuid "06472461-fe04-41dd-9955-fee284a3ada0")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 36.83 110.49 180)
 		(effects
 			(font
@@ -2379,7 +2379,7 @@
 		)
 		(uuid "2d478d47-9f09-4ac4-ba90-f0dae1a868a5")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 182.88 69.85 180)
 		(effects
 			(font
@@ -2433,7 +2433,7 @@
 		)
 		(uuid "50708fe6-69dc-4699-abf5-d60b8732f10e")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 262.89 57.15 180)
 		(effects
 			(font
@@ -2497,7 +2497,7 @@
 		)
 		(uuid "7d170c4b-2516-45f2-8319-1a318db81076")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 245.11 99.06 180)
 		(effects
 			(font
@@ -2521,7 +2521,7 @@
 		)
 		(uuid "8173cae8-3170-4b2d-a898-131d1572aca0")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 182.88 57.15 180)
 		(effects
 			(font
@@ -2563,7 +2563,7 @@
 		)
 		(uuid "8aad7001-f98b-4694-a1ac-86406fd1fae3")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 102.87 57.15 180)
 		(effects
 			(font
@@ -2595,7 +2595,7 @@
 		)
 		(uuid "9c5e4816-bc52-4619-a79e-1f013d84200d")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 168.91 99.06 180)
 		(effects
 			(font
@@ -2685,7 +2685,7 @@
 		)
 		(uuid "cedfd1c2-4198-44e2-a290-9ed6f7ded599")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 85.09 99.06 180)
 		(effects
 			(font
@@ -2739,7 +2739,7 @@
 		)
 		(uuid "eb08c562-05e8-415f-8260-8890fdadbe1d")
 	)
-	(label "+9V"
+	(label "+5.5V"
 		(at 262.89 69.85 180)
 		(effects
 			(font
@@ -5262,7 +5262,7 @@
 				)
 			)
 		)
-		(property "Value" "+9V"
+		(property "Value" "+5.5V"
 			(at 21.59 110.4899 90)
 			(show_name no)
 			(do_not_autoplace no)

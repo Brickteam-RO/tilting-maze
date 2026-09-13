@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Value" "+9V"
+		(property "Value" "+5.5V"
 			(at 191.77 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
