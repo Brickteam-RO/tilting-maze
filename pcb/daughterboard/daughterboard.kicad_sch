@@ -773,6 +773,18 @@
 		(uuid "9a73bc1b-b7bb-46db-b651-04386721f93a")
 	)
 	(junction
+		(at 177.8 78.74)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "9f24db3f-ac47-4eaf-906a-7efd9cd52785")
+	)
+	(junction
+		(at 124.46 78.74)
+		(diameter 0)
+		(color 0 0 0 1)
+		(uuid "b03f6140-7b1f-4b9e-b2a9-bfb0f3d5af41")
+	)
+	(junction
 		(at 201.93 66.04)
 		(diameter 1.5)
 		(color 255 0 0 1)
@@ -795,14 +807,6 @@
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "fba5b176-f84c-490f-9543-506c1653e1ad")
-	)
-	(no_connect
-		(at 175.26 78.74)
-		(uuid "016a79c0-3b70-44b0-9c5c-6523c99a525d")
-	)
-	(no_connect
-		(at 128.27 78.74)
-		(uuid "37389f88-b08c-42de-8bc3-913bacb653a2")
 	)
 	(wire
 		(pts
@@ -850,7 +854,18 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 76.2) (xy 124.46 92.71)
+			(xy 177.8 78.74) (xy 177.8 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "1a4930fd-d8f4-4a04-92dd-80c9a31f6299")
+	)
+	(wire
+		(pts
+			(xy 124.46 76.2) (xy 124.46 78.74)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 177.8 92.71)
+			(xy 177.8 76.2) (xy 177.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1012,6 +1027,17 @@
 			(color 255 32 237 1)
 		)
 		(uuid "6f9a8849-9fcb-4c12-93ab-2a2c5cbe73ac")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 177.8 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "77174ac7-22bb-4390-aed6-48bc8e8c2f1f")
 	)
 	(wire
 		(pts
@@ -1034,6 +1060,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "9a8a95a4-65f5-43e1-90b8-117303f2c25e")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 128.27 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "a13472d4-5124-467e-9db8-99395a14ba17")
 	)
 	(wire
 		(pts
@@ -1100,6 +1137,17 @@
 			(color 255 32 237 1)
 		)
 		(uuid "e3bd7469-d602-4210-a49c-f9c66bbd86f4")
+	)
+	(wire
+		(pts
+			(xy 124.46 78.74) (xy 124.46 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "ecf2c0a0-b10b-48a6-81d3-63efe0077a7e")
 	)
 	(wire
 		(pts
