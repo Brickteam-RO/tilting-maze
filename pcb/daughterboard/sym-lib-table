@@ -5,5 +5,6 @@
 	(lib (name "GRM022C81A104ME05L") (type "KiCad") (uri "/home/hanu/work/A_HANU_LIBS/GRM022C81A104ME05L.kicad_sym") (options "") (descr ""))
 	(lib (name "CRCW060310K0FKEAHP") (type "KiCad") (uri "/home/hanu/work/A_HANU_LIBS/CRCW060310K0FKEAHP.kicad_sym") (options "") (descr ""))
 	(lib (name "865080340001") (type "KiCad") (uri "/home/hanu/work/A_HANU_LIBS/865080340001.kicad_sym") (options "") (descr ""))
-	(lib (name "EEE0JA221WP") (type "KiCad") (uri "/home/hanu/work/LIB_EEE0JA221WP/EEE0JA221WP/KiCad/EEE0JA221WP.kicad_sym") (options "") (descr ""))
+	(lib (name "EEE0JA221WP") (type "KiCad") (uri "/home/hanu/work/A_HANU_LIBS/EEE0JA221WP.kicad_sym") (options "") (descr ""))
+	(lib (name "M20-9960646") (type "KiCad") (uri "/home/hanu/work/A_HANU_LIBS/M20-9960646.kicad_sym") (options "") (descr ""))
 )

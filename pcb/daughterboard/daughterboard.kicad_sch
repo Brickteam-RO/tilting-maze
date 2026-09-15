@@ -5,37 +5,59 @@
 	(uuid "2255186e-2dec-4723-baeb-acb5f2843560")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x05_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "M20-9960646:M20-9960646"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 16.51 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "Conn_01x05_Pin"
-				(at 0 -7.62 0)
+			(property "Value" "M20-9960646"
+				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "HDRRA6W64P0X254_1X6_1524X254X254P"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -46,8 +68,8 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 0 0)
+			(property "Height" "2.54"
+				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -55,10 +77,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x05, script generated"
-				(at 0 0 0)
+			(property "Mouser Part Number" "855-M20-9960646"
+				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -66,20 +89,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
+				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -87,10 +101,11 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
+			(property "Manufacturer_Name" "Harwin"
+				(at 16.51 -694.92 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -98,128 +113,37 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(symbol "Conn_01x05_Pin_1_1"
+			(property "Manufacturer_Part_Number" "M20-9960646"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "M20-9960646_1_1"
 				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
+					(start 5.08 2.54)
+					(end 15.24 -15.24)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at 5.08 5.08 180)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -235,9 +159,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -253,9 +177,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_3"
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -271,9 +195,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_4"
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -289,9 +213,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 3.81)
-					(name "Pin_5"
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,6 +223,24 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -819,7 +761,7 @@
 		)
 	)
 	(junction
-		(at 160.02 66.04)
+		(at 181.61 66.04)
 		(diameter 1.5)
 		(color 255 0 0 1)
 		(uuid "69d43357-27dc-49db-a63f-87991692ac5b")
@@ -831,13 +773,13 @@
 		(uuid "9a73bc1b-b7bb-46db-b651-04386721f93a")
 	)
 	(junction
-		(at 180.34 66.04)
+		(at 201.93 66.04)
 		(diameter 1.5)
 		(color 255 0 0 1)
 		(uuid "c7696e10-edd9-46b6-b054-197cebbf667b")
 	)
 	(junction
-		(at 160.02 71.12)
+		(at 181.61 71.12)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "ced81ee2-45ec-46ee-84cf-fcc634ee85fc")
@@ -849,10 +791,18 @@
 		(uuid "d382ffdc-f86e-4989-8ac1-b29833cd4c1b")
 	)
 	(junction
-		(at 170.18 71.12)
+		(at 191.77 71.12)
 		(diameter 0)
 		(color 255 0 0 1)
 		(uuid "fba5b176-f84c-490f-9543-506c1653e1ad")
+	)
+	(no_connect
+		(at 175.26 78.74)
+		(uuid "016a79c0-3b70-44b0-9c5c-6523c99a525d")
+	)
+	(no_connect
+		(at 128.27 78.74)
+		(uuid "37389f88-b08c-42de-8bc3-913bacb653a2")
 	)
 	(wire
 		(pts
@@ -867,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 66.04) (xy 180.34 66.04)
+			(xy 181.61 66.04) (xy 201.93 66.04)
 		)
 		(stroke
 			(width 0.5)
@@ -878,7 +828,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 76.2) (xy 156.21 76.2)
+			(xy 175.26 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 71.12) (xy 170.18 71.12)
+			(xy 181.61 71.12) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -911,7 +861,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 66.04) (xy 160.02 66.04)
+			(xy 175.26 66.04) (xy 181.61 66.04)
 		)
 		(stroke
 			(width 0.5)
@@ -944,7 +894,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 71.12) (xy 160.02 71.12)
+			(xy 175.26 71.12) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 73.66) (xy 160.02 73.66)
+			(xy 175.26 73.66) (xy 181.61 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +993,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 76.2) (xy 156.21 92.71)
+			(xy 177.8 76.2) (xy 177.8 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1026,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 187.96 66.04)
+			(xy 201.93 66.04) (xy 209.55 66.04)
 		)
 		(stroke
 			(width 0.5)
@@ -1087,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 73.66) (xy 160.02 71.12)
+			(xy 181.61 73.66) (xy 181.61 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 160.02 68.58)
+			(xy 175.26 68.58) (xy 181.61 68.58)
 		)
 		(stroke
 			(width 0.5)
@@ -1131,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 68.58) (xy 160.02 66.04)
+			(xy 181.61 68.58) (xy 181.61 66.04)
 		)
 		(stroke
 			(width 0.5)
@@ -1164,7 +1114,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 173.99 71.12)
+			(xy 191.77 71.12) (xy 195.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1175,7 +1125,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 180.34 66.04 0)
+		(at 201.93 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1186,7 +1136,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ab6ef17-32b5-4ac3-92dc-3899dbc7c5d1")
 		(property "Reference" "#FLG01"
-			(at 180.34 64.135 0)
+			(at 201.93 64.135 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1197,7 +1147,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 180.34 60.96 0)
+			(at 201.93 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1207,7 +1157,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 66.04 0)
+			(at 201.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1218,7 +1168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 66.04 0)
+			(at 201.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1229,7 +1179,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 180.34 66.04 0)
+			(at 201.93 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1252,8 +1202,164 @@
 		)
 	)
 	(symbol
+		(lib_id "M20-9960646:M20-9960646")
+		(at 175.26 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5446924c-f8fb-481b-9bb4-81ab7ecdc223")
+		(property "Reference" "J2"
+			(at 166.624 57.912 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-9960646"
+			(at 166.624 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HANU_FOOTPRINTS:HDRRA6W64P0X254_1X6_1524X254X254P"
+			(at 158.75 160.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
+			(at 158.75 260.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
+			(at 175.26 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.54"
+			(at 158.75 460.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-9960646"
+			(at 158.75 560.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
+			(at 158.75 660.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 158.75 760.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-9960646"
+			(at 158.75 860.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "637bdb9b-4d73-4706-ad93-39eb088ce919")
+		)
+		(pin "1"
+			(uuid "0b52247b-f1fa-4dca-8f66-c04589d17442")
+		)
+		(pin "4"
+			(uuid "cd8ca474-48a1-4bee-acd1-377bd60adabf")
+		)
+		(pin "5"
+			(uuid "3bdc25f0-bcd6-4935-91c6-4a267aa00db0")
+		)
+		(pin "3"
+			(uuid "3e7abd1e-ff17-4387-8014-42d4349bee34")
+		)
+		(pin "2"
+			(uuid "56ef2c61-6e9c-4c88-be2a-c373c4c02bd1")
+		)
+		(instances
+			(project "daughterboard"
+				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 173.99 71.12 270)
+		(at 195.58 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1264,7 +1370,7 @@
 		(fields_autoplaced yes)
 		(uuid "5e791e10-ff2d-485d-9ca7-fafa6ef79c58")
 		(property "Reference" "#PWR01"
-			(at 170.18 71.12 0)
+			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1275,7 +1381,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 177.8 71.1199 90)
+			(at 199.39 71.1199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1286,7 +1392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 71.12 0)
+			(at 195.58 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1297,7 +1403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 71.12 0)
+			(at 195.58 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1308,7 +1414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 71.12 0)
+			(at 195.58 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1331,97 +1437,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 133.35 71.12 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87e70708-9058-44ff-9f9c-470fa0103f33")
-		(property "Reference" "J22"
-			(at 130.556 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 131.318 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 133.35 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "32891217-a01f-417c-b194-c3e003e62d1a")
-		)
-		(pin "2"
-			(uuid "9fa9edba-9d08-42fb-aa78-2cb7f64e1f45")
-		)
-		(pin "4"
-			(uuid "f8cb3897-83d6-410e-a91f-c5b674fa003b")
-		)
-		(pin "1"
-			(uuid "5fe23b9d-7b60-4d74-b12f-1c7586182208")
-		)
-		(pin "5"
-			(uuid "cdd7a6c5-0b68-4792-a325-2aa295ca47fb")
-		)
-		(instances
-			(project "daughterboard"
-				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 156.21 92.71 0)
+		(at 177.8 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1430,9 +1447,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b522c17d-bad3-42b4-b047-2eedbcce2cf1")
-		(property "Reference" "#PWR03"
-			(at 156.21 99.06 0)
+		(uuid "681b03f4-41c1-463b-b575-e3447803ae1f")
+		(property "Reference" "#PWR031"
+			(at 177.8 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,7 +1460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 97.79 0)
+			(at 177.8 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1453,7 +1470,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 92.71 0)
+			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1464,7 +1481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 92.71 0)
+			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1475,7 +1492,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 92.71 0)
+			(at 177.8 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,12 +1503,167 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a618514-ecaf-45d3-9c46-3dcc218c78bd")
+			(uuid "227e0481-0305-4220-8487-3d1931b3f4c5")
 		)
 		(instances
 			(project "daughterboard"
 				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
-					(reference "#PWR03")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "M20-9960646:M20-9960646")
+		(at 128.27 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "88fd8799-2e59-4789-a781-87c84b46d075")
+		(property "Reference" "J1"
+			(at 133.858 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-9960646"
+			(at 131.318 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "A_HANU_FOOTPRINTS:HDRRA6W64P0X254_1X6_1524X254X254P"
+			(at 144.78 160.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
+			(at 144.78 260.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
+			(at 128.27 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "2.54"
+			(at 144.78 460.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-9960646"
+			(at 144.78 560.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
+			(at 144.78 660.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 144.78 760.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-9960646"
+			(at 144.78 860.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "043b5934-9559-4a2f-b7d4-b186aa5d29cf")
+		)
+		(pin "1"
+			(uuid "84456ba6-5e3d-472c-8bff-cb8da5791e4b")
+		)
+		(pin "4"
+			(uuid "e5fe90c7-8a68-41b8-95de-444c694645c3")
+		)
+		(pin "5"
+			(uuid "d837b0eb-3697-463b-b5f6-ce437217ac0a")
+		)
+		(pin "3"
+			(uuid "162d9e4b-c220-47ec-bb81-86bd03adafcb")
+		)
+		(pin "2"
+			(uuid "09e99dc2-a13d-4616-8862-1e7b27f6cd9b")
+		)
+		(instances
+			(project "daughterboard"
+				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1508,7 +1680,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "be686161-cb69-45f4-bb67-825e06d3cb9e")
+		(uuid "a61898e8-f410-424b-a670-d97aabe554a2")
 		(property "Reference" "#PWR027"
 			(at 124.46 99.06 0)
 			(hide yes)
@@ -1564,7 +1736,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "347f8337-cc9b-4f57-b4e4-f8aa7fdce585")
+			(uuid "e9274058-006b-4d5e-8d26-a82a2a88016a")
 		)
 		(instances
 			(project "daughterboard"
@@ -1576,96 +1748,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 148.59 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c4bea5f0-9191-4439-9baa-ab9fd8387152")
-		(property "Reference" "J1"
-			(at 148.336 58.928 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 150.876 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 148.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "e407f1a9-560d-413a-820a-eaf69343a8f2")
-		)
-		(pin "2"
-			(uuid "b8ab6db7-acc1-49e6-a648-3439ab764597")
-		)
-		(pin "4"
-			(uuid "d234e973-3784-49ca-accb-43cceb11d39e")
-		)
-		(pin "1"
-			(uuid "d29a8ecf-219b-4682-aeba-febd75b853c8")
-		)
-		(pin "5"
-			(uuid "14062f75-2834-4347-806f-e96bfd41ff37")
-		)
-		(instances
-			(project "daughterboard"
-				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 170.18 71.12 0)
+		(at 191.77 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1675,7 +1759,7 @@
 		(dnp no)
 		(uuid "d6e5a049-a567-4347-aa29-c5cc3d57a8fd")
 		(property "Reference" "#FLG02"
-			(at 170.18 69.215 0)
+			(at 191.77 69.215 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1686,7 +1770,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 170.434 67.564 0)
+			(at 192.024 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1696,7 +1780,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 71.12 0)
+			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1707,7 +1791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 71.12 0)
+			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1718,7 +1802,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 170.18 71.12 0)
+			(at 191.77 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1826,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 187.96 66.04 270)
+		(at 209.55 66.04 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1753,7 +1837,7 @@
 		(fields_autoplaced yes)
 		(uuid "e80ea88e-1c26-425b-971c-f64a11f7e148")
 		(property "Reference" "#PWR02"
-			(at 184.15 66.04 0)
+			(at 205.74 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1848,7 @@
 			)
 		)
 		(property "Value" "+5.5V"
-			(at 191.77 66.0399 90)
+			(at 213.36 66.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1775,7 +1859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1786,7 +1870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1797,7 +1881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 187.96 66.04 0)
+			(at 209.55 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1820,7 +1904,7 @@
 		)
 	)
 	(sheet
-		(at 162.56 77.47)
+		(at 184.15 77.47)
 		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1836,7 +1920,7 @@
 		)
 		(uuid "45fcd5af-adc3-41f0-b544-9a9a563bfbea")
 		(property "Sheetname" "motors"
-			(at 162.56 76.7584 0)
+			(at 184.15 76.7584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1847,7 +1931,7 @@
 			)
 		)
 		(property "Sheetfile" "motors.kicad_sch"
-			(at 162.56 90.7546 0)
+			(at 184.15 90.7546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
