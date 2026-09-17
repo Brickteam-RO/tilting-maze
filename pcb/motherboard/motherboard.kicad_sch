@@ -2250,6 +2250,252 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KiCad:M20-7820646"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "M20-7820646"
+				(at 16.51 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+				(at 16.51 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+				(at 16.51 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "8.5"
+				(at 16.51 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "855-M20-7820646"
+				(at 16.51 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+				(at 16.51 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Harwin"
+				(at 16.51 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "M20-7820646"
+				(at 16.51 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "M20-7820646_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -2705,6 +2951,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Daughterboard 4\n"
+		(exclude_from_sim no)
+		(at 209.55 134.366 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05d16480-50c9-4d94-b52a-49e32b13e5f6")
+	)
 	(text "C26 close\nto VREF1"
 		(exclude_from_sim no)
 		(at 75.692 95.25 0)
@@ -2725,6 +2981,16 @@
 		)
 		(uuid "1dbd6191-2c67-4ee9-a230-f7d5a320e38a")
 	)
+	(text "Daughterboard 0"
+		(exclude_from_sim no)
+		(at 236.728 30.988 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27845d6d-f4bc-4056-a5d4-3237a824735a")
+	)
 	(text "Test Points for multimeter / logic analyzer"
 		(exclude_from_sim no)
 		(at 192.532 62.738 0)
@@ -2734,6 +3000,36 @@
 			)
 		)
 		(uuid "3fb33029-d99c-49c8-9865-d3d5d080a78b")
+	)
+	(text "Daughterboard 1\n"
+		(exclude_from_sim no)
+		(at 236.728 68.072 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "436f5c90-454e-4634-98f7-5d0e01cc744e")
+	)
+	(text "Daughterboard 3"
+		(exclude_from_sim no)
+		(at 236.728 141.986 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "90f55996-2e68-4a4e-824f-0ef33987148f")
+	)
+	(text "Daughterboard 2"
+		(exclude_from_sim no)
+		(at 236.728 104.394 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fae211ba-deca-458d-a1de-6113a85cd378")
 	)
 	(junction
 		(at 44.45 120.65)
@@ -2905,6 +3201,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 111.76) (xy 251.46 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0206a68b-0bba-478e-ab43-8ac51e2e72d4")
+	)
+	(wire
+		(pts
 			(xy 36.83 38.1) (xy 40.64 38.1)
 		)
 		(stroke
@@ -2915,6 +3221,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 52.07) (xy 251.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0267dca4-13d5-4cdb-95c9-5bb365d5fc8a")
+	)
+	(wire
+		(pts
 			(xy 201.93 31.75) (xy 210.82 31.75)
 		)
 		(stroke
@@ -2922,6 +3238,16 @@
 			(type default)
 		)
 		(uuid "02d2d0a5-51b8-4dd7-a6ae-711b993c4d01")
+	)
+	(wire
+		(pts
+			(xy 240.03 22.86) (xy 251.46 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02f1648e-1068-4629-bc6e-70834993f3c0")
 	)
 	(wire
 		(pts
@@ -2965,13 +3291,33 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 160.02 104.14)
+			(xy 240.03 156.21) (xy 251.46 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ea50b74-817f-4ae3-b999-4516988e2e93")
+		(uuid "07ce3f7a-cb16-4fdb-b9f1-13aa1e97ca0c")
+	)
+	(wire
+		(pts
+			(xy 240.03 99.06) (xy 251.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081d1184-1de8-44f1-a474-5ececabacf16")
+	)
+	(wire
+		(pts
+			(xy 149.86 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd2d678-7e38-4569-817b-ec28d1ac1929")
 	)
 	(wire
 		(pts
@@ -2985,6 +3331,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 69.85) (xy 251.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11091e88-1e99-45d4-919f-ec3c78d42c00")
+	)
+	(wire
+		(pts
 			(xy 40.64 132.08) (xy 40.64 134.62)
 		)
 		(stroke
@@ -2992,6 +3348,56 @@
 			(type default)
 		)
 		(uuid "123b8d4b-d133-4454-944b-cb82f73c2190")
+	)
+	(wire
+		(pts
+			(xy 240.03 153.67) (xy 251.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12b4a479-0ebf-40ab-befc-948bce48afb0")
+	)
+	(wire
+		(pts
+			(xy 223.52 138.43) (xy 223.52 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162222b8-4c52-4e62-a032-72453551ebde")
+	)
+	(wire
+		(pts
+			(xy 195.58 111.76) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1662595a-9c3e-413d-a63c-57b407911d78")
+	)
+	(wire
+		(pts
+			(xy 240.03 82.55) (xy 251.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16ae3c71-4bd2-4f4e-a1f8-9165ba8b6fdf")
+	)
+	(wire
+		(pts
+			(xy 240.03 88.9) (xy 251.46 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17767032-147c-4846-a37c-5ac308942708")
 	)
 	(wire
 		(pts
@@ -3045,6 +3451,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 135.89) (xy 251.46 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2024cc33-fa77-4348-923c-339f797b9de2")
+	)
+	(wire
+		(pts
 			(xy 33.02 120.65) (xy 44.45 120.65)
 		)
 		(stroke
@@ -3052,6 +3468,16 @@
 			(type default)
 		)
 		(uuid "2101e8bc-cab7-4664-8e42-c2c9f7796c5c")
+	)
+	(wire
+		(pts
+			(xy 195.58 114.3) (xy 208.28 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22976da9-e6e3-483f-9981-f151ba43e1b2")
 	)
 	(wire
 		(pts
@@ -3175,13 +3601,63 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 115.57) (xy 153.67 115.57)
+			(xy 163.83 115.57) (xy 157.48 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2fa6220e-1ee2-4b8f-bfd3-44931a87d12d")
+	)
+	(wire
+		(pts
+			(xy 240.03 62.23) (xy 251.46 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fc4d031-a56c-4456-b970-92c5ef00364e")
+	)
+	(wire
+		(pts
+			(xy 205.74 138.43) (xy 205.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3001444a-d3f1-4c47-9205-62456a738ff7")
+	)
+	(wire
+		(pts
+			(xy 240.03 38.1) (xy 251.46 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3050e3ce-07b2-4f8b-bfd3-98e0da3252df")
+	)
+	(wire
+		(pts
+			(xy 240.03 151.13) (xy 251.46 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31e4df1c-ffa5-4ef7-b171-0ecbd84d8f59")
+	)
+	(wire
+		(pts
+			(xy 240.03 33.02) (xy 251.46 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3316dc4c-623b-4fc6-a6e9-9d3fd4fd48e0")
 	)
 	(wire
 		(pts
@@ -3225,6 +3701,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 138.43) (xy 213.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b35f59b-452b-4ac2-b569-3bbf38f5e7fa")
+	)
+	(wire
+		(pts
 			(xy 105.41 151.13) (xy 106.68 151.13)
 		)
 		(stroke
@@ -3235,6 +3721,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 17.78) (xy 251.46 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3d9564-bffb-4c35-af00-4bb4ae69a108")
+	)
+	(wire
+		(pts
 			(xy 201.93 29.21) (xy 210.82 29.21)
 		)
 		(stroke
@@ -3242,6 +3738,16 @@
 			(type default)
 		)
 		(uuid "3ebc283b-7f7d-41dc-9d53-40b8ffb90d8c")
+	)
+	(wire
+		(pts
+			(xy 240.03 15.24) (xy 251.46 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f19d2fa-8dc8-44a9-b0a9-e84ff6c6f735")
 	)
 	(wire
 		(pts
@@ -3295,6 +3801,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 133.35) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48071088-1469-46e4-93c1-f3366a7398bd")
+	)
+	(wire
+		(pts
+			(xy 195.58 99.06) (xy 208.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48b27879-d08f-4f15-9371-2053ea2e8dba")
+	)
+	(wire
+		(pts
 			(xy 19.05 82.55) (xy 25.4 82.55)
 		)
 		(stroke
@@ -3302,6 +3828,16 @@
 			(type default)
 		)
 		(uuid "4a13f83b-ebf8-460d-bea6-2f202aa78d8d")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3ef994-8764-44fb-a17b-1d3fbe331fb5")
 	)
 	(wire
 		(pts
@@ -3335,6 +3871,26 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 138.43) (xy 208.28 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e773e8a-04b3-4a3c-adf3-b76b7be8d086")
+	)
+	(wire
+		(pts
+			(xy 240.03 91.44) (xy 251.46 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fd02ab5-fdbf-41ad-ae7f-ca2a4d0fe9b0")
+	)
+	(wire
+		(pts
 			(xy 33.02 38.1) (xy 36.83 38.1)
 		)
 		(stroke
@@ -3342,6 +3898,46 @@
 			(type default)
 		)
 		(uuid "51fc3e13-cfa6-417c-aeff-3ea487b0b249")
+	)
+	(wire
+		(pts
+			(xy 240.03 45.72) (xy 251.46 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b7e14-50e6-4303-b22c-316e2fc82a88")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 182.88 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5415f705-d889-48a2-962d-acb5fa63e5d1")
+	)
+	(wire
+		(pts
+			(xy 177.8 72.39) (xy 177.8 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542eaa9d-2117-41f9-8845-195cde9b2f92")
+	)
+	(wire
+		(pts
+			(xy 240.03 72.39) (xy 251.46 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59914269-41fd-49a0-99bd-ae89572074cc")
 	)
 	(wire
 		(pts
@@ -3362,6 +3958,16 @@
 			(type default)
 		)
 		(uuid "5b19eaf6-7697-491d-b9b1-c908a26d6c74")
+	)
+	(wire
+		(pts
+			(xy 240.03 74.93) (xy 251.46 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc91ee1-4395-454a-a2fd-702b467f8313")
 	)
 	(wire
 		(pts
@@ -3415,6 +4021,36 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 121.92) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "652a16b4-604e-4f55-a693-bec796cb9bff")
+	)
+	(wire
+		(pts
+			(xy 240.03 77.47) (xy 251.46 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e21d35-8498-48e3-b987-26e5a1816672")
+	)
+	(wire
+		(pts
+			(xy 185.42 72.39) (xy 185.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "664609ad-8259-4049-b88e-913c52228ed4")
+	)
+	(wire
+		(pts
 			(xy 44.45 120.65) (xy 55.88 120.65)
 		)
 		(stroke
@@ -3422,6 +4058,26 @@
 			(type default)
 		)
 		(uuid "6848e130-f69f-4822-adf7-758599f79fe8")
+	)
+	(wire
+		(pts
+			(xy 240.03 43.18) (xy 251.46 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab82659-a546-4634-9fb7-5570cb3ee332")
+	)
+	(wire
+		(pts
+			(xy 240.03 148.59) (xy 251.46 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb02091-32f2-42a1-a515-915bb698256e")
 	)
 	(wire
 		(pts
@@ -3445,6 +4101,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 57.15) (xy 251.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735b1c59-6e5a-4580-bcc6-72ed1f0b62b4")
+	)
+	(wire
+		(pts
 			(xy 33.02 82.55) (xy 30.48 82.55)
 		)
 		(stroke
@@ -3452,6 +4118,26 @@
 			(type default)
 		)
 		(uuid "774ddc1e-98df-476c-8472-e15cdc951769")
+	)
+	(wire
+		(pts
+			(xy 182.88 121.92) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77f8a747-511a-4277-a68f-992e95b679d9")
+	)
+	(wire
+		(pts
+			(xy 195.58 116.84) (xy 208.28 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "790429bc-b294-4140-bdce-02510cff3630")
 	)
 	(wire
 		(pts
@@ -3465,6 +4151,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 138.43) (xy 215.9 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a842d2-5a87-4a86-81aa-460ccfd56111")
+	)
+	(wire
+		(pts
 			(xy 33.02 95.25) (xy 33.02 97.79)
 		)
 		(stroke
@@ -3475,16 +4171,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 160.02 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c89e1d4-1ef5-4a76-8716-75d565e3d35b")
-	)
-	(wire
-		(pts
 			(xy 26.67 189.23) (xy 30.48 189.23)
 		)
 		(stroke
@@ -3492,6 +4178,16 @@
 			(type default)
 		)
 		(uuid "7e264149-0155-40b3-b65f-161de2707da0")
+	)
+	(wire
+		(pts
+			(xy 195.58 138.43) (xy 195.58 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2ff701-0d98-4078-8364-84f855572e74")
 	)
 	(wire
 		(pts
@@ -3515,13 +4211,53 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 106.68) (xy 160.02 106.68)
+			(xy 198.12 138.43) (xy 198.12 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ca8d27c-49d8-463d-85a8-d078379a4328")
+		(uuid "83f86e2e-b925-4581-b621-945cb4fad217")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 177.8 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e4be34-0de1-4ff7-b4a8-54e03cbf81b1")
+	)
+	(wire
+		(pts
+			(xy 226.06 138.43) (xy 226.06 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85400ceb-ff38-44c0-8f49-6bd8062cbeea")
+	)
+	(wire
+		(pts
+			(xy 240.03 106.68) (xy 251.46 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85648c89-2ccd-409e-b223-9da99933e64c")
+	)
+	(wire
+		(pts
+			(xy 240.03 114.3) (xy 251.46 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b25ab67-0d56-471f-b9f0-4f0545f5b1f8")
 	)
 	(wire
 		(pts
@@ -3545,6 +4281,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 101.6) (xy 251.46 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92cdba60-ef96-483b-898f-61e59c2eb34b")
+	)
+	(wire
+		(pts
 			(xy 33.02 97.79) (xy 36.83 97.79)
 		)
 		(stroke
@@ -3565,7 +4311,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 160.02 87.63)
+			(xy 149.86 87.63) (xy 163.83 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3575,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 160.02 90.17)
+			(xy 149.86 90.17) (xy 163.83 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3585,7 +4331,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 160.02 113.03)
+			(xy 157.48 113.03) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3625,6 +4371,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 138.43) (xy 218.44 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f1e5d05-8363-4fb5-82a6-b673b670c8a5")
+	)
+	(wire
+		(pts
 			(xy 45.72 158.75) (xy 64.77 158.75)
 		)
 		(stroke
@@ -3632,6 +4388,26 @@
 			(type default)
 		)
 		(uuid "a3c42873-1c9a-418e-9578-94a2197c7212")
+	)
+	(wire
+		(pts
+			(xy 240.03 27.94) (xy 251.46 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4caf7bd-f97a-4bd0-9de0-9bc2c6599e2d")
+	)
+	(wire
+		(pts
+			(xy 195.58 104.14) (xy 208.28 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64f3771-e7ce-42df-abef-fbc6ea8e5f2b")
 	)
 	(wire
 		(pts
@@ -3645,6 +4421,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 109.22) (xy 251.46 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a849d40a-2fb0-431a-89a2-ca7909c222e1")
+	)
+	(wire
+		(pts
 			(xy 45.72 168.91) (xy 45.72 170.18)
 		)
 		(stroke
@@ -3652,6 +4438,16 @@
 			(type default)
 		)
 		(uuid "a92ec5b7-a264-4cfe-bcde-9613ee35c4e4")
+	)
+	(wire
+		(pts
+			(xy 240.03 143.51) (xy 251.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94b4621-dbe0-46f4-9abf-9a2247bdb9fc")
 	)
 	(wire
 		(pts
@@ -3683,6 +4479,26 @@
 		)
 		(uuid "aadee3cd-6639-422e-8a3c-b12c0b3a8ae6")
 	)
+	(polyline
+		(pts
+			(xy 238.76 13.335) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaedc4e8-1316-48f0-ae06-5593ebe729c5")
+	)
+	(wire
+		(pts
+			(xy 240.03 116.84) (xy 251.46 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab073f25-17ce-4430-b256-c86b9412162f")
+	)
 	(wire
 		(pts
 			(xy 64.77 163.83) (xy 64.77 166.37)
@@ -3713,6 +4529,16 @@
 		)
 		(uuid "aefe9eb0-7970-4c5f-97f8-f17302f7c16e")
 	)
+	(polyline
+		(pts
+			(xy 238.76 86.995) (xy 238.76 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af13c18b-20c9-4c6e-832e-730c0858a112")
+	)
 	(wire
 		(pts
 			(xy 33.02 22.86) (xy 33.02 25.4)
@@ -3722,6 +4548,16 @@
 			(type default)
 		)
 		(uuid "af165589-86eb-4e5f-b155-1315f724f85f")
+	)
+	(wire
+		(pts
+			(xy 240.03 25.4) (xy 251.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b09e175f-cce7-433b-9cd5-6a381a561e76")
 	)
 	(wire
 		(pts
@@ -3765,6 +4601,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 91.44) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5227114-6080-4c99-93f1-05b1e1092dbd")
+	)
+	(wire
+		(pts
 			(xy 67.31 166.37) (xy 69.85 166.37)
 		)
 		(stroke
@@ -3772,6 +4618,16 @@
 			(type default)
 		)
 		(uuid "b6b9b3e1-1769-43db-af0c-10b914e7cd2b")
+	)
+	(wire
+		(pts
+			(xy 240.03 146.05) (xy 251.46 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d7f720-ce16-455d-9ced-45c4584e4891")
 	)
 	(wire
 		(pts
@@ -3785,6 +4641,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 128.27) (xy 251.46 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92e891d-db4f-4b9b-8bf3-211f8c750443")
+	)
+	(wire
+		(pts
 			(xy 76.2 123.19) (xy 113.03 123.19)
 		)
 		(stroke
@@ -3792,6 +4658,26 @@
 			(type default)
 		)
 		(uuid "ba25bd0b-4aa5-493e-91ac-83a75250db30")
+	)
+	(wire
+		(pts
+			(xy 240.03 20.32) (xy 251.46 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb87ffe9-183b-4cca-9e48-54efcbd96f40")
+	)
+	(wire
+		(pts
+			(xy 240.03 35.56) (xy 251.46 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd734c61-94ef-4a34-8467-7528027ec69a")
 	)
 	(wire
 		(pts
@@ -3845,6 +4731,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 64.77) (xy 251.46 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d1e2e0-b0b9-45e2-b24a-2961d3e5a56e")
+	)
+	(wire
+		(pts
 			(xy 44.45 134.62) (xy 40.64 134.62)
 		)
 		(stroke
@@ -3852,6 +4748,26 @@
 			(type default)
 		)
 		(uuid "c0e5c234-b245-4b24-8638-9d78448409ea")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 251.46 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c16e38a2-ab0a-4197-94a4-1814f1002c8a")
+	)
+	(wire
+		(pts
+			(xy 240.03 93.98) (xy 251.46 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d98c30-47fc-45a4-94be-1594afbe7688")
 	)
 	(wire
 		(pts
@@ -3865,13 +4781,63 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 160.02 99.06)
+			(xy 149.86 99.06) (xy 163.83 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6ecf5f6-91c5-402f-9f3a-4c5adb28d5d2")
+		(uuid "c45ebbbc-2e09-4f5a-bcee-61923732d9f5")
+	)
+	(wire
+		(pts
+			(xy 195.58 93.98) (xy 208.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fcde3d-c5f6-42c5-b784-12fe7a610a98")
+	)
+	(polyline
+		(pts
+			(xy 238.76 123.825) (xy 238.76 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccd51146-a7b5-4246-8e12-f212ef16ecc9")
+	)
+	(wire
+		(pts
+			(xy 195.58 119.38) (xy 208.28 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd708952-1dee-4919-b06a-cbef405a4880")
+	)
+	(wire
+		(pts
+			(xy 195.58 101.6) (xy 208.28 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce1335d2-dd9a-4894-84f6-a0afe248a941")
+	)
+	(wire
+		(pts
+			(xy 203.2 138.43) (xy 203.2 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1953821-146b-435c-904d-8e3cb58945e1")
 	)
 	(wire
 		(pts
@@ -3895,6 +4861,26 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 130.81) (xy 251.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d468f80e-4c33-4dff-abbf-b731f85f87a6")
+	)
+	(wire
+		(pts
+			(xy 240.03 59.69) (xy 251.46 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4a65a77-bbd7-45c5-983c-f17ea0d36171")
+	)
+	(wire
+		(pts
 			(xy 68.58 97.79) (xy 68.58 107.95)
 		)
 		(stroke
@@ -3902,6 +4888,16 @@
 			(type default)
 		)
 		(uuid "d5e2d17a-fd4d-4628-be43-d845dc508aad")
+	)
+	(wire
+		(pts
+			(xy 240.03 138.43) (xy 251.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ee5462-74ef-4265-8d72-509cf08881f2")
 	)
 	(wire
 		(pts
@@ -3935,13 +4931,73 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 160.02 92.71)
+			(xy 220.98 138.43) (xy 220.98 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfdc008f-4be7-4870-9efd-fb10142e5293")
+	)
+	(wire
+		(pts
+			(xy 200.66 138.43) (xy 200.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0680dd1-92bb-4d29-bfdb-787012dc68bb")
+	)
+	(wire
+		(pts
+			(xy 240.03 54.61) (xy 251.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2595ace-ef26-40d1-9734-4e13d6907610")
+	)
+	(polyline
+		(pts
+			(xy 238.76 50.165) (xy 238.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3604b5c-e4d2-437a-beaf-2462799b0b0f")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 163.83 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e555a4e1-174d-4a15-8adf-e7cec58f5afa")
+	)
+	(wire
+		(pts
+			(xy 240.03 125.73) (xy 251.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ff2710-b8e6-46ae-a2a8-7c867db4ea6b")
+	)
+	(wire
+		(pts
+			(xy 195.58 86.36) (xy 208.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80d587d-7fba-4940-9278-bd4ad08b16d1")
 	)
 	(wire
 		(pts
@@ -3953,6 +5009,16 @@
 		)
 		(uuid "e8a84154-0722-4531-9b7e-53619aaa874d")
 	)
+	(polyline
+		(pts
+			(xy 226.06 136.525) (xy 193.675 136.525)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b95100-a854-4c86-a5ec-d54d20d5515a")
+	)
 	(wire
 		(pts
 			(xy 33.02 125.73) (xy 35.56 125.73)
@@ -3962,6 +5028,16 @@
 			(type default)
 		)
 		(uuid "ea491f5d-b760-4c09-b7fc-4e33e08005b9")
+	)
+	(wire
+		(pts
+			(xy 180.34 121.92) (xy 180.34 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaa7ca74-a1ff-498a-b182-a55fc17bf794")
 	)
 	(wire
 		(pts
@@ -4015,6 +5091,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 106.68) (xy 163.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19103a2-3a2a-4580-b2b4-1b7f642ff0f4")
+	)
+	(wire
+		(pts
+			(xy 195.58 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f4a794-c868-44a9-bc62-493935617a1a")
+	)
+	(wire
+		(pts
 			(xy 36.83 66.04) (xy 40.64 66.04)
 		)
 		(stroke
@@ -4022,6 +5118,156 @@
 			(type default)
 		)
 		(uuid "f2571e56-2da9-4395-98c2-a8f1e983781d")
+	)
+	(wire
+		(pts
+			(xy 195.58 88.9) (xy 208.28 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f33a2181-1911-4bdc-9e2e-f61cf442348b")
+	)
+	(wire
+		(pts
+			(xy 240.03 40.64) (xy 251.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dd80b2-13e4-4737-be33-bab93e9d0765")
+	)
+	(wire
+		(pts
+			(xy 240.03 119.38) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b7d3ac-ea65-49ef-a7e8-2dc766a26604")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 163.83 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed5f9fc-6d3e-4044-9c48-8717d0d30ee0")
+	)
+	(wire
+		(pts
+			(xy 240.03 80.01) (xy 251.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff8cb5bf-e204-4397-9db6-9f6367d6d2a5")
+	)
+	(label "SPI_MOSI0"
+		(at 182.88 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01c0b071-4eb1-4f69-ae6a-654825d1be46")
+	)
+	(label "GND"
+		(at 195.58 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "01fdd2d3-740e-44c3-9d42-01cc228805b9")
+	)
+	(label "GND"
+		(at 240.03 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "02a14d12-1054-4153-81b0-edff6a60d4c5")
+	)
+	(label "SPI_CS0"
+		(at 177.8 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "067791f4-e3c5-452a-a8e4-76e985d245f7")
+	)
+	(label "SPI_MISO4"
+		(at 180.34 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0dbcfb51-a19f-44b6-891a-7fa20fc88c20")
+	)
+	(label "SPI_MISO3"
+		(at 208.28 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f18e25b-2cec-4d43-9fe5-a0e20482045f")
+	)
+	(label "5V5"
+		(at 111.76 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "13e21954-6eb5-454b-8d57-32b8d31f92fa")
+	)
+	(label "GND"
+		(at 240.03 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "178a01ee-fb19-40fe-8f41-bd8252986ff7")
+	)
+	(label "5V5"
+		(at 240.03 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b8a2b22-057f-449f-a934-9661d09544d0")
+	)
+	(label "SPI_MISO0"
+		(at 240.03 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c9b91f2-fc72-4059-b8ae-2f6b0d3dccd4")
 	)
 	(label "UART_RX"
 		(at 156.21 29.21 0)
@@ -4043,8 +5289,28 @@
 		)
 		(uuid "1d7dd41a-f011-4e66-8945-9f94be10873d")
 	)
+	(label "3V3"
+		(at 111.76 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1da1cd3d-642e-470c-93db-54b4648a6eb9")
+	)
+	(label "5V5"
+		(at 240.03 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f3e6c2e-fdda-4d4d-9bac-fd0e32a86351")
+	)
 	(label "SPI_MISO"
-		(at 149.86 101.6 0)
+		(at 152.4 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4052,6 +5318,56 @@
 			(justify left bottom)
 		)
 		(uuid "2467320f-0988-4a6d-b4ab-949cc3bac607")
+	)
+	(label "SPI_CS1"
+		(at 240.03 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2558c335-f822-4aa6-978a-f5588dbb912b")
+	)
+	(label "GND"
+		(at 215.9 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "269e4141-3a78-42fe-8afa-46ac5a9b5168")
+	)
+	(label "3V3"
+		(at 240.03 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28b75557-3985-4dcf-a7f4-72b93ad246f5")
+	)
+	(label "SPI_MOSI1"
+		(at 240.03 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "29910466-59d4-4c43-bd02-bbccb2e184b2")
+	)
+	(label "SPI_SCLK0"
+		(at 240.03 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fab1b52-31b7-4eeb-91b2-7fdda8d72b2f")
 	)
 	(label "TG_MAZE"
 		(at 54.61 50.8 180)
@@ -4063,8 +5379,18 @@
 		)
 		(uuid "30bdb345-e306-402c-aa60-f85532e41156")
 	)
+	(label "GND"
+		(at 240.03 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32cc3690-d7e1-4cc8-98ac-205b0a41f911")
+	)
 	(label "SPI_CS"
-		(at 149.86 99.06 0)
+		(at 152.4 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4083,6 +5409,16 @@
 		)
 		(uuid "352af534-b556-459d-a784-212526c5dad3")
 	)
+	(label "SPI_CS4"
+		(at 177.8 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37d09feb-1571-43b8-a309-066ab4cc3934")
+	)
 	(label "USB_D-"
 		(at 57.15 165.1 180)
 		(effects
@@ -4093,8 +5429,48 @@
 		)
 		(uuid "3df01f59-d687-415a-8836-91ee29f7d854")
 	)
+	(label "GND"
+		(at 240.03 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f665bb2-b91e-4699-9d04-813477448072")
+	)
+	(label "SPI_SCLK2"
+		(at 208.28 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "414d8065-43fc-477f-b6b5-079f1e07e458")
+	)
+	(label "SPI_SCLK1"
+		(at 208.28 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "447e4c7b-24cf-42c5-a8a3-35ee50ecb412")
+	)
+	(label "GND"
+		(at 198.12 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4674913a-c619-4719-8110-e4f6451db366")
+	)
 	(label "SPI_CLK"
-		(at 149.86 106.68 0)
+		(at 152.4 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4102,6 +5478,96 @@
 			(justify left bottom)
 		)
 		(uuid "49845db1-2845-48b4-ad62-50390beab3cb")
+	)
+	(label "GND"
+		(at 240.03 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a9c9957-e669-4493-bd0d-2d50e1430f0d")
+	)
+	(label "GND"
+		(at 240.03 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ce3a980-3797-471c-8aa8-64da44561c3a")
+	)
+	(label "SPI_SCLK1"
+		(at 240.03 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "52bdd2df-e5d1-45dc-bbc5-4efa7498d9c1")
+	)
+	(label "SPI_CS0"
+		(at 240.03 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57b94727-93e6-4352-99ce-4bef66431574")
+	)
+	(label "GND"
+		(at 240.03 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5eead3de-3cf0-46b6-9ce2-3eaadff7c0e2")
+	)
+	(label "GND"
+		(at 240.03 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f452dca-58da-4781-b7ca-50f355837464")
+	)
+	(label "SPI_SCLK0"
+		(at 185.42 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6308c8a3-104f-498d-a2d1-88505fce1f32")
+	)
+	(label "SPI_MOSI3"
+		(at 208.28 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "634cd02d-d39b-44b9-bfe8-187ce1e92d79")
+	)
+	(label "5V5"
+		(at 240.03 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6653bdaf-be69-4633-9c19-cd8ea7c530fa")
 	)
 	(label "SOLVE_MAZE"
 		(at 99.06 106.68 0)
@@ -4123,6 +5589,36 @@
 		)
 		(uuid "68077602-7d96-4de9-8541-efef4961b853")
 	)
+	(label "SPI_MOSI4"
+		(at 226.06 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "687afc18-8dff-4a16-acfd-2a37d206d9f1")
+	)
+	(label "3V3"
+		(at 240.03 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ac446cb-6e1c-4c79-a5fc-bf991e3cf837")
+	)
+	(label "GND"
+		(at 240.03 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6af4555c-63fc-4c7f-8b79-6ba88b3b07a2")
+	)
 	(label "UART_TX"
 		(at 156.21 44.45 0)
 		(effects
@@ -4132,6 +5628,26 @@
 			(justify left bottom)
 		)
 		(uuid "6d34313a-5206-4d8b-a642-8952bd90d371")
+	)
+	(label "3V3"
+		(at 240.03 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e00af07-be95-4002-b0d9-525e34431c1c")
+	)
+	(label "GND"
+		(at 240.03 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71e0372f-3c1f-477e-889d-337e3a7ab9bb")
 	)
 	(label "UART_RX"
 		(at 127 156.21 180)
@@ -4143,6 +5659,16 @@
 		)
 		(uuid "72658349-4789-462d-9c2b-181fb37ba5cf")
 	)
+	(label "SPI_MISO3"
+		(at 240.03 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "739aa7a9-3eed-4367-b8aa-eb25c0b39e0d")
+	)
 	(label "USB_D+"
 		(at 86.36 163.83 0)
 		(effects
@@ -4152,6 +5678,16 @@
 			(justify left bottom)
 		)
 		(uuid "741c6ded-d610-4590-914c-3a7dea80892f")
+	)
+	(label "5V5"
+		(at 208.28 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7518cd05-37b9-4f83-838f-36965c2f614e")
 	)
 	(label "UART_RX"
 		(at 113.03 77.47 0)
@@ -4173,6 +5709,56 @@
 		)
 		(uuid "7bd15145-c37f-4e5a-bb64-1538990ceacf")
 	)
+	(label "5V5"
+		(at 240.03 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c932b80-f61f-4003-990b-6d88714efec5")
+	)
+	(label "3V3"
+		(at 240.03 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80a3423b-4e5b-4013-a51a-56ab266c9657")
+	)
+	(label "GND"
+		(at 213.36 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82396c61-8a62-409c-a979-489692f2530c")
+	)
+	(label "GND"
+		(at 240.03 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f057e97-73cb-4894-ba8b-4f2e3e7f3e7a")
+	)
+	(label "SPI_MISO0"
+		(at 180.34 72.39 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "901e8a92-d475-4b2f-a62c-67ffae3f2006")
+	)
 	(label "SOLVE_MAZE"
 		(at 54.61 82.55 180)
 		(effects
@@ -4182,6 +5768,16 @@
 			(justify right bottom)
 		)
 		(uuid "901feb08-9a07-4861-8ea4-660265b5d9f9")
+	)
+	(label "SPI_MISO1"
+		(at 208.28 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91b93392-1f90-4dff-ba2c-de490724ae51")
 	)
 	(label "SPI_CS"
 		(at 210.82 36.83 180)
@@ -4193,6 +5789,46 @@
 		)
 		(uuid "92a73f16-3093-4319-9529-8350e1994be5")
 	)
+	(label "SPI_CS4"
+		(at 220.98 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "978f92d0-1afe-4bc8-8dbe-b55bbb354a6d")
+	)
+	(label "5V5"
+		(at 205.74 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "98cad4a5-0bb6-4fd1-a62f-6cc2fb6483c8")
+	)
+	(label "SPI_SCLK4"
+		(at 223.52 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9930b457-cf3d-426b-b5b5-14651fdb7db8")
+	)
+	(label "SPI_MOSI4"
+		(at 182.88 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c332495-299d-465c-922e-f4e6a5d2994f")
+	)
 	(label "SPI_MISO"
 		(at 210.82 31.75 180)
 		(effects
@@ -4203,6 +5839,56 @@
 		)
 		(uuid "9e919167-57bd-4240-9eba-0dfd33dcd037")
 	)
+	(label "SPI_CS1"
+		(at 208.28 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a109bb1b-27d8-4237-9438-6e5468c958ef")
+	)
+	(label "SPI_CS3"
+		(at 240.03 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a23ade24-06f9-465b-a49e-95ac53e9ed56")
+	)
+	(label "5V5"
+		(at 240.03 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a28183bc-82f9-4c50-b290-83a10afb0615")
+	)
+	(label "GND"
+		(at 240.03 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2aab474-b97d-4830-b0c3-cf0927f0c26e")
+	)
+	(label "3V3"
+		(at 200.66 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a34475db-dbad-4d07-8373-41d926c6b9c6")
+	)
 	(label "GEN_MAZE"
 		(at 54.61 22.86 180)
 		(effects
@@ -4212,6 +5898,106 @@
 			(justify right bottom)
 		)
 		(uuid "a646c511-8943-4ab7-a94d-07c1bd2181aa")
+	)
+	(label "SPI_MISO4"
+		(at 218.44 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b12665f5-ce9b-4ff3-9fae-6dcb28fcf361")
+	)
+	(label "SPI_SCLK4"
+		(at 185.42 134.62 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b436026a-ef7f-4882-86dd-e30a548d3769")
+	)
+	(label "5V5"
+		(at 240.03 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4bf2d91-a832-461e-850a-9214d0b6863d")
+	)
+	(label "SPI_MOSI3"
+		(at 240.03 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b622cb71-5dce-4434-9dd2-20278cdc2ce0")
+	)
+	(label "3V3"
+		(at 240.03 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b872c7fd-cf70-44c8-b34a-20b00cde0bf6")
+	)
+	(label "3V3"
+		(at 240.03 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9f9113e-fd81-4dbe-99d9-48e261c12ff0")
+	)
+	(label "GND"
+		(at 240.03 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba689b7f-4b4e-46e3-99e3-f413ee27a686")
+	)
+	(label "SPI_MISO1"
+		(at 240.03 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bac15556-d6c6-434a-9aec-15be1626cd86")
+	)
+	(label "5V5"
+		(at 240.03 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc63ff0-72da-4c6e-a551-0624d48008af")
+	)
+	(label "SPI_CS2"
+		(at 208.28 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1f0b014-f869-4330-860a-58596f2ad8d4")
 	)
 	(label "SPI_CLK"
 		(at 210.82 34.29 180)
@@ -4233,6 +6019,96 @@
 		)
 		(uuid "c72bfda5-87a1-47b7-b179-df42782721e4")
 	)
+	(label "GND"
+		(at 240.03 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d34be9e3-399c-44ab-8f8e-6a9b97f37d14")
+	)
+	(label "3V3"
+		(at 240.03 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3f2b93d-4f79-4b23-ad4c-7d61297d9aee")
+	)
+	(label "SPI_MOSI1"
+		(at 208.28 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4e562da-e8c5-4aa2-a9cc-0a36f5dd2c41")
+	)
+	(label "SPI_SCLK2"
+		(at 240.03 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5075c1b-9b40-4ccb-890f-d97ac7f57ac3")
+	)
+	(label "SPI_CS2"
+		(at 240.03 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d55ff355-0fe5-4214-9067-b8126de81a54")
+	)
+	(label "SPI_MISO2"
+		(at 208.28 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dabd253f-d6e7-4a4e-a8d0-15b09dbbe592")
+	)
+	(label "GND"
+		(at 240.03 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ddbee7ff-9982-471e-9a6d-49b7483cd6a9")
+	)
+	(label "3V3"
+		(at 240.03 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "deb6ee1c-6729-46e1-8b27-e1a5c6cf099d")
+	)
+	(label "3V3"
+		(at 203.2 138.43 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e33f59e9-f3eb-45cb-9d55-834a82e35f0b")
+	)
 	(label "SPI_MOSI"
 		(at 210.82 29.21 180)
 		(effects
@@ -4242,6 +6118,26 @@
 			(justify right bottom)
 		)
 		(uuid "e3c0a11d-52f2-4de6-8978-77ffcef479ca")
+	)
+	(label "SPI_MOSI2"
+		(at 240.03 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7a9cc02-018e-42b0-8ab6-2d5ea0dfe939")
+	)
+	(label "SPI_MOSI0"
+		(at 240.03 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecf3358d-dc56-4465-befa-72772a2742fd")
 	)
 	(label "UART_TX"
 		(at 113.03 74.93 0)
@@ -4253,8 +6149,38 @@
 		)
 		(uuid "efe78da6-50fb-4957-81d4-e22f08504306")
 	)
+	(label "SPI_SCLK3"
+		(at 208.28 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1202c6f-ff94-4305-be49-d188c39ced28")
+	)
+	(label "SPI_MOSI2"
+		(at 208.28 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2e3b210-5283-4fc1-aa7c-2e0bf01f652b")
+	)
+	(label "SPI_MISO2"
+		(at 240.03 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5097dba-7d9e-42f6-84bf-952aabc8288e")
+	)
 	(label "SPI_MOSI"
-		(at 149.86 104.14 0)
+		(at 152.4 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4262,6 +6188,202 @@
 			(justify left bottom)
 		)
 		(uuid "f514e180-bf5a-46d5-a4fc-9c5b9842207b")
+	)
+	(label "SPI_SCLK3"
+		(at 240.03 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6eec5ed-fa58-429d-bbad-0564cc4fe326")
+	)
+	(label "5V5"
+		(at 240.03 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faecaf04-bd91-439c-9cd2-539fec23a34a")
+	)
+	(label "SPI_CS3"
+		(at 208.28 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc531567-cf71-4867-b56d-e3e32792cfa8")
+	)
+	(label "GND"
+		(at 240.03 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcf1c84b-90a7-4552-87a0-3c65986e6f25")
+	)
+	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01e60985-f639-4f1f-9d9a-78b785eea589")
+		(property "Reference" "J13"
+			(at 267.97 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 133.3499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "71666be7-a889-4db0-92eb-443b4438f9bd")
+		)
+		(pin "3"
+			(uuid "07d2d7e1-0cb3-461b-ba8a-e4a69cd92846")
+		)
+		(pin "4"
+			(uuid "1e6d319b-cacd-4b59-abfe-14a2994668c9")
+		)
+		(pin "2"
+			(uuid "413c1d61-3965-4049-9ac8-d77e02d475ff")
+		)
+		(pin "1"
+			(uuid "5df245fc-dc20-4157-bfed-ff4131ae9eb4")
+		)
+		(pin "5"
+			(uuid "549230a6-5308-4644-84a6-8c2eda7cb192")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
@@ -4337,6 +6459,162 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 15.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02edb922-fc88-4ca6-8cbd-afb49372722a")
+		(property "Reference" "J7"
+			(at 267.97 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 110.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 210.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 15.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 410.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 510.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 610.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 710.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 810.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "956cfd25-6fa5-436e-982b-5c9fcea39ee9")
+		)
+		(pin "3"
+			(uuid "0871b241-59e8-446e-8cb8-5318b18fa618")
+		)
+		(pin "4"
+			(uuid "04efadb5-9c29-4930-bd8c-fff056269681")
+		)
+		(pin "2"
+			(uuid "3058273c-0870-4ac8-b227-8fe64be132ab")
+		)
+		(pin "1"
+			(uuid "a215debd-67a0-411a-9169-3e8d68c4efe8")
+		)
+		(pin "5"
+			(uuid "fd388167-028b-453f-956c-0eba91147e60")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4569,6 +6847,162 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b3c7f02-3a05-42dd-a25b-2b1db465a95d")
+		(property "Reference" "J10"
+			(at 267.97 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 164.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 264.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 464.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 564.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 664.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 764.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 864.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "45fb4774-0134-4922-a8e5-171dc21dc2a2")
+		)
+		(pin "3"
+			(uuid "6d717e15-8024-40fc-b21b-c68af70c1da9")
+		)
+		(pin "4"
+			(uuid "e481b876-4b1a-4644-8fa6-ada41486355a")
+		)
+		(pin "2"
+			(uuid "3c7b6ab4-3e63-4500-b7c4-54962c41eac1")
+		)
+		(pin "1"
+			(uuid "6defb369-0db9-46d7-8f8c-96ce0e31d553")
+		)
+		(pin "5"
+			(uuid "85934db2-4297-48e0-92f5-5f0cd94363ae")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6662,6 +9096,162 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6eced411-6601-43ec-8700-063d9bae81a1")
+		(property "Reference" "J12"
+			(at 267.97 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 201.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 301.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 501.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 601.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 701.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 801.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 901.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "bc41f294-d100-4dac-bf03-b34174d36efd")
+		)
+		(pin "3"
+			(uuid "86fc5651-b5f1-4735-b6b0-f0c79874784d")
+		)
+		(pin "4"
+			(uuid "b803137a-f891-46ee-851d-952930d52631")
+		)
+		(pin "2"
+			(uuid "22aca735-f6b7-49e7-9b65-4aabb7249b9f")
+		)
+		(pin "1"
+			(uuid "f16f685c-d3e8-4c71-a908-c3b0b728dfe9")
+		)
+		(pin "5"
+			(uuid "db5bc84c-9908-4294-a705-38b26973f68a")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 69.85 161.29 0)
 		(unit 1)
@@ -6738,6 +9328,162 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71418783-294f-4578-93c9-9c2f78b08963")
+		(property "Reference" "J14"
+			(at 267.97 148.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 151.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 238.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 338.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 538.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 638.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 738.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 838.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 938.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "81449916-1e6d-4dc3-a4bd-09d15186c406")
+		)
+		(pin "3"
+			(uuid "f553f4f7-5d10-40f2-b823-f47c54f01215")
+		)
+		(pin "4"
+			(uuid "73618440-99f0-41fe-843c-8a4db855fe34")
+		)
+		(pin "2"
+			(uuid "945f3691-3650-4c09-b409-07c82d8db75b")
+		)
+		(pin "1"
+			(uuid "8df3396f-2993-4dae-8204-eaa0a8e64a54")
+		)
+		(pin "5"
+			(uuid "d0f2a941-32e1-4f72-a947-29d08832cde0")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -7459,6 +10205,162 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ba02bd-3635-4dfa-be4c-8ac34798b20d")
+		(property "Reference" "J9"
+			(at 267.97 57.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 146.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 246.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 446.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 546.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 646.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 746.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 846.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "ac91d02d-73f7-469a-8967-899bf3fc47d4")
+		)
+		(pin "3"
+			(uuid "f7b52039-392d-47f8-8739-b3af176c753f")
+		)
+		(pin "4"
+			(uuid "a4e97e92-3f71-4ba0-9b82-cca0a3af084e")
+		)
+		(pin "2"
+			(uuid "d550026a-edbd-4d47-8716-f35e56b82b0b")
+		)
+		(pin "1"
+			(uuid "92abc092-fcec-4a50-af7b-e3fe3331dd97")
+		)
+		(pin "5"
+			(uuid "bdf6ef10-6177-4691-9d13-aafbafb8c844")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 116.84 33.02 0)
 		(unit 1)
@@ -8009,7 +10911,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 153.67 113.03 0)
+		(at 157.48 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8019,7 +10921,7 @@
 		(dnp no)
 		(uuid "a440b3ed-7ada-4633-a96c-964995d36193")
 		(property "Reference" "#PWR010"
-			(at 153.67 116.84 0)
+			(at 157.48 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8030,7 +10932,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 156.972 111.76 0)
+			(at 160.782 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8040,7 +10942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 113.03 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +10953,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 113.03 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8062,7 +10964,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 153.67 113.03 0)
+			(at 157.48 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8079,6 +10981,162 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 33.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5ea9e81-268b-4a4e-9b00-866a39ca785f")
+		(property "Reference" "J8"
+			(at 267.97 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 40.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 127.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 227.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 427.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 527.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 627.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 727.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 827.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "60286d78-059e-4f6b-8039-e2187500fc07")
+		)
+		(pin "3"
+			(uuid "5a99d092-d5cd-4c05-855b-bfc803f07120")
+		)
+		(pin "4"
+			(uuid "0ff05f22-ff5c-4666-ab07-a65b695498bd")
+		)
+		(pin "2"
+			(uuid "aedaa7b6-b598-4aff-b9b4-619708428787")
+		)
+		(pin "1"
+			(uuid "d7173d13-5fa9-4e98-9c89-e5ca2fe4fa20")
+		)
+		(pin "5"
+			(uuid "edc54264-5ec5-4d98-be25-d232ca3c1320")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -8326,8 +11384,164 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 251.46 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16f3b7a-0499-4d20-afe6-6e535f3bb4c1")
+		(property "Reference" "J11"
+			(at 267.97 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 267.97 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 267.97 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 267.97 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 251.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 267.97 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 267.97 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 267.97 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 267.97 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 267.97 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "2286ad7d-850f-4a35-acbc-9e6d8339d809")
+		)
+		(pin "3"
+			(uuid "e91c38c1-3b28-48de-acb7-61a842a6058d")
+		)
+		(pin "4"
+			(uuid "3530c89c-8ce0-4678-826d-8a0d06726c1b")
+		)
+		(pin "2"
+			(uuid "52127af4-2adf-42e0-a5f9-c6cf72df5cce")
+		)
+		(pin "1"
+			(uuid "0f7792f8-19c4-41e5-aa26-3ac0e9586b3d")
+		)
+		(pin "5"
+			(uuid "4a140ff2-95f2-4c8d-96a9-e5da7a803989")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
-		(at 153.67 115.57 0)
+		(at 157.48 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8338,7 +11552,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6480652-9730-4e67-bfe2-9578181047b2")
 		(property "Reference" "#PWR08"
-			(at 153.67 121.92 0)
+			(at 157.48 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,7 +11563,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 153.67 120.65 0)
+			(at 157.48 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8359,7 +11573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 153.67 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8370,7 +11584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8381,7 +11595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 153.67 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8398,6 +11612,161 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 226.06 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "be2a39e0-918a-4b12-a0d0-261f3647e01e")
+		(property "Reference" "J15"
+			(at 229.362 158.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 229.362 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 131.14 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 31.14 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 226.06 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at -168.86 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at -268.86 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at -368.86 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at -468.86 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at -568.86 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "c526a400-8cd4-4546-b0c7-8cc1853fa477")
+		)
+		(pin "3"
+			(uuid "6242d0d6-bc21-44e2-ac12-60d78dcbd289")
+		)
+		(pin "4"
+			(uuid "3793102d-65ee-4b90-88b5-6d0f9f45a229")
+		)
+		(pin "2"
+			(uuid "cca26dcb-856e-4c9b-964f-23a7b1686715")
+		)
+		(pin "1"
+			(uuid "b025775b-ef4e-41be-a911-26971fac7d01")
+		)
+		(pin "5"
+			(uuid "9cb5c581-59f2-48b9-ae72-debc09c98723")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -9519,6 +12888,161 @@
 		)
 	)
 	(symbol
+		(lib_id "KiCad:M20-7820646")
+		(at 208.28 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec7121ce-4f51-4516-8bfc-366d4d586eab")
+		(property "Reference" "J16"
+			(at 187.96 159.004 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 177.546 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 113.36 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 13.36 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 208.28 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at -186.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at -286.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at -386.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at -486.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at -586.64 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "6"
+			(uuid "1e5b5801-71fa-4a49-b3d4-e7aa66a40c10")
+		)
+		(pin "3"
+			(uuid "b99bb841-8b88-4802-8dce-6dd4e42cdc01")
+		)
+		(pin "4"
+			(uuid "40096ea2-7e3a-465d-b93e-e703f34ef55a")
+		)
+		(pin "2"
+			(uuid "3733877e-4474-4ba6-b281-9f0fd36ef369")
+		)
+		(pin "1"
+			(uuid "f5d433a0-bea1-4a8b-b802-aa38e0a92e29")
+		)
+		(pin "5"
+			(uuid "ba799b51-5ef1-465f-b4cb-106cd6f0f57e")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:Earth")
 		(at 36.83 39.37 0)
 		(unit 1)
@@ -9999,7 +13523,7 @@
 		)
 	)
 	(sheet
-		(at 160.02 83.82)
+		(at 163.83 83.82)
 		(size 31.75 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10014,7 +13538,7 @@
 		)
 		(uuid "fa1e8dc4-8bff-4e20-ab5d-26e522bb2dde")
 		(property "Sheetname" "daughterboard_selector"
-			(at 183.896 83.058 0)
+			(at 187.706 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10025,7 +13549,7 @@
 			)
 		)
 		(property "Sheetfile" "daughterboard_selector.kicad_sch"
-			(at 160.02 127 0)
+			(at 163.83 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10037,7 +13561,7 @@
 			)
 		)
 		(pin "CS_0" output
-			(at 173.99 83.82 90)
+			(at 177.8 83.82 90)
 			(uuid "ee465e5f-acc4-45f7-b5cf-df681a72e863")
 			(effects
 				(font
@@ -10047,7 +13571,7 @@
 			)
 		)
 		(pin "CS_1" output
-			(at 191.77 86.36 0)
+			(at 195.58 86.36 0)
 			(uuid "3eeacf70-b6b2-433b-a530-01f866780ef4")
 			(effects
 				(font
@@ -10057,7 +13581,7 @@
 			)
 		)
 		(pin "CS_2" output
-			(at 191.77 99.06 0)
+			(at 195.58 99.06 0)
 			(uuid "1bf125fb-5f4a-46b9-ad39-655dd5f6bfdc")
 			(effects
 				(font
@@ -10067,7 +13591,7 @@
 			)
 		)
 		(pin "CS_3" output
-			(at 191.77 111.76 0)
+			(at 195.58 111.76 0)
 			(uuid "19c8ea53-caa1-474e-80fa-7809c0f308f6")
 			(effects
 				(font
@@ -10077,7 +13601,7 @@
 			)
 		)
 		(pin "CS_4" output
-			(at 173.99 121.92 270)
+			(at 177.8 121.92 270)
 			(uuid "a718c6c8-2fee-450d-bdbc-2ad7eecc3817")
 			(effects
 				(font
@@ -10087,7 +13611,7 @@
 			)
 		)
 		(pin "GLOBAL_EN" input
-			(at 160.02 115.57 180)
+			(at 163.83 115.57 180)
 			(uuid "33409e3a-7d6f-4717-acf3-e26f6687a4eb")
 			(effects
 				(font
@@ -10097,7 +13621,7 @@
 			)
 		)
 		(pin "MISO_0" input
-			(at 176.53 83.82 90)
+			(at 180.34 83.82 90)
 			(uuid "1161f162-7d4d-4acc-8963-6fb91adb3af2")
 			(effects
 				(font
@@ -10107,7 +13631,7 @@
 			)
 		)
 		(pin "MISO_1" input
-			(at 191.77 88.9 0)
+			(at 195.58 88.9 0)
 			(uuid "f8b057af-04ef-44b2-8abc-6f952c000cfa")
 			(effects
 				(font
@@ -10117,7 +13641,7 @@
 			)
 		)
 		(pin "MISO_2" input
-			(at 191.77 101.6 0)
+			(at 195.58 101.6 0)
 			(uuid "85d8e971-16c3-496d-9f92-33f151ac15f7")
 			(effects
 				(font
@@ -10127,7 +13651,7 @@
 			)
 		)
 		(pin "MISO_3" input
-			(at 191.77 114.3 0)
+			(at 195.58 114.3 0)
 			(uuid "75fb7a5a-6ba0-4223-a9a9-add419e86859")
 			(effects
 				(font
@@ -10137,7 +13661,7 @@
 			)
 		)
 		(pin "MISO_4" input
-			(at 176.53 121.92 270)
+			(at 180.34 121.92 270)
 			(uuid "f473112e-81ac-467b-94d5-f7e57d29be9f")
 			(effects
 				(font
@@ -10147,7 +13671,7 @@
 			)
 		)
 		(pin "MOSI_0" output
-			(at 179.07 83.82 90)
+			(at 182.88 83.82 90)
 			(uuid "2cd0df28-f6e4-4390-8d66-a1e5d0a2d2d2")
 			(effects
 				(font
@@ -10157,7 +13681,7 @@
 			)
 		)
 		(pin "MOSI_1" output
-			(at 191.77 91.44 0)
+			(at 195.58 91.44 0)
 			(uuid "89ff75e3-6a21-4a6d-9347-4bfe7c67278d")
 			(effects
 				(font
@@ -10167,7 +13691,7 @@
 			)
 		)
 		(pin "MOSI_2" output
-			(at 191.77 104.14 0)
+			(at 195.58 104.14 0)
 			(uuid "d1c0199b-ec84-4d71-aa2c-aaa621804aab")
 			(effects
 				(font
@@ -10177,7 +13701,7 @@
 			)
 		)
 		(pin "MOSI_3" output
-			(at 191.77 116.84 0)
+			(at 195.58 116.84 0)
 			(uuid "e3292e07-6cec-47ef-8ff0-baa251182266")
 			(effects
 				(font
@@ -10187,7 +13711,7 @@
 			)
 		)
 		(pin "MOSI_4" output
-			(at 179.07 121.92 270)
+			(at 182.88 121.92 270)
 			(uuid "3475d2d0-fc92-4da9-b40d-911daca2e95e")
 			(effects
 				(font
@@ -10197,7 +13721,7 @@
 			)
 		)
 		(pin "SCLK_0" output
-			(at 181.61 83.82 90)
+			(at 185.42 83.82 90)
 			(uuid "3cf0e49b-eda6-43db-9a28-8918acaf25ea")
 			(effects
 				(font
@@ -10207,7 +13731,7 @@
 			)
 		)
 		(pin "SCLK_1" output
-			(at 191.77 93.98 0)
+			(at 195.58 93.98 0)
 			(uuid "6c8aee4c-bd35-48bd-9268-1591e43d2c20")
 			(effects
 				(font
@@ -10217,7 +13741,7 @@
 			)
 		)
 		(pin "SCLK_2" output
-			(at 191.77 106.68 0)
+			(at 195.58 106.68 0)
 			(uuid "b5f9cfad-bb79-42cb-8f7a-8928e43762e6")
 			(effects
 				(font
@@ -10227,7 +13751,7 @@
 			)
 		)
 		(pin "SCLK_3" output
-			(at 191.77 119.38 0)
+			(at 195.58 119.38 0)
 			(uuid "8a719601-61f0-490b-b1ed-f19fc30cdfab")
 			(effects
 				(font
@@ -10237,7 +13761,7 @@
 			)
 		)
 		(pin "SCLK_4" output
-			(at 181.61 121.92 270)
+			(at 185.42 121.92 270)
 			(uuid "a851dbd8-7fa1-4ba7-9b84-4a9f6de10abe")
 			(effects
 				(font
@@ -10247,7 +13771,7 @@
 			)
 		)
 		(pin "SEL_A" input
-			(at 160.02 87.63 180)
+			(at 163.83 87.63 180)
 			(uuid "907f4cdf-7a04-48b6-84c5-43fc82c32831")
 			(effects
 				(font
@@ -10257,7 +13781,7 @@
 			)
 		)
 		(pin "SEL_B" input
-			(at 160.02 90.17 180)
+			(at 163.83 90.17 180)
 			(uuid "579169f8-fcf8-48c3-a23c-8892194147ab")
 			(effects
 				(font
@@ -10267,7 +13791,7 @@
 			)
 		)
 		(pin "SEL_C" input
-			(at 160.02 92.71 180)
+			(at 163.83 92.71 180)
 			(uuid "663d6460-33f8-4495-a12f-89a02af1c6e9")
 			(effects
 				(font
@@ -10277,7 +13801,7 @@
 			)
 		)
 		(pin "SPI_CS" input
-			(at 160.02 99.06 180)
+			(at 163.83 99.06 180)
 			(uuid "d01851d1-e341-41c6-9da2-38238ecf59f5")
 			(effects
 				(font
@@ -10287,7 +13811,7 @@
 			)
 		)
 		(pin "SPI_MISO" output
-			(at 160.02 101.6 180)
+			(at 163.83 101.6 180)
 			(uuid "fdd775a2-370e-4183-8bfb-05ff77dfdc9b")
 			(effects
 				(font
@@ -10297,7 +13821,7 @@
 			)
 		)
 		(pin "SPI_MOSI" input
-			(at 160.02 104.14 180)
+			(at 163.83 104.14 180)
 			(uuid "677beb76-2a70-4822-bc9b-d40af074efc4")
 			(effects
 				(font
@@ -10307,7 +13831,7 @@
 			)
 		)
 		(pin "SPI_SCLK" input
-			(at 160.02 106.68 180)
+			(at 163.83 106.68 180)
 			(uuid "5809bf7e-e0c1-4a3a-8634-b95d7f77338e")
 			(effects
 				(font
@@ -10317,7 +13841,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 160.02 113.03 180)
+			(at 163.83 113.03 180)
 			(uuid "c022d9a3-b514-49fa-b1a9-8b5192439531")
 			(effects
 				(font
