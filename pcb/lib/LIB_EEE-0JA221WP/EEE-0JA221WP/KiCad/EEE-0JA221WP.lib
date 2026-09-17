@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model EEE-0JA221WP
+#/384831/2023563/2.50/2/2/Capacitor Polarised
+DEF EEE-0JA221WP C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "EEE-0JA221WP" 350 150 50 H V L CNN
+F2 "EEE1AA101SP" 350 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" 350 -50 50 H I L CNN
+F4 "Capacitor SMT S(V) series 220uF 6.3V Panasonic 220uF 6.3 V Aluminium Electrolytic Capacitor D, S(V) Series 1000h 6.3 x 10.4mm" 350 -150 50 H I L CNN "Description"
+F5 "7.8" 350 -250 50 H I L CNN "Height"
+F6 "667-EEE-0JA221WP" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EEE-0JA221WP?qs=ANJC8C65Mw5NA%2FTXtp3nkw%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "EEE-0JA221WP" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 500 0 100 L 50 50 0 0 P
+P 5 0 1 6 200 100 200 -100 230 -100 230 100 200 100 N
+P 2 0 1 6 180 50 140 50 N
+P 2 0 1 6 160 70 160 30 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 300 0 400 0 N
+P 5 0 1 10 300 100 300 -100 270 -100 270 100 300 100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

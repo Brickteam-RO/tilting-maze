@@ -1283,7 +1283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:HDRRA6W64P0X254_1X6_1524X254X254P"
+		(property "Footprint" "KiCad7:HDRRA6W64P0X254_1X6_1524X254X254P"
 			(at 158.75 160.96 0)
 			(hide yes)
 			(show_name no)
@@ -1595,7 +1595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:HDRRA6W64P0X254_1X6_1524X254X254P"
+		(property "Footprint" "KiCad7:HDRRA6W64P0X254_1X6_1524X254X254P"
 			(at 144.78 160.96 0)
 			(hide yes)
 			(show_name no)

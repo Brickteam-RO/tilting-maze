@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEE-0JA221WP
+D Capacitor SMT S(V) series 220uF 6.3V Panasonic 220uF 6.3 V Aluminium Electrolytic Capacitor D, S(V) Series 1000h 6.3 x 10.4mm
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 865080340001
+D WCAP-ASLI Aluminum Electrolytic Capacitors ASEB055100M016DVCTAB000; SMT V-Chip; 10 F +/- 20%; 16 V(DC); 2000 h; -55C / +105C; size DxL 4.0 x 5.5; Max. Iripple 80 mA @100 kHz; LC 3 A; DF 16 %
+K
+F https://www.we-online.com/catalog/datasheet/865080340001.pdf
+$ENDCMP
+#
+#End Doc Library

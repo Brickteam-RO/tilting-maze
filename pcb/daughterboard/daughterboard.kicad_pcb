@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 58 111.5)
 		(grid_origin 58 111.5)
 		(pcbplotparams
@@ -3102,14 +3101,14 @@
 			)
 		)
 	)
-	(footprint "A_HANU_FOOTPRINTS:HDRRA6W64P0X254_1X6_1524X254X254P"
+	(footprint "KiCad7:HDRRA6W64P0X254_1X6_1524X254X254P"
 		(layer "F.Cu")
 		(uuid "44771c8d-4f64-4d98-9b13-1c3f9cbafa66")
 		(at 146.35 107.5375 180)
 		(descr "M20-9960646")
 		(tags "Connector")
 		(property "Reference" "J2"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(uuid "446370d0-99d7-4f4e-94f2-f5c32273a1bb")
 			(effects
@@ -3120,7 +3119,7 @@
 			)
 		)
 		(property "Value" "M20-9960646"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bfb321d5-bb7a-45c9-86a3-f084b50307ba")
@@ -3132,7 +3131,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f6ff5e9-fe91-483e-8348-1a6db51742b7")
@@ -3143,7 +3142,7 @@
 			)
 		)
 		(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c448173-77ba-4638-8d7d-95b54d4101f2")
@@ -3158,7 +3157,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f458d3b1-e401-470e-9560-8dffefa306c7")
+			(uuid "40e07a8b-7f1d-4150-a8bd-9bf04ecf8a06")
 			(effects
 				(font
 					(size 1 1)
@@ -3171,7 +3170,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "054bef2f-df10-4484-857d-8dd6c4f14920")
+			(uuid "53b1e973-7dbf-4448-94e9-4a61eaf3b87b")
 			(effects
 				(font
 					(size 1 1)
@@ -3184,7 +3183,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00a9466b-19d7-4f33-b314-4d75018849f7")
+			(uuid "499d51fa-5948-4826-a0e6-9ead0b00ea4c")
 			(effects
 				(font
 					(size 1 1)
@@ -3197,7 +3196,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "16a2a103-a394-487d-8083-e2ecaa8129b8")
+			(uuid "06fe5cc7-aeb3-4596-b3bf-6cd8b75923b0")
 			(effects
 				(font
 					(size 1 1)
@@ -3210,7 +3209,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2d41359-7737-4213-84c3-68cf753ced6f")
+			(uuid "821c275e-fb2c-49a4-a4fe-3d927a39b00f")
 			(effects
 				(font
 					(size 1 1)
@@ -3400,7 +3399,7 @@
 			(uuid "6386c30c-f66c-4814-bf59-ad3f01795afe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "b2621077-dc69-4114-8815-c97546e924f3")
 			(effects
@@ -12137,14 +12136,14 @@
 			)
 		)
 	)
-	(footprint "A_HANU_FOOTPRINTS:HDRRA6W64P0X254_1X6_1524X254X254P"
+	(footprint "KiCad7:HDRRA6W64P0X254_1X6_1524X254X254P"
 		(layer "B.Cu")
 		(uuid "cde3f0de-920e-4c4e-9808-e0e3ed9553c1")
 		(at 172.8 107.5375)
 		(descr "M20-9960646")
 		(tags "Connector")
 		(property "Reference" "J1"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(uuid "9b57c02d-1b24-4531-acec-660092ee2e13")
 			(effects
@@ -12156,7 +12155,7 @@
 			)
 		)
 		(property "Value" "M20-9960646"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "7ba34f52-930c-455d-9308-cc8e7ebc1280")
@@ -12169,7 +12168,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "9f3af2c9-8bc6-4b97-a908-2fe5f58e1fc9")
@@ -12181,7 +12180,7 @@
 			)
 		)
 		(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d9149881-bdd3-469a-986a-a2599eeb16d1")
@@ -12193,11 +12192,11 @@
 			)
 		)
 		(property "Height" "2.54"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "9a35694c-d225-4a49-8e02-f3479e305032")
+			(uuid "d12ce2fe-2417-412b-93fd-3dc94c762bda")
 			(effects
 				(font
 					(size 1 1)
@@ -12207,11 +12206,11 @@
 			)
 		)
 		(property "Mouser Part Number" "855-M20-9960646"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5b2a1237-4f83-43d1-a822-3e79cf925e07")
+			(uuid "224207d1-4cb0-4def-870c-3b665c2e88aa")
 			(effects
 				(font
 					(size 1 1)
@@ -12221,11 +12220,11 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b1b9030b-b697-4de0-bf9a-eb4edf3559b6")
+			(uuid "4610256c-3e9a-4deb-b9f2-0d1ee6e2d058")
 			(effects
 				(font
 					(size 1 1)
@@ -12235,11 +12234,11 @@
 			)
 		)
 		(property "Manufacturer_Name" "Harwin"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b1b213d6-a289-40ae-9152-96fb4991cb72")
+			(uuid "5a3caae7-2af4-4514-9e5f-481ad08a7a80")
 			(effects
 				(font
 					(size 1 1)
@@ -12249,11 +12248,11 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M20-9960646"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cbc2c8eb-f387-4255-a8fa-233161a1af40")
+			(uuid "6dc6505f-774a-4e94-a31f-944a6818072d")
 			(effects
 				(font
 					(size 1 1)
@@ -12444,7 +12443,7 @@
 			(uuid "528d4ee8-3d1d-4ae8-95b3-80b2d22f35d8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "B.Fab")
 			(uuid "598e9aa5-b2fb-49c7-bbdf-d563b91c6058")
 			(effects

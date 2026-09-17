@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP GRM022C81A104ME05L
+D 0.1 F +/-20% 10V Ceramic Capacitor X6S 01005 (0402 Metric)
+K
+F https://pim.murata.com/en-eu/pim/details/?partNum=GRM022C81A104ME05%23
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CRCW060310K0FKEAHP
+D CRCW Power Resistor 0603 0.25W 10K 1% Vishay CRCW Series Thick Film Power Resistor 0603 Case 10k?? ??1% 0.25W ??100ppm/K
+K
+F http://www.vishay.com/docs/20043/crcwhpe3.pdf
+$ENDCMP
+#
+#End Doc Library
