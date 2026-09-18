@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KPJX-4S-S
+D 4 (Power) Position Circular Connector Jack, Female Sockets Solder
+K
+F https://www.kycon.com/Pub_Eng_Draw/KPJX-4S-S.pdf
+$ENDCMP
+#
+#End Doc Library

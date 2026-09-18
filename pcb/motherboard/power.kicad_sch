@@ -5,308 +5,6 @@
 	(uuid "68e21fbb-9597-4b16-9159-eb63a49a100d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:DIN-4"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 5.334 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DIN-4"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "4-pin DIN connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "circular DIN connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "DIN*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DIN-4_0_1"
-				(polyline
-					(pts
-						(xy -3.556 -1.016) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.048 -1.016)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 5.08) (xy -2.54 4.318) (xy -2.286 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -4.953) (xy -0.762 -4.191) (xy 0.762 -4.191) (xy 0.762 -4.953)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 5.08 0)
-					(mid 3.8673 -3.3444)
-					(end 0.762 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -5.08 0)
-					(mid 0 5.0579)
-					(end 5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.762 -5.08)
-					(mid -3.8597 -3.3379)
-					(end -5.08 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 5.08) (xy 2.54 4.318) (xy 2.286 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.048 -1.016)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 3.556 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DIN-4_1_1"
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1133,6 +831,306 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KiCad1:KPJX-4S-S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 21.59 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KPJX-4S-S"
+				(at 21.59 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KPJX4SS"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/KPJX-4S-S.pdf"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "4 (Power) Position Circular Connector Jack, Female Sockets Solder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "15.35"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "806-KPJX-4S-S"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kycon/KPJX-4S-S?qs=0QDpPFt3C4bj8uE5yBzCJQ%3D%3D"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Kycon"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KPJX-4S-S"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "KPJX-4S-S_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "MH5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2122,6 +2120,12 @@
 		(uuid "11a6e1d0-92dc-4e12-911b-df7da10b8aa2")
 	)
 	(junction
+		(at 128.27 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12a07f0d-567b-4657-b040-51ab1e24d0df")
+	)
+	(junction
 		(at 205.74 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2140,6 +2144,18 @@
 		(uuid "21f3ca23-1bc5-4b4b-8032-873f32718f16")
 	)
 	(junction
+		(at 102.87 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "243123ab-b0fa-41cb-b9fd-0121b1bf65a6")
+	)
+	(junction
+		(at 102.87 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3070b39c-8674-4d3f-94b7-02b62726aafb")
+	)
+	(junction
 		(at 140.97 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2152,22 +2168,10 @@
 		(uuid "40565215-31cf-4994-9687-ea0abdeaa220")
 	)
 	(junction
-		(at 106.68 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59e1d492-2ed9-41ca-b3f1-e19b77da9343")
-	)
-	(junction
 		(at 175.26 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bcf3612-b1eb-4df5-8952-a903c76bdfd3")
-	)
-	(junction
-		(at 121.92 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a16bcf0-18ed-4c9c-817a-aa3f5e982472")
 	)
 	(junction
 		(at 140.97 121.92)
@@ -2188,6 +2192,12 @@
 		(uuid "abdb091d-21ca-42f3-a35d-6dff37a06b10")
 	)
 	(junction
+		(at 128.27 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06f3698-3696-44f8-a25a-7c89ce6fe8d9")
+	)
+	(junction
 		(at 74.93 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2206,6 +2216,12 @@
 		(uuid "e4ae6b11-780b-443f-a6e5-d3eb140fb5c3")
 	)
 	(junction
+		(at 102.87 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eaf9fe05-f2d9-4ea4-ad43-d0710833edc8")
+	)
+	(junction
 		(at 102.87 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2216,6 +2232,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f911ee34-71c2-46d4-b7f6-bb1a2085d4e8")
+	)
+	(junction
+		(at 128.27 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faed9568-ebf3-43c0-b950-ba8ba6ef7e0c")
 	)
 	(junction
 		(at 185.42 121.92)
@@ -2240,16 +2262,6 @@
 			(type default)
 		)
 		(uuid "00becd6e-6b30-47a4-93e7-e49620c40efa")
-	)
-	(wire
-		(pts
-			(xy 106.68 46.99) (xy 106.68 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "017f24c0-7ca4-4bf3-88ee-7254f4a76488")
 	)
 	(wire
 		(pts
@@ -2363,16 +2375,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 49.53) (xy 121.92 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1860e995-99e0-4dbb-a605-db1873f7446a")
-	)
-	(wire
-		(pts
 			(xy 74.93 121.92) (xy 81.28 121.92)
 		)
 		(stroke
@@ -2433,6 +2435,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 54.61) (xy 102.87 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e5dc4cf-8117-4320-b8b2-a02cc63d5aa1")
+	)
+	(wire
+		(pts
 			(xy 102.87 134.62) (xy 102.87 132.08)
 		)
 		(stroke
@@ -2440,6 +2452,16 @@
 			(type default)
 		)
 		(uuid "4f2760e6-1b36-44bd-9b5e-26985559fbc1")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 128.27 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "506614fd-76bf-4a2b-8a26-23f1c0a82b1c")
 	)
 	(wire
 		(pts
@@ -2490,6 +2512,16 @@
 			(type default)
 		)
 		(uuid "640ce066-2ee9-4546-b53e-bfa2533ff7ce")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "653647e3-5020-4fbc-9690-05cbff511960")
 	)
 	(wire
 		(pts
@@ -2563,16 +2595,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 57.15) (xy 121.92 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "879110ab-4991-47f5-a9b2-e31e9e0ed2af")
-	)
-	(wire
-		(pts
 			(xy 203.2 121.92) (xy 205.74 121.92)
 		)
 		(stroke
@@ -2580,16 +2602,6 @@
 			(type default)
 		)
 		(uuid "915facb5-798f-4fc5-a28c-ba9b6f1e0755")
-	)
-	(wire
-		(pts
-			(xy 116.84 49.53) (xy 121.92 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94396cf7-8230-454b-89b0-9a73dcf0f88c")
 	)
 	(wire
 		(pts
@@ -2653,13 +2665,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 49.53) (xy 111.76 49.53)
+			(xy 128.27 52.07) (xy 128.27 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb7c46e0-88b5-4782-8bc1-e1c5cccbb6b8")
+		(uuid "b0ec72fb-6466-4998-9d28-2b8b2bf80113")
 	)
 	(wire
 		(pts
@@ -2703,6 +2715,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 49.53) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1b41b8-6447-4129-b1b3-6f8128034983")
+	)
+	(wire
+		(pts
 			(xy 180.34 68.58) (xy 201.93 68.58)
 		)
 		(stroke
@@ -2743,13 +2765,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 57.15) (xy 106.68 49.53)
+			(xy 128.27 49.53) (xy 128.27 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e273cfb5-0b08-413d-9436-0aa08eeb96d9")
+		(uuid "e0274f93-46ea-4f3e-8739-fe75dd4ecfcf")
 	)
 	(wire
 		(pts
@@ -3043,6 +3065,84 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 102.87 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f9e2fc-57b2-4f1f-8ea5-7f949d189fff")
+		(property "Reference" "#PWR027"
+			(at 102.87 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 102.87 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd4e500b-1f1e-4d7c-9ca4-ecdd0433ccb4")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3680,84 +3780,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 121.92 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6401b36b-b54b-4677-92f5-cad61fa8c97c")
-		(property "Reference" "#PWR027"
-			(at 121.92 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 121.92 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6b093e2f-f62c-43cb-a150-0063f797b07e")
-		)
-		(instances
-			(project "motherboard"
-				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 140.97 85.09 0)
 		(unit 1)
@@ -3992,6 +4014,169 @@
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KiCad1:KPJX-4S-S")
+		(at 102.87 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "738d0e10-dc88-48b5-b584-e564a84108a9")
+		(property "Reference" "J5"
+			(at 115.57 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KPJX-4S-S"
+			(at 115.57 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KPJX4SS"
+			(at 124.46 144.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.kycon.com/Pub_Eng_Draw/KPJX-4S-S.pdf"
+			(at 124.46 244.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "4 (Power) Position Circular Connector Jack, Female Sockets Solder"
+			(at 102.87 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15.35"
+			(at 124.46 444.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "806-KPJX-4S-S"
+			(at 124.46 544.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Kycon/KPJX-4S-S?qs=0QDpPFt3C4bj8uE5yBzCJQ%3D%3D"
+			(at 124.46 644.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Kycon"
+			(at 124.46 744.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KPJX-4S-S"
+			(at 124.46 844.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3"
+			(uuid "15b8a16e-5c04-47b7-8836-a927371acde0")
+		)
+		(pin "4"
+			(uuid "beca1653-d486-4a72-b1f6-c0673ec4f113")
+		)
+		(pin "2"
+			(uuid "b10288ae-1632-498d-86e3-77c2e627f804")
+		)
+		(pin "1"
+			(uuid "237bd358-0c46-4562-a5bb-0a04dd06e8ba")
+		)
+		(pin "MH1"
+			(uuid "81d5f420-8ad5-41d7-9f72-d744d3e9824f")
+		)
+		(pin "MH5"
+			(uuid "2fabf4c9-7d8e-4dfc-a3b6-650bab22cfdd")
+		)
+		(pin "MH4"
+			(uuid "98c81d52-2bac-4f99-a1d3-47e12dd5a34a")
+		)
+		(pin "MH3"
+			(uuid "fd203320-811d-44f2-b511-b64018a08a15")
+		)
+		(pin "MH2"
+			(uuid "9a9b3279-0927-4ddd-b8a6-84eaf6b5c1be")
+		)
+		(instances
+			(project "motherboard"
+				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4865,8 +5050,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DIN-4")
-		(at 114.3 57.15 0)
+		(lib_id "power:GNDREF")
+		(at 128.27 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4875,9 +5060,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7a74623-7940-4da1-a35b-391018a546a6")
-		(property "Reference" "J5"
-			(at 114.3 64.77 0)
+		(uuid "ab704f9a-b606-44c9-9e11-c84ce23744aa")
+		(property "Reference" "#PWR073"
+			(at 128.27 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4886,8 +5072,8 @@
 				)
 			)
 		)
-		(property "Value" "DIN-4"
-			(at 114.3 67.31 0)
+		(property "Value" "GND"
+			(at 128.27 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4897,7 +5083,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 57.15 0)
+			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4907,8 +5093,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf"
-			(at 114.3 57.15 0)
+		(property "Datasheet" ""
+			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4918,8 +5104,8 @@
 				)
 			)
 		)
-		(property "Description" "4-pin DIN connector"
-			(at 114.3 57.15 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 128.27 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4928,23 +5114,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "8ce68220-5cd4-4e10-8fff-f3910588fec0")
 		)
 		(pin "1"
-			(uuid "f8bc3f4a-1452-4165-ae79-3e8ceaf60b12")
-		)
-		(pin "3"
-			(uuid "a37ce11c-c33c-40f8-8b1d-436979b24c4f")
-		)
-		(pin "2"
-			(uuid "2e1f44e4-903c-4a2a-ac8d-f84a0f28f767")
+			(uuid "246043bb-ece8-439c-a8ee-5c5e5d222ece")
 		)
 		(instances
 			(project "motherboard"
 				(path "/dd0de6d4-7020-4d4a-9487-5c8f4729c64b/f816abeb-3e3f-44f3-bffb-743ee534df73"
-					(reference "J5")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -5029,7 +5206,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 106.68 46.99 0)
+		(at 102.87 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5040,7 +5217,7 @@
 		(fields_autoplaced yes)
 		(uuid "b34b2482-d8d1-4c32-b6cd-0481fcd7ead9")
 		(property "Reference" "#PWR026"
-			(at 106.68 50.8 0)
+			(at 102.87 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +5228,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 106.68 41.91 0)
+			(at 102.87 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5061,7 +5238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 46.99 0)
+			(at 102.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 46.99 0)
+			(at 102.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5083,7 +5260,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 106.68 46.99 0)
+			(at 102.87 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
