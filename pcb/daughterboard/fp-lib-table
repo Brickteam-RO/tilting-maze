@@ -21,4 +21,6 @@
 	(lib (name "LIB_T491A106K016AT") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_T491A106K016AT/T491A106K016AT/KiCad") (options "") (descr ""))
 	(lib (name "52207-0633") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_52207-0633/52207-0633/KiCad") (options "") (descr ""))
 	(lib (name "M20-7820646") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/M20-7820646/KiCad") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
+	(lib (name "daughterboard") (type "KiCad") (uri "${KIPRJMOD}/pads.pretty/daughterboard.pretty") (options "") (descr ""))
 )
