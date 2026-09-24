@@ -3,4 +3,5 @@
 	(lib (name "KiCad") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/M20-7820646/KiCad") (options "") (descr ""))
 	(lib (name "KiCad1") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/LIB_KPJX-4S-S/KPJX-4S-S/KiCad") (options "") (descr ""))
 	(lib (name "74HC138BQ") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/74HC138BQ") (options "") (descr ""))
+	(lib (name "KiCad2") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/LIB_EEE-0JA221WP/EEE-0JA221WP/KiCad") (options "") (descr ""))
 )

@@ -1486,6 +1486,16 @@
 		)
 		(uuid "3986583c-04b7-4366-970c-21c1e3c6469e")
 	)
+	(label "EN2"
+		(at 120.65 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40afd66c-4ea5-40ad-85d9-f1f2ba1207c2")
+	)
 	(label "MOSI"
 		(at 95.25 137.16 180)
 		(effects
@@ -1535,16 +1545,6 @@
 			(justify left bottom)
 		)
 		(uuid "6113f7fa-94f0-451f-a762-62028a737d06")
-	)
-	(label "3.3V"
-		(at 120.65 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "639a646a-3b50-4939-9fdd-10a08d45a546")
 	)
 	(label "SEL_0"
 		(at 95.25 118.11 180)
@@ -1696,7 +1696,7 @@
 		)
 		(uuid "a602349d-fc71-4115-a951-34da8b7b869b")
 	)
-	(label "EN"
+	(label "EN2"
 		(at 99.06 87.63 180)
 		(effects
 			(font
