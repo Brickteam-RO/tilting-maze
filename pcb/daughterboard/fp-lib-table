@@ -17,4 +17,8 @@
 	(lib (name "KiCad11") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/LIB_EEE-0JA221WP/EEE-0JA221WP/KiCad") (options "") (descr ""))
 	(lib (name "KiCad12") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/LIB_865080340001/865080340001/KiCad") (options "") (descr ""))
 	(lib (name "KiCad13") (type "KiCad") (uri "/home/joey/work/dev/tilting-maze/pcb/lib/LIB_52207-0633 (1)/52207-0633/KiCad") (options "") (descr ""))
+	(lib (name "C0603C104K3RACAUTO") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_C0603C104K3RACAUTO/C0603C104K3RACAUTO/KiCad") (options "") (descr ""))
+	(lib (name "LIB_T491A106K016AT") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_T491A106K016AT/T491A106K016AT/KiCad") (options "") (descr ""))
+	(lib (name "52207-0633") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_52207-0633/52207-0633/KiCad") (options "") (descr ""))
+	(lib (name "M20-7820646") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/M20-7820646/KiCad") (options "") (descr ""))
 )
