@@ -5491,7 +5491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 266.7 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -5784,7 +5784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 71.12 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -6562,7 +6562,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 137.16 135.56 0)
 			(hide yes)
 			(show_name no)
@@ -6851,7 +6851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 200.66 135.56 0)
 			(hide yes)
 			(show_name no)

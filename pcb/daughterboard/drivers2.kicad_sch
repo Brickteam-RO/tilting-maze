@@ -3542,7 +3542,7 @@
 		(uuid "2e0d5eba-b3ff-476d-acee-d286f2124851")
 	)
 	(hierarchical_label "SPI_MISO"
-		(shape input)
+		(shape output)
 		(at 54.61 64.77 180)
 		(effects
 			(font
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 166.37 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -4369,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 246.38 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -4904,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 86.36 144.45 0)
 			(hide yes)
 			(show_name no)

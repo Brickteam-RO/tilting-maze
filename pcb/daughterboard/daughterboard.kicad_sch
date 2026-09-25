@@ -2157,7 +2157,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO" input
+		(pin "SPI_MISO" output
 			(at 88.9 97.79 0)
 			(uuid "1037c01a-0e1a-46a1-8df4-e6492acdddc0")
 			(effects
