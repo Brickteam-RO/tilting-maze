@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRR1208-220ML
+D Fixed Inductors 22uH 20% SMD 1208
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf
+$ENDCMP
+#
+#End Doc Library

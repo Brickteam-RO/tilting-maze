@@ -61,9 +61,9 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.5,
-          "min_island_area": 10.0,
+          "min_island_area": 9.99999999996,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -524,6 +524,36 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "3V3_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "name": "5V5_Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8128,
+        "tuning_profile": "",
+        "via_diameter": 0.8128,
+        "via_drill": 0.4064
+      },
+      {
+        "name": "5V_power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.381,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -531,7 +561,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "5V_power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "3V3_Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "5V5_Power",
+        "pattern": "+5V5"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -716,7 +759,7 @@
         "uuid": "dd0de6d4-7020-4d4a-9487-5c8f4729c64b"
       }
     ],
-    "used_designators": "H1-4,L1-2,IC1-4,SW1-4,TP1-11,R1-19,J1-23,D1-4,C1-32,#PWR1-88,Y1-2,U1-7",
+    "used_designators": "U1-7,Y1-2,#PWR1-88,C1-32,D1-4,J1-23,R1-19,TP1-11,SW1-4,IC1-4,L1-2,H1-4",
     "variants": []
   },
   "sheets": [
@@ -735,6 +778,10 @@
     [
       "f816abeb-3e3f-44f3-bffb-743ee534df73",
       "power"
+    ],
+    [
+      "c246d947-6da5-40d1-bee0-7ccd76aece1b",
+      "12V_Motors"
     ]
   ],
   "text_variables": {},
