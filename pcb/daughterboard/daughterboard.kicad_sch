@@ -1811,6 +1811,28 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 163.83 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "da3e2d7a-e263-4d51-b0e1-74e5d5a9cee3")
 		)

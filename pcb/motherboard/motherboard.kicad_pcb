@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -173,6 +173,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "339abccc-7fc4-4381-a896-b5989c8f8b0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33bcc4a6-f112-4dfa-955b-124a72759858")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -572,6 +598,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "724955c2-7dca-43fb-9a8e-29363edfcbf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300211121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c9bac40-34f1-4414-b640-87d48e3e301f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c56f9aa0-82c4-454b-9f9b-379200f60d12")
 		(sheetname "/")
 		(sheetfile "motherboard.kicad_sch")
@@ -800,6 +852,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5430619b-30fe-4728-a890-3b0f102d28ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e088621-9805-4b46-825f-25ab5bc93078")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/156cb693-c5a0-4539-8a4a-97dcce69076b")
 		(sheetname "/")
@@ -946,6 +1024,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3da6d856-60e4-4390-b1fd-0d1ddb08800d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64388488-28c6-4a6f-8f27-e19fc9be4ad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/62756059-560d-4323-a571-ea568631e7bf")
 		(sheetname "/")
@@ -1081,7 +1185,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1089,6 +1193,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93b89d4d-5db5-45d4-a76b-7e27453ee2fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN120"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c04428b-c853-413d-81b9-50ffbfd8aca2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1227,7 +1357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1235,6 +1365,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb3114a8-946e-424f-93fe-0191a623392d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "743c03a7-67fb-4faf-97b6-3cf7dcf0ecfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1634,6 +1790,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e0cd84b-ad0c-4208-968c-3e8de69c776e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c677d49-366b-49d1-abeb-f31f5f1407b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/ba905062-b4e4-40d8-837d-bfd2d3b26330")
 		(sheetname "/power/")
@@ -1777,6 +1959,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae5df104-3d8a-4134-9141-25eff1c92eff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "90d9b2a2-442d-4d5c-91eb-f9d513c7001a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1926,6 +2134,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Advanced Monolithic Systems"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd32536-7bc3-4b57-8c0e-80cec3ee34da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AMS1117-3.3"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "325055ff-eb3b-43a3-a917-2071917073a5")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2198,6 +2432,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06cef3b-a1c3-4e2f-898c-64d500319381")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e99625d7-e940-406b-907d-59d5abafd3b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/28ac9b03-72c0-46d1-80a0-24c5469ea6dd")
 		(sheetname "/power/")
@@ -2341,6 +2601,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0468376d-f0fb-45a4-bbe7-ab3c4305038e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08777b36-2e07-4709-92eb-716256ac8cc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2490,6 +2776,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91bc52e5-2104-4b83-8cd2-7e3999252234")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22401527-9535-4a99-94cb-483e6f432cbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/fa1e8dc4-8bff-4e20-ab5d-26e522bb2dde/521982c9-17a1-4887-950f-d75cab4f649c")
 		(sheetname "/daughterboard_selector/")
@@ -2633,6 +2945,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "782570ef-b8cb-48a5-8fd8-7929410ca396")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62b4e2bd-b627-4cc1-ad20-ea899dd03747")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2782,6 +3120,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "622f2801-7db7-4447-b788-78d2e6aeaeb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b23bb1f8-8a67-492e-a423-2804c1143938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/f5f9c2d2-ef1e-4de1-9394-5d82932727cb")
 		(sheetname "/STM32/")
@@ -2917,7 +3281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2925,6 +3289,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92adc5cd-cf23-48b2-8e8b-351739bfabbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300411121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6fa603e-e1b4-4ef8-b695-99dd0d4b5da8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3176,6 +3566,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "NXP"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38711bfd-e07a-4c8b-a410-b44bb9d2fb2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PCA9306D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d95c8c5-f9e4-42e2-8718-12b257a75e1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3549,6 +3965,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60d88f53-2dca-4186-b86c-1637cec30a9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300211121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8548b1f9-ea6e-45a9-9f76-98cce44a8fb7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1186b08f-de4a-4cca-8610-8ff1bd099f2e")
 		(sheetname "/")
 		(sheetfile "motherboard.kicad_sch")
@@ -3777,6 +4219,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c33a1aab-b5cb-4080-bb8f-686af7a68cb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d15a692-00f1-44c0-8126-5f6db1e6675f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f5a63dc6-d8fb-48e7-b560-77950df9015f")
 		(sheetname "/")
@@ -3923,6 +4391,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e55a02e-9edf-4563-9127-1e81a0219492")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340-13-F"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55781726-3ac1-4471-af5c-dd31c1e08284")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4203,6 +4697,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7738ca4b-a284-49c0-a9ca-d824eaef13a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ba18e0d-e591-47ca-8cdc-f60a9b822a86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/190ddee5-b774-4989-b672-2ac500d8d5ea")
 		(sheetname "/")
@@ -4346,6 +4866,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c73e340b-f275-488e-83a6-74f142776e36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300211121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6907236-78a2-4545-b238-c2d273378416")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4574,6 +5120,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "853d4b17-3450-48a7-92fb-015e14b1e411")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300311121"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80154fb4-2063-4238-a958-e8ac0f38e022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4814,6 +5386,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1700c3f-7bf1-493c-9956-43b8ccc7306f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS5420D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97d462fa-e76e-4c17-90c7-cb5d7abd7dde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5187,6 +5785,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53984115-867b-42ad-9b65-f1f49eccbded")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB103"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0b2d5e5-05d4-4296-8739-d8f7297925e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/c09401ac-bba1-4454-bc6c-13b8df32def4")
 		(sheetname "/power/")
@@ -5333,6 +5957,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2114c6e-4550-4aa4-aa1d-f68282042f60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "866684f4-90a2-4379-b603-a0cd5e1bab19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/d7bac59b-cd8f-41df-a101-d563145bd36b")
 		(sheetname "/")
@@ -5476,6 +6126,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "WCH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd2ffdfa-eb10-4c77-ba5d-0dfe3af3f76c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CH340C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c825cdfa-a384-4e60-a3a8-bd81738f19a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5920,7 +6596,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -5928,6 +6604,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2eb31fcb-00a3-48c3-b1ff-2d86f8f05b20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc511285-9651-4437-8c74-5beb08ae40fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6066,7 +6768,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6087,7 +6789,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6178,6 +6880,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7774f566-6cd0-4ed7-8ace-6df4147401e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0734K8L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8fa2526-dc92-4a69-a96b-e53187d0a349")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6324,6 +7052,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5aca9e08-248f-4a40-a58a-0e060d50673e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-FK1V221P"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1abcd53c-143f-4d83-93cf-bce9f541b10a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6753,7 +7507,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6762,6 +7516,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67c392e8-7cc7-47ec-8b91-b9e188556781")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRR1208-221YL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49a5b8f7-5af0-439e-8441-f6c3905adbde")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7206,6 +7986,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8acdc152-b18a-4b06-a2f5-9f0c85216e14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0699fc4-e171-4e3c-951f-9e7d189a439d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/df565245-1a89-4248-b229-7c633576c541")
 		(sheetname "/power/")
@@ -7352,6 +8158,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc4b336c-a955-45bb-97c3-ac97cce8511e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdfdfdab-d674-4839-921f-c4cb25bc3714")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/87bfd9fa-b5a4-495f-ab98-a983bd1559fe")
 		(sheetname "/")
@@ -7487,7 +8319,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7495,6 +8327,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "941dd86e-3450-472a-b330-32be9ca50aa0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729018"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0d63307-aa9c-4d64-9700-0dcb04253758")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7852,6 +8710,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eac74d22-c689-4509-b3c6-b444407bcbbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300211121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "160f7edc-dd88-49b5-8d5d-3a712186848b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c905b77a-1ff6-4e05-a613-29cb35b79130")
 		(sheetname "/")
 		(sheetfile "motherboard.kicad_sch")
@@ -8084,6 +8968,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Abracon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4094b8e8-bed1-49cf-92f8-9f55a15a5a53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ABS07-120-32.768KHZ-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "018ac645-db8d-435d-81b0-fb304dec0123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/fac00d74-3343-44b4-b32f-a486cdb42871")
 		(sheetname "/STM32/")
@@ -8288,6 +9198,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10b666cf-ba65-4400-9842-4abf9a5d5e53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd480f62-fc09-4549-b462-fb946abc37e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/ca0a4eb8-6773-4acc-ac8d-30235673f21d")
 		(sheetname "/STM32/")
@@ -8423,7 +9359,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8431,6 +9367,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f6d9f58-5a1d-4b48-909b-970dc8b3ee76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PPTC041LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b289985c-696d-4799-a98a-a39c86ef3191")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9154,6 +10116,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70a39bc6-66cb-4c79-ad74-42e2a59ca6a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b6aa781-1fff-46a3-9da9-ef533154f0c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/f975bb17-14c7-42ea-9a61-f06bc7afccb4")
 		(sheetname "/power/")
@@ -9300,6 +10288,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "HRO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6af50322-a535-44e8-92ba-f44dc538d4c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TYPE-C-31-M-12"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8af96cb-a4d7-4c79-8da6-1b4c47825820")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9744,7 +10758,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9752,6 +10766,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d92073b-8b2a-412d-a8db-8e815f65c069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN200"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "923341a7-1f51-44a5-995d-924544e1a41e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9892,7 +10932,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Inductor, small symbol"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9901,6 +10941,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a6dca37-a2db-4c01-b11a-049cd7521d78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SRR1208-221YL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c097a58-f5af-4204-aae6-156362faf19d")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10359,6 +11425,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -10526,6 +11593,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -10676,6 +11744,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc611daf-1a56-4baf-9b7d-08a94b47fbf3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300511121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f1ceff8-5749-4011-afd9-391c8634a126")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10941,6 +12035,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca44ada2-4776-4ba6-86fa-452a842231e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06d69f10-44a0-486d-aee2-06b3541a4ec9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/690a8aa9-fd2b-4501-aff1-64de6ce450f9")
 		(sheetname "/power/")
@@ -11087,6 +12207,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "873dce2e-9e38-412f-b95f-0e709cb430c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d190255e-c06e-4c76-9864-7119c8b24e46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/f16b66a6-3ffe-4143-97be-557dccf9b467")
 		(sheetname "/STM32/")
@@ -11222,7 +12368,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11230,6 +12376,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff1f3b3b-21b3-4189-8e38-c0d356d7281c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b3b66b0-5e4e-42b1-ac3c-8f1b22147704")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11608,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11619,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11627,6 +12799,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65026556-2223-4de0-8b4e-40b0c487bea4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8043bab-7405-4120-834c-b12235f174b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5a09dd5-8a45-4905-b473-dc5aae3501ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d468b0ab-a36a-42d0-9648-57d8873cafb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0f8f530-80e3-420e-be2b-c989af9e44dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11901,6 +13138,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea40c9af-f318-4431-bec4-73d2de4cd440")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "430609ac-60b0-42d9-bdcb-915d1649c588")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/62746703-44d1-4250-a89f-cf6b1b28ce73")
 		(sheetname "/STM32/")
@@ -12047,6 +13310,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab8ba4c9-133c-42a4-a760-2b2fbe77afa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2d01aae-f981-4751-9cd1-498f696ae609")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/11e1da24-c339-44c2-a273-ae935a14e015")
 		(sheetname "/STM32/")
@@ -12172,7 +13461,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12183,7 +13472,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12191,6 +13480,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff853c6e-aa45-4fd0-b208-a141a251fb8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2555ea2a-b6ae-4910-88f0-b911213c1c47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1879655-23cf-4f38-8584-d690d1ebd690")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e93e3d6-fabf-414b-af3e-9772ecececd3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba14b164-bb61-4f29-8b4a-996a2db28352")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -12465,6 +13819,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b446ac8e-22df-4c62-9354-4f608359b963")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ac9f714-8869-46af-bce2-8c19f23b07b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/deccd288-17d5-4768-af59-796663a2da03")
 		(sheetname "/power/")
@@ -12611,6 +13991,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3efdbf85-26c8-4b83-b1f5-1be6f4934df5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "295d67c4-60dc-4ed2-88cd-4a3ee141a57b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/7af418f8-8111-4ea9-b424-706937dac7bb")
 		(sheetname "/STM32/")
@@ -12754,6 +14160,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad41395d-9cdd-45b9-8883-02c8168fabbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-FK1V221P"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d608fcf-a341-4ede-903f-5a2ae4e02d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13192,6 +14624,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18277147-c681-41b2-9d0c-f3c77287e33f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34f120ea-daec-4672-817d-bfe0d2acb2c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/fa1e8dc4-8bff-4e20-ab5d-26e522bb2dde/a55b979e-c2ec-4c08-a4a2-e2fa69f28920")
 		(sheetname "/daughterboard_selector/")
@@ -13338,6 +14796,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbc05981-66e2-4a48-a283-c27a603f9d6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB103"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a16918d7-4deb-4851-ac86-f0d4f3a256e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/9b6bb055-00a9-446d-9da4-340caeb29584")
 		(sheetname "/power/")
@@ -13463,7 +14947,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13474,7 +14958,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13482,6 +14966,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fbd869e7-ad0e-4085-8824-332e1cdc9c09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67e2777d-673b-4bf3-8330-f7752b0cb50e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c98c6a76-9c1d-4b3f-a313-7148dc5fc822")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49d7cfd7-44d1-4ad5-ad6e-dd7fda414b77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cec532b-eb3a-4952-bfe7-ee090ea4e5ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13753,6 +15302,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5ac568a7-13e8-4170-9484-e6981e951c38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74HC138D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b036570-7f95-470a-a7c9-4a0552c61c4d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14197,7 +15772,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14218,7 +15793,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -14301,7 +15876,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14309,6 +15884,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6598291b-0771-4c2d-b2d3-c046c0c0c865")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deb9851d-26d5-4cb7-aa54-078bc79d8024")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14712,6 +16313,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5d2b6e7-5f19-47f7-90d5-d25f296a1161")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340-13-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ad51c9a-1e60-45e5-b60c-0a69e4abfce4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "D*SMC*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/cfaf4cd7-a7ff-4132-84be-12e051f79033")
 		(sheetname "/power/")
@@ -14977,7 +16604,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -14985,6 +16612,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fc5f38a-89a3-4970-8783-28f11e5a86bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729021"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "841783e2-b722-4420-9e19-2108531a3af8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15384,6 +17037,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c0a2b7b-53ab-4416-b7ce-c691f3843080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d7df654-e1af-4248-9d11-234f9367ba49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/c776f0da-c7c9-4a31-9d1e-5767d5b18ca8")
 		(sheetname "/power/")
@@ -15519,7 +17198,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small US symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15527,6 +17206,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaac44da-6956-4321-9ba6-150aad0630c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-070R5L"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e24e61e-2fb9-4b2b-852f-9fd1a210b280")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15676,6 +17381,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06a2deba-7f1e-4b48-bc91-ca20f65e33de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53065976-1469-4d18-bf89-ba3a00407645")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/f816abeb-3e3f-44f3-bffb-743ee534df73/bdd24f26-d7df-42c6-b709-7f82b5395fb3")
 		(sheetname "/power/")
@@ -15819,6 +17550,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "15223a8a-b9b1-48ec-834c-b45bd3c58de6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf3da900-3c46-4647-82cc-c14604de5191")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15982,6 +17739,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -16114,7 +17872,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16125,7 +17883,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16133,6 +17891,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a17dc126-3086-4296-bf35-2803f3810088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "024d4e9a-90f4-4992-9524-e8a1b53253a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35028e9f-b0b6-4a59-a5ca-dd241199f1cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af2a21d1-3a2c-4f93-9ae9-3fd8b73a7bee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f4c33cb-b605-488a-b266-74c954a0bdca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -16407,6 +18230,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed4ffdc3-e251-48c6-84bf-a897e9da2edc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccb369e3-327c-4e70-a699-5e4b033fc951")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/d47c864e-ab65-42eb-9a17-b6cae54d4646")
 		(sheetname "/")
@@ -16553,6 +18402,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Diodes Incorporated"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da08e368-4658-498e-920e-289606b700ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B340-13-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb2e602d-6fec-402f-8f65-22c5ebf20e36")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -16822,7 +18697,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -16830,6 +18705,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1d4ea63-d51f-4fae-acad-535d62584a4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "61300411121"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08ed195a-8d74-4c8b-9368-f6401f799a56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18036,6 +19937,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -18178,7 +20080,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18186,6 +20088,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Sullins Connector Solutions"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cfa2b64-6be6-4d55-a051-9515a54e5bd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PPTC041LFBN-RC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "819c5ece-abfa-4cf3-a844-25074f794770")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18906,6 +20834,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "478541df-9236-4e40-a67b-d196768dc504")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM32F103C8T6"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "106f03f2-51e1-4613-93cc-122eead5d075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19783,6 +21737,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8acd8d1-90bd-4532-b981-a30988eb5e99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd66c000-8908-4d43-97d0-9a51d73f297a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/ec079dc6-c2cf-4e6e-af20-d1b237b8cb0c")
 		(sheetname "/")
@@ -19929,6 +21909,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4133b565-0ab8-4807-a1e1-812ed32abb63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ef201d8-2bb9-483a-af9f-3328a8977665")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/ca463902-7153-4c94-b8b3-d60717222b6f")
 		(sheetname "/")
@@ -20072,6 +22078,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f656a38-ba3e-4b19-8912-bc38d60086f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0730K9L"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cde7dba7-bc9b-4e69-8e18-40736f204e38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20235,6 +22267,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -20388,6 +22421,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6df4c91-7e17-425c-a9f6-ca789de88f66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0045b47b-97f7-464d-bea0-f1d5d6695597")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/170074c8-14c5-41a1-86d5-8a5c1e372ce7")
 		(sheetname "/")
@@ -20534,6 +22593,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e29176c-8c18-4850-9e68-c6c38e55d660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eed084c5-2113-4645-8577-61e4e660f587")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/42211f7e-e953-4ea3-850e-8d9a7b47828b")
 		(sheetname "/STM32/")
@@ -20659,7 +22744,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20670,7 +22755,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20678,6 +22763,71 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "215f43b7-1258-4d74-8f1a-0c2c249aa0c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec049fb3-9e46-4c4c-a533-00aa1ccaad58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffc880f3-819b-4a1c-a14b-2ea26b394a32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b8380d4-11d6-4bab-ab46-d32f50cc8c58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6dfce8f5-a938-446b-b1a6-dbdc60c963e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -20956,6 +23106,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Abracon"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27d4fda4-a737-480f-9b58-fc6c6b1ed734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ABM3C-8.000MHZ-D4Y-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67ad2f8d-e8f0-4f3e-b0ae-0d7ca687eec0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Crystal*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/79b52b29-1e3e-4f70-9719-14696c6ae5c4")
 		(sheetname "/STM32/")
@@ -21174,6 +23350,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -21316,7 +23493,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21324,6 +23501,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "036283bd-ccf3-4170-a922-26ca04ca2207")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN200"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21f51195-48f9-4d03-ad02-09e785c4b779")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21462,7 +23665,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21483,7 +23686,7 @@
 				(pins)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21566,7 +23769,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21574,6 +23777,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf797da6-5073-4e9b-b63f-46485450f077")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN120"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4c0ce6e-6261-40a8-9c4b-7c4b6318885f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21737,6 +23966,7 @@
 				(pins "1")
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -21881,7 +24111,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "test point"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21904,7 +24134,7 @@
 				(pins "1")
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.2 -1.2)
@@ -22047,7 +24277,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -22055,6 +24285,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d642a525-3bf9-432a-8429-9a5eefc3b62c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c973f7e5-5eda-4d0f-9bdb-99c1c972a5a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22204,6 +24460,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfabc880-1cfc-4ee4-8b52-ba743920f6fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-07100KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6da1bd5b-932b-4d2f-80e6-865a81ba682f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/a830f3d3-7fbb-44d2-b6cd-50e692501e93/ead49494-9154-4c09-afcd-7b808ba2cfbd")
 		(sheetname "/STM32/")
@@ -22347,6 +24629,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63e13d52-739d-486a-9613-65a46391ce13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS5420D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e9e90c6-39c6-4935-9df5-c16cd25c1d52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22720,6 +25028,32 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94f6d072-aa2e-41a7-b91e-f0e6ff884d8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0603FR-0710KL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1308c9ea-fd21-4f57-9129-48af7e6827e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/c69eaabe-159c-4ea9-8909-4e2c6b63bbfb")
 		(sheetname "/")
@@ -22855,7 +25189,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22863,6 +25197,32 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Phoenix Contact"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c5cb868-db74-4dbe-ac11-12dc413c476e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1729018"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8325576-c9f6-4d43-b270-75234d405b93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -23197,202 +25557,179 @@
 		(render_cache "BRICKTEAM 2026" 0
 			(polygon
 				(pts
-					(xy 161.770715 44.82846) (xy 161.393371 44.82846) (xy 161.269699 44.817851) (xy 161.209076 44.8034)
-					(xy 161.151331 44.781559) (xy 161.097445 44.751591) (xy 161.047945 44.712325) (xy 161.005147 44.665738)
-					(xy 160.971174 44.614243) (xy 160.945871 44.558057) (xy 160.929577 44.498016) (xy 160.917852 44.372203)
-					(xy 160.918265 44.367923) (xy 161.182226 44.367923) (xy 161.192927 44.457443) (xy 161.208169 44.499885)
-					(xy 161.232383 44.537472) (xy 161.264773 44.567776) (xy 161.304874 44.588653) (xy 161.349076 44.600625)
-					(xy 161.393371 44.604566) (xy 161.506342 44.604566) (xy 161.506342 44.12914) (xy 161.393371 44.12914)
-					(xy 161.349121 44.133348) (xy 161.304874 44.146169) (xy 161.264745 44.167858) (xy 161.232383 44.198467)
-					(xy 161.208173 44.235976) (xy 161.192927 44.278402) (xy 161.182226 44.367923) (xy 160.918265 44.367923)
-					(xy 160.928554 44.261373) (xy 160.943745 44.207737) (xy 160.96801 44.157987) (xy 161.000197 44.112714)
-					(xy 161.039477 44.072654) (xy 161.084257 44.038777) (xy 161.133185 44.011888) (xy 161.09481 43.983872)
-					(xy 161.060787 43.951123) (xy 161.031932 43.914004) (xy 161.009606 43.873327) (xy 160.993319 43.829639)
-					(xy 160.982899 43.783714) (xy 160.975794 43.694194) (xy 161.239828 43.694194) (xy 161.246249 43.768825)
-					(xy 161.255785 43.803909) (xy 161.271839 43.837035) (xy 161.294443 43.865549) (xy 161.324044 43.887193)
-					(xy 161.358049 43.900773) (xy 161.393371 43.905246) (xy 161.506342 43.905246) (xy 161.506342 43.485189)
-					(xy 161.393371 43.485189) (xy 161.358054 43.489683) (xy 161.324044 43.503335) (xy 161.294443 43.524978)
-					(xy 161.271839 43.553492) (xy 161.255792 43.586553) (xy 161.246249 43.621702) (xy 161.239828 43.694194)
-					(xy 160.975794 43.694194) (xy 160.975454 43.689913) (xy 160.985039 43.576942) (xy 160.998352 43.522606)
-					(xy 161.019191 43.4703) (xy 161.0476 43.421665) (xy 161.084237 43.377615) (xy 161.127256 43.339674)
-					(xy 161.174874 43.309405) (xy 161.226319 43.286711) (xy 161.280401 43.272089) (xy 161.393371 43.261388)
-					(xy 161.770715 43.261388)
+					(xy 163.133156 44.82846) (xy 162.563557 44.82846) (xy 162.432372 44.820085) (xy 162.322589 44.796662)
+					(xy 162.23073 44.760052) (xy 162.153922 44.711115) (xy 162.088793 44.647109) (xy 162.042761 44.573211)
+					(xy 162.01447 44.487457) (xy 162.004566 44.386813) (xy 162.006431 44.354802) (xy 162.339477 44.354802)
+					(xy 162.346293 44.414986) (xy 162.365596 44.464334) (xy 162.397079 44.505274) (xy 162.43954 44.534095)
+					(xy 162.504268 44.554007) (xy 162.599756 44.56176) (xy 162.810994 44.56176) (xy 162.810994 44.164873)
+					(xy 162.610457 44.164873) (xy 162.508531 44.172238) (xy 162.441036 44.190874) (xy 162.398195 44.217171)
+					(xy 162.365771 44.25539) (xy 162.346277 44.300549) (xy 162.339477 44.354802) (xy 162.006431 44.354802)
+					(xy 162.009183 44.307556) (xy 162.021773 44.244549) (xy 162.040858 44.194838) (xy 162.084136 44.13005)
+					(xy 162.13894 44.083821) (xy 162.203946 44.051505) (xy 162.277594 44.0305) (xy 162.277594 44.019798)
+					(xy 162.207011 43.998735) (xy 162.149887 43.962762) (xy 162.103765 43.911015) (xy 162.070707 43.848662)
+					(xy 162.05014 43.776161) (xy 162.046543 43.733929) (xy 162.373628 43.733929) (xy 162.380183 43.788275)
+					(xy 162.39846 43.830729) (xy 162.428067 43.864115) (xy 162.467412 43.886529) (xy 162.529511 43.902535)
+					(xy 162.623299 43.908875) (xy 162.810994 43.908875) (xy 162.810994 43.569591) (xy 162.640328 43.569591)
+					(xy 162.547722 43.57488) (xy 162.482372 43.588551) (xy 162.437651 43.608023) (xy 162.402611 43.638422)
+					(xy 162.38131 43.679214) (xy 162.373628 43.733929) (xy 162.046543 43.733929) (xy 162.042906 43.691216)
+					(xy 162.049989 43.605255) (xy 162.06977 43.534727) (xy 162.100947 43.476693) (xy 162.143499 43.428996)
+					(xy 162.198682 43.390457) (xy 162.276025 43.35645) (xy 162.375381 43.329573) (xy 162.501442 43.311632)
+					(xy 162.659498 43.305031) (xy 163.133156 43.305031)
 				)
 			)
 			(polygon
 				(pts
-					(xy 160.70466 44.82846) (xy 160.440286 44.82846) (xy 160.440286 44.229362) (xy 160.378497 44.229362)
-					(xy 160.11617 44.82846) (xy 159.834767 44.82846) (xy 160.109843 44.19735) (xy 160.051406 44.166056)
-					(xy 159.998919 44.122719) (xy 159.954642 44.070417) (xy 159.9201 44.011888) (xy 159.895056 43.94846)
-					(xy 159.879621 43.881795) (xy 159.868919 43.745375) (xy 160.133293 43.745375) (xy 160.135433 43.800836)
-					(xy 160.143994 43.856205) (xy 160.161024 43.910643) (xy 160.188754 43.958567) (xy 160.207966 43.977592)
-					(xy 160.232398 43.992719) (xy 160.259498 44.002329) (xy 160.286743 44.005468) (xy 160.440286 44.005468)
-					(xy 160.440286 43.485189) (xy 160.286743 43.485189) (xy 160.232398 43.496914) (xy 160.208094 43.511382)
-					(xy 160.188754 43.531065) (xy 160.161024 43.580106) (xy 160.143994 43.633428) (xy 160.135433 43.688889)
-					(xy 160.133293 43.745375) (xy 159.868919 43.745375) (xy 159.87748 43.624866) (xy 159.889456 43.565104)
-					(xy 159.908375 43.507615) (xy 159.934403 43.453082) (xy 159.968024 43.402089) (xy 160.008921 43.357224)
-					(xy 160.056521 43.32113) (xy 160.109577 43.293649) (xy 160.166328 43.275253) (xy 160.225562 43.264875)
-					(xy 160.286743 43.261388) (xy 160.70466 43.261388)
+					(xy 161.699341 44.82846) (xy 161.377179 44.82846) (xy 161.377179 44.243878) (xy 161.204373 44.243878)
+					(xy 160.841639 44.82846) (xy 160.483278 44.82846) (xy 160.931252 44.164873) (xy 160.859297 44.125897)
+					(xy 160.791575 44.076377) (xy 160.733034 44.016302) (xy 160.686979 43.94405) (xy 160.657837 43.861561)
+					(xy 160.648407 43.770221) (xy 160.973965 43.770221) (xy 160.982288 43.836505) (xy 161.005504 43.887949)
+					(xy 161.043292 43.928138) (xy 161.092823 43.955242) (xy 161.166473 43.974131) (xy 161.272677 43.981459)
+					(xy 161.377179 43.981459) (xy 161.377179 43.569591) (xy 161.279098 43.569591) (xy 161.173808 43.575868)
+					(xy 161.099098 43.592144) (xy 161.047573 43.615468) (xy 161.007713 43.651662) (xy 160.983006 43.701645)
+					(xy 160.973965 43.770221) (xy 160.648407 43.770221) (xy 160.647523 43.76166) (xy 160.657857 43.648205)
+					(xy 160.686737 43.555746) (xy 160.732546 43.480039) (xy 160.795855 43.418188) (xy 160.871301 43.372771)
+					(xy 160.969368 43.337323) (xy 161.095367 43.313733) (xy 161.255554 43.305031) (xy 161.699341 43.305031)
 				)
 			)
 			(polygon
 				(pts
-					(xy 159.602405 44.82846) (xy 159.602405 44.604566) (xy 159.361482 44.604566) (xy 159.361482 43.485189)
-					(xy 159.602405 43.485189) (xy 159.602405 43.261388) (xy 158.856092 43.261388) (xy 158.856092 43.485189)
-					(xy 159.097015 43.485189) (xy 159.097015 44.604566) (xy 158.856092 44.604566) (xy 158.856092 44.82846)
+					(xy 159.722727 44.82846) (xy 160.416091 44.82846) (xy 160.416091 44.644952) (xy 160.230537 44.559619)
+					(xy 160.230537 43.573871) (xy 160.416091 43.488539) (xy 160.416091 43.305031) (xy 159.722727 43.305031)
+					(xy 159.722727 43.488539) (xy 159.908282 43.573871) (xy 159.908282 44.559619) (xy 159.722727 44.644952)
 				)
 			)
 			(polygon
 				(pts
-					(xy 158.169614 44.845489) (xy 158.228964 44.842283) (xy 158.287889 44.832647) (xy 158.34474 44.815607)
-					(xy 158.397696 44.79012) (xy 158.445565 44.756098) (xy 158.487309 44.713349) (xy 158.522012 44.664446)
-					(xy 158.549098 44.612103) (xy 158.568827 44.556615) (xy 158.58111 44.499039) (xy 158.589578 44.380672)
-					(xy 158.589578 43.709083) (xy 158.58111 43.590808) (xy 158.568825 43.533246) (xy 158.549098 43.477837)
-					(xy 158.522007 43.425416) (xy 158.487309 43.376499) (xy 158.445565 43.333749) (xy 158.397696 43.299727)
-					(xy 158.344735 43.274168) (xy 158.287889 43.257107) (xy 158.228964 43.247471) (xy 158.169614 43.244265)
-					(xy 158.058784 43.253943) (xy 158.004818 43.267566) (xy 157.954281 43.289118) (xy 157.907501 43.318018)
-					(xy 157.864761 43.354072) (xy 157.827914 43.396231) (xy 157.798598 43.443685) (xy 157.776452 43.494903)
-					(xy 157.761282 43.548188) (xy 157.749557 43.657901) (xy 157.749557 43.670743) (xy 158.01393 43.670743)
-					(xy 158.01393 43.664322) (xy 158.022492 43.594995) (xy 158.033692 43.561091) (xy 158.050222 43.530042)
-					(xy 158.072576 43.503661) (xy 158.101404 43.484165) (xy 158.134348 43.472177) (xy 158.169614 43.468159)
-					(xy 158.222935 43.477744) (xy 158.246597 43.490006) (xy 158.266579 43.507615) (xy 158.29645 43.552468)
-					(xy 158.314596 43.602533) (xy 158.323064 43.655854) (xy 158.325204 43.709083) (xy 158.325204 44.380672)
-					(xy 158.323064 44.433993) (xy 158.314596 44.487314) (xy 158.29645 44.537472) (xy 158.266579 44.582232)
-					(xy 158.246607 44.599788) (xy 158.222935 44.612103) (xy 158.169614 44.621688) (xy 158.134348 44.617671)
-					(xy 158.101404 44.605682) (xy 158.072576 44.586187) (xy 158.050222 44.559805) (xy 158.033688 44.528678)
-					(xy 158.022492 44.494759) (xy 158.01393 44.425525) (xy 158.01393 44.419104) (xy 157.749557 44.419104)
-					(xy 157.749557 44.431853) (xy 157.761282 44.541752) (xy 157.776448 44.594957) (xy 157.798598 44.646162)
-					(xy 157.827908 44.693539) (xy 157.864761 44.735682) (xy 157.907497 44.771756) (xy 157.954281 44.800729)
-					(xy 158.004818 44.822281) (xy 158.058784 44.835904)
+					(xy 158.816543 43.552561) (xy 158.90654 43.561803) (xy 158.982002 43.588076) (xy 159.045984 43.630757)
+					(xy 159.100365 43.691309) (xy 159.140973 43.761973) (xy 159.171633 43.84695) (xy 159.191369 43.948927)
+					(xy 159.198447 44.071072) (xy 159.191757 44.195089) (xy 159.173271 44.296874) (xy 159.144892 44.380012)
+					(xy 159.10781 44.447579) (xy 159.057297 44.504485) (xy 158.993972 44.545583) (xy 158.91511 44.571573)
+					(xy 158.816543 44.580929) (xy 158.723081 44.575619) (xy 158.629871 44.559619) (xy 158.535636 44.534787)
+					(xy 158.428218 44.499877) (xy 158.428218 44.770858) (xy 158.528957 44.806368) (xy 158.626708 44.8306)
+					(xy 158.727851 44.844727) (xy 158.846414 44.849769) (xy 158.96451 44.843017) (xy 159.067023 44.823858)
+					(xy 159.156136 44.793536) (xy 159.233715 44.752711) (xy 159.304723 44.699476) (xy 159.365525 44.636805)
+					(xy 159.416817 44.563939) (xy 159.458819 44.479684) (xy 159.497993 44.360196) (xy 159.522652 44.224143)
+					(xy 159.53131 44.068932) (xy 159.521521 43.917083) (xy 159.493389 43.782035) (xy 159.448117 43.661345)
+					(xy 159.383543 43.550857) (xy 159.303195 43.459077) (xy 159.205984 43.384036) (xy 159.125007 43.341419)
+					(xy 159.034176 43.310113) (xy 158.931956 43.290551) (xy 158.816543 43.283721) (xy 158.703769 43.290864)
+					(xy 158.589392 43.312569) (xy 158.477363 43.346505) (xy 158.370616 43.390457) (xy 158.475211 43.652876)
+					(xy 158.646994 43.582433) (xy 158.733532 43.559859)
 				)
 			)
 			(polygon
 				(pts
-					(xy 157.472434 44.82846) (xy 157.472434 43.261388) (xy 157.207968 43.261388) (xy 157.207968 43.843456)
-					(xy 156.932986 43.261388) (xy 156.64935 43.261388) (xy 157.028927 43.975596) (xy 156.64935 44.82846)
-					(xy 156.928705 44.82846) (xy 157.163208 44.233642) (xy 157.207968 44.316742) (xy 157.207968 44.82846)
+					(xy 156.880502 44.82846) (xy 157.247424 44.82846) (xy 157.64645 44.186276) (xy 157.782964 44.284358)
+					(xy 157.782964 44.82846) (xy 158.105126 44.82846) (xy 158.105126 43.305031) (xy 157.782964 43.305031)
+					(xy 157.782964 44.002769) (xy 157.719034 43.913156) (xy 157.655011 43.823542) (xy 157.243236 43.305031)
+					(xy 156.884782 43.305031) (xy 157.416042 43.979319)
 				)
 			)
 			(polygon
 				(pts
-					(xy 156.163315 44.82846) (xy 156.163315 43.485189) (xy 156.453279 43.485189) (xy 156.453279 43.261388)
-					(xy 155.608885 43.261388) (xy 155.608885 43.485189) (xy 155.898849 43.485189) (xy 155.898849 44.82846)
+					(xy 156.102456 44.82846) (xy 156.424618 44.82846) (xy 156.424618 43.573871) (xy 156.838533 43.573871)
+					(xy 156.838533 43.305031) (xy 155.688541 43.305031) (xy 155.688541 43.573871) (xy 156.102456 43.573871)
 				)
 			)
 			(polygon
 				(pts
-					(xy 155.357353 44.82846) (xy 155.357353 43.261388) (xy 154.555671 43.261388) (xy 154.555671 43.485189)
-					(xy 155.092979 43.485189) (xy 155.092979 43.900965) (xy 154.679343 43.900965) (xy 154.679343 44.124859)
-					(xy 155.092979 44.124859) (xy 155.092979 44.604566) (xy 154.555671 44.604566) (xy 154.555671 44.82846)
+					(xy 154.578004 44.82846) (xy 155.454876 44.82846) (xy 155.454876 43.305031) (xy 154.578004 43.305031)
+					(xy 154.578004 43.569591) (xy 155.132714 43.569591) (xy 155.132714 43.904594) (xy 154.616437 43.904594)
+					(xy 154.616437 44.169154) (xy 155.132714 44.169154) (xy 155.132714 44.56176) (xy 154.578004 44.56176)
 				)
 			)
 			(polygon
 				(pts
-					(xy 154.355227 44.82846) (xy 154.086573 44.82846) (xy 154.035392 44.498016) (xy 153.76255 44.498016)
-					(xy 153.711369 44.82846) (xy 153.442715 44.82846) (xy 153.550554 44.274122) (xy 153.796609 44.274122)
-					(xy 154.001333 44.274122) (xy 153.924561 43.783714) (xy 153.911813 43.702755) (xy 153.898971 43.621702)
-					(xy 153.886222 43.702755) (xy 153.87338 43.783714) (xy 153.796609 44.274122) (xy 153.550554 44.274122)
-					(xy 153.747568 43.261388) (xy 154.050374 43.261388)
+					(xy 154.452843 44.82846) (xy 154.105091 44.82846) (xy 153.994075 44.465725) (xy 153.439365 44.465725)
+					(xy 153.328441 44.82846) (xy 152.980689 44.82846) (xy 153.204276 44.194745) (xy 153.516229 44.194745)
+					(xy 153.913022 44.194745) (xy 153.804239 43.840571) (xy 153.779672 43.760636) (xy 153.745521 43.641151)
+					(xy 153.716766 43.535532) (xy 153.689035 43.635754) (xy 153.654884 43.748911) (xy 153.627153 43.840571)
+					(xy 153.516229 44.194745) (xy 153.204276 44.194745) (xy 153.520417 43.298703) (xy 153.915163 43.298703)
 				)
 			)
 			(polygon
 				(pts
-					(xy 153.282751 44.82846) (xy 153.282751 43.261388) (xy 153.018377 43.261388) (xy 152.832915 44.011888)
-					(xy 152.647454 43.261388) (xy 152.38308 43.261388) (xy 152.38308 44.82846) (xy 152.626144 44.82846)
-					(xy 152.626144 44.515045) (xy 152.624003 44.309297) (xy 152.615442 44.102526) (xy 152.599437 43.896778)
-					(xy 152.581291 43.689913) (xy 152.747676 44.359362) (xy 152.918155 44.359362) (xy 153.08454 43.689913)
-					(xy 153.066394 43.896778) (xy 153.050388 44.102526) (xy 153.041827 44.309297) (xy 153.039687 44.515045)
-					(xy 153.039687 44.82846)
+					(xy 152.145414 44.82846) (xy 152.512429 43.633614) (xy 152.52099 43.633614) (xy 152.514569 43.76166)
+					(xy 152.506008 43.944143) (xy 152.501727 44.120113) (xy 152.501727 44.82846) (xy 152.789737 44.82846)
+					(xy 152.789737 43.305031) (xy 152.350231 43.305031) (xy 151.989637 44.470006) (xy 151.983309 44.470006)
+					(xy 151.601405 43.305031) (xy 151.161806 43.305031) (xy 151.161806 44.82846) (xy 151.462658 44.82846)
+					(xy 151.462658 44.107271) (xy 151.459494 43.940886) (xy 151.453073 43.762776) (xy 151.447769 43.635754)
+					(xy 151.456237 43.635754) (xy 151.848842 44.82846)
 				)
 			)
 			(polygon
 				(pts
-					(xy 151.11016 44.82846) (xy 151.11016 44.826319) (xy 151.109136 44.716513) (xy 151.100575 44.607822)
-					(xy 151.079265 44.500156) (xy 151.043066 44.395654) (xy 150.991885 44.297572) (xy 150.927862 44.209075)
-					(xy 150.852207 44.12914) (xy 150.769015 44.056649) (xy 150.683775 43.987322) (xy 150.643732 43.949719)
-					(xy 150.609144 43.907386) (xy 150.58143 43.860521) (xy 150.562243 43.809304) (xy 150.551006 43.755469)
-					(xy 150.547261 43.700614) (xy 150.549401 43.64841) (xy 150.557962 43.597229) (xy 150.576109 43.549211)
-					(xy 150.60598 43.506592) (xy 150.6486 43.477744) (xy 150.698664 43.468159) (xy 150.732032 43.472376)
-					(xy 150.764827 43.485282) (xy 150.793702 43.505371) (xy 150.815915 43.531065) (xy 150.832158 43.561124)
-					(xy 150.842622 43.593972) (xy 150.850067 43.664322) (xy 150.850067 43.670743) (xy 151.114441 43.670743)
-					(xy 151.114441 43.655761) (xy 151.102715 43.546048) (xy 151.087509 43.492917) (xy 151.0654 43.442569)
-					(xy 151.036377 43.39597) (xy 151.000353 43.354072) (xy 150.958451 43.318069) (xy 150.911856 43.289118)
-					(xy 150.861475 43.267524) (xy 150.808471 43.253943) (xy 150.698664 43.244265) (xy 150.582436 43.25599)
-					(xy 150.525786 43.272315) (xy 150.473746 43.297587) (xy 150.426594 43.331137) (xy 150.38525 43.372218)
-					(xy 150.350654 43.419363) (xy 150.32346 43.471416) (xy 150.303734 43.526825) (xy 150.291449 43.584387)
-					(xy 150.282887 43.700614) (xy 150.286892 43.768317) (xy 150.298893 43.834895) (xy 150.319399 43.899291)
-					(xy 150.349051 43.960707) (xy 150.386379 44.017784) (xy 150.43001 44.069397) (xy 150.528091 44.164315)
-					(xy 150.628313 44.257092) (xy 150.717927 44.358338) (xy 150.75539 44.41468) (xy 150.787161 44.475589)
-					(xy 150.812005 44.539497) (xy 150.828757 44.604566) (xy 150.291449 44.604566) (xy 150.291449 44.82846)
+					(xy 149.266431 44.82846) (xy 150.331091 44.82846) (xy 150.331091 44.604472) (xy 149.949187 44.218288)
+					(xy 149.763539 44.018775) (xy 149.700132 43.938789) (xy 149.661177 43.8737) (xy 149.637223 43.806425)
+					(xy 149.629165 43.733929) (xy 149.635449 43.674863) (xy 149.652543 43.630549) (xy 149.679323 43.597415)
+					(xy 149.715135 43.573222) (xy 149.75949 43.558017) (xy 149.81472 43.552561) (xy 149.900546 43.562563)
+					(xy 149.985479 43.593134) (xy 150.067982 43.640319) (xy 150.160425 43.708338) (xy 150.335371 43.50138)
+					(xy 150.1956 43.394738) (xy 150.117628 43.350868) (xy 150.024935 43.314709) (xy 149.922395 43.292072)
+					(xy 149.79127 43.283721) (xy 149.692902 43.290237) (xy 149.607885 43.308739) (xy 149.534154 43.338159)
+					(xy 149.466664 43.379489) (xy 149.411667 43.428432) (xy 149.367769 43.485375) (xy 149.33536 43.549411)
+					(xy 149.315757 43.618986) (xy 149.309051 43.695496) (xy 149.314795 43.778269) (xy 149.331602 43.854761)
+					(xy 149.359208 43.925997) (xy 149.418862 44.02753) (xy 149.504376 44.132955) (xy 149.605281 44.236839)
+					(xy 149.733668 44.359082) (xy 149.929924 44.54259) (xy 149.929924 44.557479) (xy 149.266431 44.557479)
 				)
 			)
 			(polygon
 				(pts
-					(xy 149.750976 43.254967) (xy 149.807896 43.26998) (xy 149.860783 43.293399) (xy 149.909155 43.324957)
-					(xy 149.952444 43.364773) (xy 149.989072 43.410814) (xy 150.01749 43.460715) (xy 150.038181 43.514326)
-					(xy 150.051549 43.571545) (xy 150.061134 43.687773) (xy 150.061134 44.402075) (xy 150.051549 44.518209)
-					(xy 150.038184 44.575442) (xy 150.01749 44.629132) (xy 149.989072 44.679033) (xy 149.952444 44.725074)
-					(xy 149.909165 44.764835) (xy 149.860783 44.796448) (xy 149.807894 44.819845) (xy 149.750976 44.834787)
-					(xy 149.634749 44.845489) (xy 149.518521 44.834787) (xy 149.461603 44.819845) (xy 149.408714 44.796448)
-					(xy 149.360332 44.764835) (xy 149.317054 44.725074) (xy 149.280446 44.679029) (xy 149.2521 44.629132)
-					(xy 149.231336 44.575437) (xy 149.217949 44.518209) (xy 149.208364 44.402075) (xy 149.472737 44.402075)
-					(xy 149.479158 44.478846) (xy 149.488979 44.51587) (xy 149.505772 44.55022) (xy 149.529607 44.579693)
-					(xy 149.561234 44.602518) (xy 149.597399 44.616947) (xy 149.634749 44.621688) (xy 149.672113 44.616949)
-					(xy 149.708356 44.602518) (xy 149.739925 44.579703) (xy 149.763818 44.55022) (xy 149.780562 44.515877)
-					(xy 149.790432 44.478846) (xy 149.79676 44.402075) (xy 149.79676 44.286871) (xy 149.472737 44.028918)
-					(xy 149.472737 44.402075) (xy 149.208364 44.402075) (xy 149.208364 43.687773) (xy 149.472737 43.687773)
-					(xy 149.472737 43.802884) (xy 149.79676 44.060929) (xy 149.79676 43.687773) (xy 149.790432 43.611094)
-					(xy 149.780558 43.573984) (xy 149.763818 43.539627) (xy 149.739922 43.510163) (xy 149.708356 43.487422)
-					(xy 149.672107 43.472919) (xy 149.634749 43.468159) (xy 149.597404 43.472922) (xy 149.561234 43.487422)
-					(xy 149.529611 43.510174) (xy 149.505772 43.539627) (xy 149.488983 43.573991) (xy 149.479158 43.611094)
-					(xy 149.472737 43.687773) (xy 149.208364 43.687773) (xy 149.217949 43.571545) (xy 149.231339 43.514331)
-					(xy 149.2521 43.460715) (xy 149.280446 43.410818) (xy 149.317054 43.364773) (xy 149.360343 43.324957)
-					(xy 149.408714 43.293399) (xy 149.461601 43.26998) (xy 149.518521 43.254967) (xy 149.634749 43.244265)
+					(xy 148.686176 43.288133) (xy 148.769027 43.306631) (xy 148.839827 43.335885) (xy 148.90044 43.375475)
+					(xy 148.96947 43.444736) (xy 149.025758 43.533137) (xy 149.069058 43.644315) (xy 149.096272 43.762009)
+					(xy 149.113914 43.901732) (xy 149.120239 44.066792) (xy 149.110818 44.254163) (xy 149.084713 44.409258)
+					(xy 149.04458 44.537026) (xy 148.992193 44.641788) (xy 148.935342 44.716395) (xy 148.868316 44.773485)
+					(xy 148.789883 44.814809) (xy 148.697796 44.840645) (xy 148.588979 44.849769) (xy 148.490514 44.843179)
+					(xy 148.407149 44.824628) (xy 148.33644 44.795397) (xy 148.276402 44.755968) (xy 148.207909 44.686808)
+					(xy 148.151639 44.598409) (xy 148.107877 44.487128) (xy 148.080018 44.369325) (xy 148.062016 44.230262)
+					(xy 148.055579 44.066792) (xy 148.375601 44.066792) (xy 148.382069 44.243309) (xy 148.398864 44.370603)
+					(xy 148.422594 44.459397) (xy 148.452443 44.519057) (xy 148.489415 44.558333) (xy 148.534064 44.581453)
+					(xy 148.588979 44.58949) (xy 148.644849 44.581323) (xy 148.689733 44.557939) (xy 148.726382 44.518349)
+					(xy 148.755364 44.458281) (xy 148.778005 44.368951) (xy 148.793986 44.241864) (xy 148.800125 44.066792)
+					(xy 148.793999 43.891684) (xy 148.778028 43.764168) (xy 148.755364 43.674186) (xy 148.726324 43.61352)
+					(xy 148.689638 43.573607) (xy 148.644771 43.550072) (xy 148.588979 43.54186) (xy 148.534218 43.549986)
+					(xy 148.489603 43.573407) (xy 148.45256 43.61333) (xy 148.422594 43.674186) (xy 148.398785 43.764246)
+					(xy 148.382027 43.89175) (xy 148.375601 44.066792) (xy 148.055579 44.066792) (xy 148.065202 43.877046)
+					(xy 148.091805 43.720801) (xy 148.132609 43.592819) (xy 148.185765 43.488539) (xy 148.24336 43.414205)
+					(xy 148.310815 43.357359) (xy 148.389327 43.316266) (xy 148.481063 43.290621) (xy 148.588979 43.281581)
 				)
 			)
 			(polygon
 				(pts
-					(xy 148.978049 44.82846) (xy 148.978049 44.826319) (xy 148.977025 44.716513) (xy 148.968464 44.607822)
-					(xy 148.947154 44.500156) (xy 148.910955 44.395654) (xy 148.859774 44.297572) (xy 148.795751 44.209075)
-					(xy 148.720096 44.12914) (xy 148.636904 44.056649) (xy 148.551664 43.987322) (xy 148.511621 43.949719)
-					(xy 148.477032 43.907386) (xy 148.449319 43.860521) (xy 148.430132 43.809304) (xy 148.418895 43.755469)
-					(xy 148.41515 43.700614) (xy 148.41729 43.64841) (xy 148.425851 43.597229) (xy 148.443997 43.549211)
-					(xy 148.473869 43.506592) (xy 148.516488 43.477744) (xy 148.566553 43.468159) (xy 148.599921 43.472376)
-					(xy 148.632716 43.485282) (xy 148.661591 43.505371) (xy 148.683804 43.531065) (xy 148.700046 43.561124)
-					(xy 148.710511 43.593972) (xy 148.717956 43.664322) (xy 148.717956 43.670743) (xy 148.982329 43.670743)
-					(xy 148.982329 43.655761) (xy 148.970604 43.546048) (xy 148.955398 43.492917) (xy 148.933289 43.442569)
-					(xy 148.904266 43.39597) (xy 148.868242 43.354072) (xy 148.82634 43.318069) (xy 148.779745 43.289118)
-					(xy 148.729364 43.267524) (xy 148.67636 43.253943) (xy 148.566553 43.244265) (xy 148.450325 43.25599)
-					(xy 148.393675 43.272315) (xy 148.341635 43.297587) (xy 148.294483 43.331137) (xy 148.253138 43.372218)
-					(xy 148.218543 43.419363) (xy 148.191349 43.471416) (xy 148.171623 43.526825) (xy 148.159338 43.584387)
-					(xy 148.150776 43.700614) (xy 148.154781 43.768317) (xy 148.166782 43.834895) (xy 148.187288 43.899291)
-					(xy 148.216939 43.960707) (xy 148.254268 44.017784) (xy 148.297899 44.069397) (xy 148.39598 44.164315)
-					(xy 148.496202 44.257092) (xy 148.585816 44.358338) (xy 148.623279 44.41468) (xy 148.65505 44.475589)
-					(xy 148.679894 44.539497) (xy 148.696646 44.604566) (xy 148.159338 44.604566) (xy 148.159338 44.82846)
+					(xy 146.827605 44.82846) (xy 147.892265 44.82846) (xy 147.892265 44.604472) (xy 147.510361 44.218288)
+					(xy 147.324713 44.018775) (xy 147.261307 43.938789) (xy 147.222351 43.8737) (xy 147.198397 43.806425)
+					(xy 147.19034 43.733929) (xy 147.196624 43.674863) (xy 147.213718 43.630549) (xy 147.240497 43.597415)
+					(xy 147.27631 43.573222) (xy 147.320665 43.558017) (xy 147.375894 43.552561) (xy 147.461721 43.562563)
+					(xy 147.546653 43.593134) (xy 147.629157 43.640319) (xy 147.721599 43.708338) (xy 147.896546 43.50138)
+					(xy 147.756775 43.394738) (xy 147.678803 43.350868) (xy 147.586109 43.314709) (xy 147.483569 43.292072)
+					(xy 147.352444 43.283721) (xy 147.254076 43.290237) (xy 147.16906 43.308739) (xy 147.095329 43.338159)
+					(xy 147.027838 43.379489) (xy 146.972842 43.428432) (xy 146.928944 43.485375) (xy 146.896534 43.549411)
+					(xy 146.876932 43.618986) (xy 146.870225 43.695496) (xy 146.875969 43.778269) (xy 146.892776 43.854761)
+					(xy 146.920383 43.925997) (xy 146.980036 44.02753) (xy 147.065551 44.132955) (xy 147.166456 44.236839)
+					(xy 147.294842 44.359082) (xy 147.491098 44.54259) (xy 147.491098 44.557479) (xy 146.827605 44.557479)
 				)
 			)
 			(polygon
 				(pts
-					(xy 147.743561 43.660042) (xy 147.817169 43.82103) (xy 147.876911 43.989462) (xy 147.91525 44.164315)
-					(xy 147.92558 44.253073) (xy 147.929023 44.342332) (xy 147.920554 44.466004) (xy 147.908563 44.526975)
-					(xy 147.88966 44.586513) (xy 147.863543 44.643217) (xy 147.829917 44.696319) (xy 147.788804 44.743245)
-					(xy 147.740397 44.781559) (xy 147.685846 44.810844) (xy 147.62631 44.8306) (xy 147.564231 44.841793)
-					(xy 147.502638 44.845489) (xy 147.441057 44.841792) (xy 147.379059 44.8306) (xy 147.319457 44.810836)
-					(xy 147.264971 44.781559) (xy 147.216488 44.743239) (xy 147.175358 44.696319) (xy 147.141753 44.643214)
-					(xy 147.115709 44.586513) (xy 147.096757 44.52697) (xy 147.084814 44.466004) (xy 147.076253 44.342332)
-					(xy 147.340626 44.342332) (xy 147.342766 44.402075) (xy 147.351328 44.461724) (xy 147.368357 44.519326)
-					(xy 147.398228 44.570507) (xy 147.419472 44.591508) (xy 147.445129 44.607822) (xy 147.473446 44.618251)
-					(xy 147.502638 44.621688) (xy 147.531843 44.618253) (xy 147.56024 44.607822) (xy 147.585837 44.591518)
-					(xy 147.60714 44.570507) (xy 147.637011 44.519326) (xy 147.654041 44.461724) (xy 147.662509 44.402075)
-					(xy 147.664649 44.342332) (xy 147.664649 44.306133) (xy 147.659345 44.251788) (xy 147.648736 44.198467)
-					(xy 147.629474 44.147286) (xy 147.599696 44.102526) (xy 147.579735 44.084692) (xy 147.555959 44.071631)
-					(xy 147.502638 44.060929) (xy 147.473446 44.064366) (xy 147.445129 44.074795) (xy 147.419472 44.091109)
-					(xy 147.398228 44.11211) (xy 147.368357 44.164315) (xy 147.351328 44.221917) (xy 147.342766 44.281566)
-					(xy 147.340626 44.342332) (xy 147.076253 44.342332) (xy 147.080533 44.231502) (xy 147.097563 44.121695)
-					(xy 147.132738 44.016169) (xy 147.158602 43.96732) (xy 147.191364 43.923392) (xy 147.231421 43.886731)
-					(xy 147.27986 43.859462) (xy 147.333037 43.842609) (xy 147.387527 43.837035) (xy 147.439807 43.842113)
-					(xy 147.489889 43.857322) (xy 147.535743 43.882091) (xy 147.575129 43.915947) (xy 147.54107 43.834895)
-					(xy 147.504778 43.755983) (xy 147.268135 43.261388) (xy 147.553819 43.261388)
+					(xy 146.045798 43.294159) (xy 146.152649 43.311388) (xy 146.242931 43.338159) (xy 146.328581 43.376921)
+					(xy 146.401345 43.423204) (xy 146.462731 43.476907) (xy 146.539488 43.571803) (xy 146.597104 43.679584)
+					(xy 146.63775 43.796504) (xy 146.664384 43.921717) (xy 146.678736 44.050413) (xy 146.683554 44.181996)
+					(xy 146.674287 44.332943) (xy 146.64861 44.45696) (xy 146.608923 44.558596) (xy 146.551821 44.651017)
+					(xy 146.485112 44.723397) (xy 146.408293 44.778302) (xy 146.321908 44.8177) (xy 146.228548 44.841597)
+					(xy 146.126611 44.849769) (xy 146.008409 44.84014) (xy 145.907881 44.81284) (xy 145.821854 44.769181)
+					(xy 145.747964 44.708975) (xy 145.688566 44.634683) (xy 145.645183 44.547083) (xy 145.617875 44.443557)
+					(xy 145.60853 44.324931) (xy 145.919653 44.324931) (xy 145.927429 44.414144) (xy 145.948137 44.479426)
+					(xy 145.979395 44.526584) (xy 146.022821 44.562601) (xy 146.073294 44.584155) (xy 146.133032 44.591631)
+					(xy 146.181186 44.586471) (xy 146.223065 44.571553) (xy 146.260054 44.54687) (xy 146.305396 44.496734)
+					(xy 146.337849 44.43483) (xy 146.357073 44.36666) (xy 146.36344 44.2972) (xy 146.356184 44.247272)
+					(xy 146.333568 44.196978) (xy 146.298189 44.152746) (xy 146.250376 44.116949) (xy 146.193799 44.093967)
+					(xy 146.126611 44.085961) (xy 146.059942 44.093817) (xy 146.009354 44.115432) (xy 145.970927 44.149984)
+					(xy 145.943544 44.195351) (xy 145.926013 44.252614) (xy 145.919653 44.324931) (xy 145.60853 44.324931)
+					(xy 145.608193 44.32065) (xy 145.616527 44.20526) (xy 145.639813 44.1096) (xy 145.676319 44.030202)
+					(xy 145.725537 43.964337) (xy 145.788096 43.910154) (xy 145.860512 43.871178) (xy 145.944722 43.84695)
+					(xy 146.043418 43.838431) (xy 146.12749 43.844764) (xy 146.195868 43.862327) (xy 146.251493 43.889705)
+					(xy 146.322869 43.947517) (xy 146.374141 44.015518) (xy 146.386983 44.015518) (xy 146.370897 43.879899)
+					(xy 146.337942 43.766964) (xy 146.302756 43.700519) (xy 146.254494 43.645091) (xy 146.19175 43.599462)
+					(xy 146.12006 43.568409) (xy 146.024361 43.547527) (xy 145.898343 43.53972) (xy 145.803425 43.545117)
+					(xy 145.714836 43.561123) (xy 145.714836 43.302891) (xy 145.81515 43.291259) (xy 145.919653 43.288002)
 				)
 			)
 		)
