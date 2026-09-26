@@ -582,7 +582,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../../../Documents/motherboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
