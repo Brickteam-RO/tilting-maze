@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model C0603C104K3RACAUTO
+#/653074/2066867/2.50/2/2/Capacitor
+DEF C0603C104K3RACAUTO C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C0603C104K3RACAUTO" 350 150 50 H V L CNN
+F2 "C0603" 350 50 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1023_X7R_AUTO_SMD.pdf" 350 -50 50 H I L CNN
+F4 "SMD Auto X7R, Ceramic, 0.1 uF, 10%, 25 VDC, 62.5 VDC, 125C, -55C, X7R, SMD, MLCC, Temperature Stable, Automotive Grade, 3.5 % , 5 GOhms, 4.8 mg, 0603, 1.6mm, 0.8mm, 0.8mm, 0.7mm, 0.35mm, 4000, 78  Weeks, 80" 350 -150 50 H I L CNN "Description"
+F5 "0.87" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "TME Electronic Components Part Number"
+F7 "" 350 -450 50 H I L CNN "TME Electronic Components Price/Stock"
+F8 "Yageo Group" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C0603C104K3RACAUTO" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

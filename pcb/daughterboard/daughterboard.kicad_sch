@@ -5,7 +5,266 @@
 	(uuid "2255186e-2dec-4723-baeb-acb5f2843560")
 	(paper "A4")
 	(lib_symbols
-		(symbol "M20-9960646:M20-9960646"
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KiCad4:M20-7820646"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -22,7 +281,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "M20-9960646"
+			(property "Value" "M20-7820646"
 				(at 16.51 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -33,7 +292,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "HDRRA6W64P0X254_1X6_1524X254X254P"
+			(property "Footprint" "HDRV6W70P0X254_1X6_1564X250X850P"
 				(at 16.51 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -45,7 +304,7 @@
 					(justify left top)
 				)
 			)
-			(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
+			(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
 				(at 16.51 -194.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +316,7 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
+			(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,7 +327,7 @@
 					)
 				)
 			)
-			(property "Height" "2.54"
+			(property "Height" "8.5"
 				(at 16.51 -394.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +339,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "855-M20-9960646"
+			(property "Mouser Part Number" "855-M20-7820646"
 				(at 16.51 -494.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -92,7 +351,7 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
 				(at 16.51 -594.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -116,7 +375,7 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "M20-9960646"
+			(property "Manufacturer_Part_Number" "M20-7820646"
 				(at 16.51 -794.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -128,7 +387,7 @@
 					(justify left top)
 				)
 			)
-			(symbol "M20-9960646_1_1"
+			(symbol "M20-7820646_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 15.24 -15.24)
@@ -761,22 +1020,10 @@
 		)
 	)
 	(junction
-		(at 181.61 66.04)
-		(diameter 1.5)
-		(color 255 0 0 1)
-		(uuid "69d43357-27dc-49db-a63f-87991692ac5b")
-	)
-	(junction
 		(at 93.98 71.12)
 		(diameter 0)
 		(color 251 124 53 1)
 		(uuid "9a73bc1b-b7bb-46db-b651-04386721f93a")
-	)
-	(junction
-		(at 177.8 78.74)
-		(diameter 0)
-		(color 0 0 0 1)
-		(uuid "9f24db3f-ac47-4eaf-906a-7efd9cd52785")
 	)
 	(junction
 		(at 124.46 78.74)
@@ -789,12 +1036,6 @@
 		(diameter 1.5)
 		(color 255 0 0 1)
 		(uuid "c7696e10-edd9-46b6-b054-197cebbf667b")
-	)
-	(junction
-		(at 181.61 71.12)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "ced81ee2-45ec-46ee-84cf-fcc634ee85fc")
 	)
 	(junction
 		(at 91.44 68.58)
@@ -821,29 +1062,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 66.04) (xy 201.93 66.04)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "086bd831-335e-45eb-9871-9109f37eaba8")
-	)
-	(wire
-		(pts
-			(xy 175.26 76.2) (xy 177.8 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "0c6e2a07-0c24-4479-b9b5-8b62eaa6093a")
-	)
-	(wire
-		(pts
-			(xy 181.61 71.12) (xy 191.77 71.12)
+			(xy 175.26 71.12) (xy 191.77 71.12)
 		)
 		(stroke
 			(width 0)
@@ -854,7 +1073,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 78.74) (xy 177.8 92.71)
+			(xy 168.91 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148bbbe2-5d39-4a62-86ec-76bcfda974d9")
+	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +1105,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 66.04) (xy 181.61 66.04)
+			(xy 175.26 68.58) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f451c7-ade1-4e1c-8308-1660b6709e7d")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 201.93 66.04)
 		)
 		(stroke
 			(width 0.5)
@@ -906,17 +1145,6 @@
 			(color 221 208 0 1)
 		)
 		(uuid "3520933f-dbbf-4f86-89cc-edd73b485610")
-	)
-	(wire
-		(pts
-			(xy 175.26 71.12) (xy 181.61 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "3da12f97-4b1b-43e7-94d2-159587d4fd0a")
 	)
 	(wire
 		(pts
@@ -964,17 +1192,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 73.66) (xy 181.61 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "514e7424-00cc-40a5-a8c8-57dd244ed9d9")
-	)
-	(wire
-		(pts
 			(xy 88.9 90.17) (xy 93.98 90.17)
 		)
 		(stroke
@@ -1008,17 +1225,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 177.8 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "6e51e14a-5f59-4e9c-8adc-e859a2cee820")
-	)
-	(wire
-		(pts
 			(xy 96.52 97.79) (xy 96.52 73.66)
 		)
 		(stroke
@@ -1030,7 +1236,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 177.8 78.74)
+			(xy 168.91 71.12) (xy 171.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1074,17 +1280,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 73.66) (xy 181.61 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a53a5f9e-001d-43cc-82af-5ff175014866")
-	)
-	(wire
-		(pts
 			(xy 91.44 68.58) (xy 128.27 68.58)
 		)
 		(stroke
@@ -1093,17 +1288,6 @@
 			(color 221 208 0 1)
 		)
 		(uuid "a708499c-4fe4-4953-86d8-176c4ba87a7d")
-	)
-	(wire
-		(pts
-			(xy 175.26 68.58) (xy 181.61 68.58)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "ad75103e-1fdc-4f43-a405-23896cbbcea5")
 	)
 	(wire
 		(pts
@@ -1118,17 +1302,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 68.58) (xy 181.61 66.04)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "b237adf8-1a98-4208-a4eb-5ddeed4133bb")
-	)
-	(wire
-		(pts
 			(xy 96.52 73.66) (xy 128.27 73.66)
 		)
 		(stroke
@@ -1137,6 +1310,16 @@
 			(color 255 32 237 1)
 		)
 		(uuid "e3bd7469-d602-4210-a49c-f9c66bbd86f4")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 175.26 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7d3de6-2161-4cb3-a623-2c522d6d4fd3")
 	)
 	(wire
 		(pts
@@ -1170,6 +1353,161 @@
 			(color 255 0 0 1)
 		)
 		(uuid "f512685c-4255-41bd-adf8-f3e6c2bb708d")
+	)
+	(symbol
+		(lib_id "KiCad4:M20-7820646")
+		(at 128.27 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "47514e63-8695-4540-b45a-825d223a0ced")
+		(property "Reference" "J2"
+			(at 133.35 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M20-7820646"
+			(at 133.35 60.706 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "M20-7820646:HDRV6W70P0X254_1X6_1564X250X850P"
+			(at 144.78 160.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://content.harwin.com/m/c2ac50ebb1c800d5/original/DRG-00385-Technical-Drawing-Datasheet-M20-782-pdf.pdf"
+			(at 144.78 260.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "M20: 6 Pos Receptacle SIL Straight 3mm THT Connector 8.5mm high Tin"
+			(at 128.27 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "8.5"
+			(at 144.78 460.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "855-M20-7820646"
+			(at 144.78 560.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-7820646?qs=WS5Jv%252B%252Bx1qWZs4rbTjPGWw%3D%3D"
+			(at 144.78 660.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
+			(at 144.78 760.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "M20-7820646"
+			(at 144.78 860.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "7a9066be-f058-4bef-953a-3c1e941502ba")
+		)
+		(pin "6"
+			(uuid "3ecb6cbb-b131-4af5-ad2a-06b0a2334a4e")
+		)
+		(pin "5"
+			(uuid "ffd8866f-697a-4094-a418-0ee45978de06")
+		)
+		(pin "1"
+			(uuid "9bea0e58-5b87-431c-a837-81fd12ef938c")
+		)
+		(pin "4"
+			(uuid "ac760242-5fd5-49a1-8ead-d11ead8c4e6e")
+		)
+		(pin "3"
+			(uuid "3d41c4c5-6b80-41f8-890b-81b81c7910fd")
+		)
+		(instances
+			(project "daughterboard"
+				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -1244,162 +1582,6 @@
 			(project "daughterboard"
 				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M20-9960646:M20-9960646")
-		(at 175.26 66.04 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5446924c-f8fb-481b-9bb4-81ab7ecdc223")
-		(property "Reference" "J2"
-			(at 166.624 57.912 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M20-9960646"
-			(at 166.624 60.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "KiCad7:HDRRA6W64P0X254_1X6_1524X254X254P"
-			(at 158.75 160.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
-			(at 158.75 260.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
-			(at 175.26 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "2.54"
-			(at 158.75 460.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "855-M20-9960646"
-			(at 158.75 560.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
-			(at 158.75 660.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 158.75 760.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M20-9960646"
-			(at 158.75 860.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "6"
-			(uuid "637bdb9b-4d73-4706-ad93-39eb088ce919")
-		)
-		(pin "1"
-			(uuid "0b52247b-f1fa-4dca-8f66-c04589d17442")
-		)
-		(pin "4"
-			(uuid "cd8ca474-48a1-4bee-acd1-377bd60adabf")
-		)
-		(pin "5"
-			(uuid "3bdc25f0-bcd6-4935-91c6-4a267aa00db0")
-		)
-		(pin "3"
-			(uuid "3e7abd1e-ff17-4387-8014-42d4349bee34")
-		)
-		(pin "2"
-			(uuid "56ef2c61-6e9c-4c88-be2a-c373c4c02bd1")
-		)
-		(instances
-			(project "daughterboard"
-				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1486,7 +1668,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 92.71 0)
+		(at 171.45 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1497,7 +1679,7 @@
 		(fields_autoplaced yes)
 		(uuid "681b03f4-41c1-463b-b575-e3447803ae1f")
 		(property "Reference" "#PWR031"
-			(at 177.8 99.06 0)
+			(at 171.45 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,7 +1690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 177.8 97.79 0)
+			(at 171.45 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1518,7 +1700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 92.71 0)
+			(at 171.45 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1529,7 +1711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 92.71 0)
+			(at 171.45 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,7 +1722,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 92.71 0)
+			(at 171.45 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,8 +1745,9 @@
 		)
 	)
 	(symbol
-		(lib_id "M20-9960646:M20-9960646")
-		(at 128.27 66.04 0)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 163.83 68.58 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1572,9 +1755,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "88fd8799-2e59-4789-a781-87c84b46d075")
-		(property "Reference" "J1"
-			(at 133.858 58.166 0)
+		(uuid "8b201332-2ef0-46ba-b7e5-ab9cbfd19d86")
+		(property "Reference" "J23"
+			(at 162.814 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1584,8 +1767,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M20-9960646"
-			(at 131.318 60.96 0)
+		(property "Value" "Screw_Terminal_01x03"
+			(at 170.434 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1595,32 +1778,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad7:HDRRA6W64P0X254_1X6_1524X254X254P"
-			(at 144.78 160.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://content.harwin.com/m/50b3dfebb8ab2cbc/original/DRG-00475-Technical-Drawing-Datasheet-M20-996-pdf.pdf"
-			(at 144.78 260.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "M20: 6 Pos Plug SIL Right-Angle 3mm THT Connector 6.1mm pin Tin"
-			(at 128.27 66.04 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1630,8 +1789,8 @@
 				)
 			)
 		)
-		(property "Height" "2.54"
-			(at 144.78 460.96 0)
+		(property "Datasheet" ""
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1639,11 +1798,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "855-M20-9960646"
-			(at 144.78 560.96 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1651,67 +1809,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9960646?qs=ulE8k0yEMYZewwLeB4iJ1w%3D%3D"
-			(at 144.78 660.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 144.78 760.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M20-9960646"
-			(at 144.78 860.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "6"
-			(uuid "043b5934-9559-4a2f-b7d4-b186aa5d29cf")
-		)
-		(pin "1"
-			(uuid "84456ba6-5e3d-472c-8bff-cb8da5791e4b")
-		)
-		(pin "4"
-			(uuid "e5fe90c7-8a68-41b8-95de-444c694645c3")
-		)
-		(pin "5"
-			(uuid "d837b0eb-3697-463b-b5f6-ce437217ac0a")
-		)
-		(pin "3"
-			(uuid "162d9e4b-c220-47ec-bb81-86bd03adafcb")
 		)
 		(pin "2"
-			(uuid "09e99dc2-a13d-4616-8862-1e7b27f6cd9b")
+			(uuid "da3e2d7a-e263-4d51-b0e1-74e5d5a9cee3")
+		)
+		(pin "1"
+			(uuid "4a6adfc1-9f37-4a09-a383-d1a5bc3c51af")
+		)
+		(pin "3"
+			(uuid "bfe039a7-b7db-473f-8608-dca3fc6ed3eb")
 		)
 		(instances
 			(project "daughterboard"
 				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
-					(reference "J1")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -2045,7 +2157,7 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_MISO" input
+		(pin "SPI_MISO" output
 			(at 88.9 97.79 0)
 			(uuid "1037c01a-0e1a-46a1-8df4-e6492acdddc0")
 			(effects
