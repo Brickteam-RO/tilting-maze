@@ -1813,6 +1813,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 116.84) (xy 39.37 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78d89a12-3c93-444a-9cbc-cca48b4dd6ff")
+	)
+	(wire
+		(pts
 			(xy 90.17 57.15) (xy 102.87 57.15)
 		)
 		(stroke
@@ -1883,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 110.49) (xy 36.83 110.49)
+			(xy 25.4 119.38) (xy 39.37 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1900,16 +1910,6 @@
 			(type default)
 		)
 		(uuid "9b0d8d89-bd42-4501-a429-2743cb223c9f")
-	)
-	(wire
-		(pts
-			(xy 25.4 106.68) (xy 36.83 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b113633-5830-483b-8cc1-4979c633a7b2")
 	)
 	(wire
 		(pts
@@ -2324,7 +2324,7 @@
 		(uuid "045e0077-aaea-4da0-ba65-6ca8cf53c751")
 	)
 	(label "+3.3V"
-		(at 36.83 106.68 180)
+		(at 39.37 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2336,7 +2336,7 @@
 		(uuid "06472461-fe04-41dd-9955-fee284a3ada0")
 	)
 	(label "+5.5V"
-		(at 36.83 110.49 180)
+		(at 39.37 119.38 180)
 		(effects
 			(font
 				(size 1 1)
@@ -3542,7 +3542,7 @@
 		(uuid "2e0d5eba-b3ff-476d-acee-d286f2124851")
 	)
 	(hierarchical_label "SPI_MISO"
-		(shape input)
+		(shape output)
 		(at 54.61 64.77 180)
 		(effects
 			(font
@@ -3597,7 +3597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
+		(property "Footprint" "LIB_T491A106K016AT:T491A"
 			(at 247.65 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3679,7 +3679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
+		(property "Footprint" "LIB_T491A106K016AT:T491A"
 			(at 171.45 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +3807,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 25.4 106.68 90)
+		(at 25.4 116.84 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3818,7 +3818,7 @@
 		(fields_autoplaced yes)
 		(uuid "13c4fbb9-2d99-44ef-9248-06e275cafc2c")
 		(property "Reference" "#PWR028"
-			(at 29.21 106.68 0)
+			(at 29.21 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3829,7 +3829,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 21.59 106.6799 90)
+			(at 21.59 116.8399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3840,7 +3840,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 106.68 0)
+			(at 25.4 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3851,7 +3851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 106.68 0)
+			(at 25.4 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3862,7 +3862,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 25.4 106.68 0)
+			(at 25.4 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +3918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
+		(property "Footprint" "C0603C104K3RACAUTO:C0603"
 			(at 242.57 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3998,7 +3998,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 166.37 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -4211,7 +4211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
+		(property "Footprint" "C0603C104K3RACAUTO:C0603"
 			(at 63.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4369,7 +4369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 246.38 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -4582,7 +4582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:T491A"
+		(property "Footprint" "LIB_T491A106K016AT:T491A"
 			(at 87.63 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4742,7 +4742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
+		(property "Footprint" "C0603C104K3RACAUTO:C0603"
 			(at 166.37 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4824,7 +4824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
+		(property "Footprint" "C0603C104K3RACAUTO:C0603"
 			(at 223.52 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4904,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:TLE94112ESXUMA1"
+		(property "Footprint" "driver_tle:SOP65P600X115-25N"
 			(at 86.36 144.45 0)
 			(hide yes)
 			(show_name no)
@@ -5241,7 +5241,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 25.4 110.49 90)
+		(at 25.4 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5252,7 +5252,7 @@
 		(fields_autoplaced yes)
 		(uuid "917b068c-0e33-4d1c-a460-517b8a55f8e0")
 		(property "Reference" "#PWR029"
-			(at 29.21 110.49 0)
+			(at 29.21 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5263,7 +5263,7 @@
 			)
 		)
 		(property "Value" "+5.5V"
-			(at 21.59 110.4899 90)
+			(at 21.59 119.3799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5274,7 +5274,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 110.49 0)
+			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5285,7 +5285,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 110.49 0)
+			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5296,7 +5296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 25.4 110.49 0)
+			(at 25.4 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,7 +5352,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
+		(property "Footprint" "C0603C104K3RACAUTO:C0603"
 			(at 82.55 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5434,7 +5434,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "A_HANU_FOOTPRINTS:CAPC0402X22N"
+		(property "Footprint" "C0603C104K3RACAUTO:C0603"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
