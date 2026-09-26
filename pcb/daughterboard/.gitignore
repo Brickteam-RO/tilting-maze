@@ -1,2 +1,4 @@
 daughterboard-backups
+pcbway_production
 *.lck
+**.zip

@@ -1,2 +1,4 @@
 motherboard-backups
+pcbway_production
 *.lck
+**.zip
