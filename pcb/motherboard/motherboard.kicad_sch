@@ -7032,7 +7032,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1729021"
+		(property "Manufacturer_Part_Number" "1729131"
 			(at 205.74 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -7887,7 +7887,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "CR0603-FX-5101ELF"
 			(at 44.45 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7991,7 +7991,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "CR0603-FX-5101ELF"
 			(at 86.36 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1729021"
+		(property "Manufacturer_Part_Number" "1729131"
 			(at 257.81 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -8609,7 +8609,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1729021"
+		(property "Manufacturer_Part_Number" "1729131"
 			(at 257.81 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8914,7 +8914,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TYPE-C-31-M-12"
+		(property "Manufacturer_Part_Number" " UJ20-C-H-G-SMT-2A-P16-TR"
 			(at 30.48 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9529,7 +9529,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer_Part_Number" "CC0603JRX7R9BB104"
 			(at 40.64 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9869,7 +9869,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "CR0603-FX-5101ELF"
 			(at 44.45 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9973,7 +9973,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "CR0603-FX-5101ELF"
 			(at 69.85 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10914,7 +10914,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1729021"
+		(property "Manufacturer_Part_Number" "1729131"
 			(at 257.81 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11254,7 +11254,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1729021"
+		(property "Manufacturer_Part_Number" "1729131"
 			(at 257.81 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -11672,7 +11672,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "CR0603-FX-5101ELF"
 			(at 64.77 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -13197,7 +13197,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer_Part_Number" "CC0603JRX7R9BB104"
 			(at 40.64 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13455,7 +13455,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer_Part_Number" "CC0603JRX7R9BB104"
 			(at 40.64 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13559,7 +13559,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer_Part_Number" "CC0603JRX7R9BB104"
 			(at 115.57 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -13663,7 +13663,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-075K1L"
+		(property "Manufacturer_Part_Number" "CR0603-FX-5101ELF"
 			(at 86.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -14255,7 +14255,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R9BB104"
+		(property "Manufacturer_Part_Number" "CC0603JRX7R9BB104"
 			(at 66.04 97.79 90)
 			(hide yes)
 			(show_name no)

@@ -2947,7 +2947,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RC0603FR-070R5L"
+		(property "Manufacturer_Part_Number" "RL0603FR-070R5L"
 			(at 205.74 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -3438,7 +3438,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 134.62 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3540,7 +3540,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SRR1208-221YL"
+		(property "Manufacturer_Part_Number" "SRR1208-220ML"
 			(at 127 121.92 90)
 			(hide yes)
 			(show_name no)
@@ -3642,7 +3642,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SRR1208-221YL"
+		(property "Manufacturer_Part_Number" "SRR1208-220ML"
 			(at 127 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -4002,7 +4002,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4182,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "EEE-FK1V221P"
+		(property "Manufacturer_Part_Number" "35TLV220M8X10.5"
 			(at 140.97 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4285,7 +4285,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 74.93 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5795,7 +5795,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 74.93 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6940,7 +6940,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 212.09 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7043,7 +7043,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 134.62 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7250,7 +7250,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "EEE-FK1V221P"
+		(property "Manufacturer_Part_Number" "35TLV220M8X10.5"
 			(at 140.97 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7665,7 +7665,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL21A106KPFNNNE"
+		(property "Manufacturer_Part_Number" "CL21A106KPCLQNC"
 			(at 185.42 124.46 0)
 			(hide yes)
 			(show_name no)
