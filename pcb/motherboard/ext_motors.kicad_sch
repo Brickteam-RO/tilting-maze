@@ -1573,7 +1573,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PPTC041LFBN-RC"
+		(property "Manufacturer_Part_Number" "PPTC041LGBN-RC"
 			(at 114.3 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -1785,7 +1785,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PPTC041LFBN-RC"
+		(property "Manufacturer_Part_Number" "PPTC041LGBN-RC"
 			(at 114.3 91.44 0)
 			(hide yes)
 			(show_name no)

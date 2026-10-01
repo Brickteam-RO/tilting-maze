@@ -8661,7 +8661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PCA9306D"
+		(property "Value" "PCA9306DCUR"
 			(at 63.8967 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8672,7 +8672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SON:X2SON-8_1.4x1mm_P0.35mm"
 			(at 66.04 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -8716,7 +8716,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PCA9306D"
+		(property "Manufacturer_Part_Number" "PCA9306DCUR"
 			(at 66.04 120.65 0)
 			(hide yes)
 			(show_name no)
