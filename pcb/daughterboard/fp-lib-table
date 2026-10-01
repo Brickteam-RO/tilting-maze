@@ -23,4 +23,5 @@
 	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
 	(lib (name "daughterboard") (type "KiCad") (uri "${KIPRJMOD}/pads.pretty/daughterboard.pretty") (options "") (descr ""))
 	(lib (name "driver_tle") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/LIB_TLE94112ESXUMA1/TLE94112ESXUMA1/KiCad") (options "") (descr ""))
+	(lib (name "FFC3B11_06_T") (type "KiCad") (uri "/home/hanu/work/tilting-maze/pcb/lib/FFC3B11_06_T") (options "") (descr ""))
 )

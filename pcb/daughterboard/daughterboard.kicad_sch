@@ -1756,7 +1756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8b201332-2ef0-46ba-b7e5-ab9cbfd19d86")
-		(property "Reference" "J23"
+		(property "Reference" "J1"
 			(at 162.814 59.944 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1845,7 +1845,7 @@
 		(instances
 			(project "daughterboard"
 				(path "/2255186e-2dec-4723-baeb-acb5f2843560"
-					(reference "J23")
+					(reference "J1")
 					(unit 1)
 				)
 			)
