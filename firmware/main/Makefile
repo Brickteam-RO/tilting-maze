@@ -37,7 +37,7 @@ BUILD_DIR = build
 ######################################
 # Add the names of directories inside the Drivers/ folder here separated by spaces.
 # Example: CUSTOM_DRIVERS = TLE94112 LCD_16x2
-CUSTOM_DRIVERS = 
+CUSTOM_DRIVERS = TLE94112
 
 ######################################
 # source
