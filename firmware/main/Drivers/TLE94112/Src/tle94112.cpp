@@ -78,11 +78,44 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
         uint8_t mode_2_data = 0;
         uint8_t mode_3_data = 0;
 
+        if(M1.motor_drive != KEEP) {
+            // Enable PWM1 (01) for all 4 half-bridges attached to Motor 1
+            mode_1_data |= 0b01010000;
+            mode_2_data |= 0b00010100;
+
+            // Seamlessly advance the magnetic phase based on direction
+            if(M1.motor_drive == UP) {
+                M1.current_phase = (M1.current_phase + 1) % 4; 
+            }
+            else { // DOWN
+                M1.current_phase = (M1.current_phase == 0) ? 3 : (M1.current_phase - 1);
+            }
+
+            switch(M1.current_phase) {
+                case 0: // Step 1: Coil A (+), Coil B (+)
+                    act_1_data |= 0b10010000;
+                    act_2_data |= 0b00100100;
+                    break;
+                case 1: // Step 2: Coil A (-), Coil B (+)
+                    act_1_data |= 0b01100000;
+                    act_2_data |= 0b00100100;
+                    break;
+                case 2: // Step 3: Coil A (-), Coil B (-)
+                    act_1_data |= 0b01100000;
+                    act_2_data |= 0b00011000;
+                    break;
+                case 3: // Step 4: Coil A (+), Coil B (-)
+                    act_1_data |= 0b10010000;
+                    act_2_data |= 0b00011000;
+                    break;
+            }
+        }
+
         if(M2.motor_drive != KEEP) {
             
-            // Enable PWM1 (01) for all 4 half-bridges attached to Motor 2
-            mode_1_data |= 0b00000101;
-            mode_2_data |= 0b01000011;
+            // Enable PWM2 (10) for all 4 half-bridges attached to Motor 2
+            mode_1_data |= 0b00001010;
+            mode_2_data |= 0b10000010;
 
             // Seamlessly advance the magnetic phase based on direction
             if(M2.motor_drive == UP) {
@@ -94,25 +127,51 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
 
             switch(M2.current_phase) {
                 case 0: // Step 1: Coil A (+), Coil B (+)
-                    act_1_data |= 0b00000101; 
-                    act_2_data |= 0b10000010; 
+                    act_1_data |= 0b00001001; 
+                    act_2_data |= 0b10000100; 
                     break;
                 case 1: // Step 2: Coil A (-), Coil B (+)
-                    act_1_data |= 0b00001001; 
-                    act_2_data |= 0b01000010; 
+                    act_1_data |= 0b00000110; 
+                    act_2_data |= 0b10000100; 
                     break;
                 case 2: // Step 3: Coil A (-), Coil B (-)
-                    act_1_data |= 0b00001010; 
-                    act_2_data |= 0b01000001;
+                    act_1_data |= 0b00000110; 
+                    act_2_data |= 0b01000010;
                     break;
                 case 3: // Step 4: Coil A (+), Coil B (-)
-                    act_1_data |= 0b00000110; 
-                    act_2_data |= 0b10000001; 
+                    act_1_data |= 0b00001001; 
+                    act_2_data |= 0b01000010; 
                     break;
             }
         }
 
-        // TODO: logic for M1, M3
+        if(M3.motor_drive != KEEP) {
+            // Enable PWM3 (11) for all 4 half-bridges attached to Motor 3
+            mode_3_data |= 0b11111111;
+
+            // Seamlessly advance the magnetic phase based on direction
+            if(M3.motor_drive == UP) {
+                M3.current_phase = (M3.current_phase + 1) % 4;
+            }
+            else { // DOWN
+                M3.current_phase = (M3.current_phase == 0) ? 3 : (M3.current_phase - 1);
+            }
+
+            switch(M3.current_phase) {
+                case 0: // Step 1: Coil A (+), Coil B (+)
+                    act_3_data |= 0b10011001;
+                    break;
+                case 1: // Step 2: Coil A (-), Coil B (+)
+                    act_3_data |= 0b01101001;
+                    break;
+                case 2: // Step 3: Coil A (-), Coil B (-)
+                    act_3_data |= 0b01100110;
+                    break;
+                case 3: // Step 4: Coil A (+), Coil B (-)
+                    act_3_data |= 0b10010110;
+                    break;
+            }
+        }
 
         // 1. Transmit the Polarity Configurations (Reverses the current direction)
         spi_transmit_16_cs((HB_ACT_1_CTRL_ADDR << 8) | act_1_data);
