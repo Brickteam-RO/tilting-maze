@@ -57,6 +57,8 @@ class TLE94112 {
     private:
         const STM32_Pin *CS_PIN;
 
+        uint16_t reverse_16bit(uint16_t x);
+
         void spi_transmit_16(uint16_t data);
         void delay_us(uint32_t us);
     public:

@@ -15,9 +15,16 @@ void TLE94112::delay_us(uint32_t us) {
     while(count--) { __NOP(); }
 }
 
+uint16_t TLE94112::reverse_16bit(uint16_t x) {
+    x = (((x & 0xaaaa) >> 1) | ((x & 0x5555) << 1));
+    x = (((x & 0xcccc) >> 2) | ((x & 0x3333) << 2));
+    x = (((x & 0xf0f0) >> 4) | ((x & 0x0f0f) << 4));
+    return ((x >> 8) | (x << 8));
+}
+
 void TLE94112::spi_transmit_16(uint16_t data) {
-    uint8_t tx_data[2] = { (uint8_t)(data >> 8), (uint8_t)(data & 0xFF) };
-    HAL_SPI_Transmit(&hspi1, tx_data, 2, HAL_MAX_DELAY);
+    uint16_t reversed_data = reverse_16bit(data);
+    HAL_SPI_Transmit(&hspi1, (uint8_t*)&reversed_data, 1, HAL_MAX_DELAY);
 }
 
 void TLE94112::spi_transmit_16_cs(uint16_t data) {
