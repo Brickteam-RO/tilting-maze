@@ -87,8 +87,8 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
 
         if(M1.motor_drive != KEEP) {
             // Enable PWM1 (01) for all 4 half-bridges attached to Motor 1
-            mode_1_data |= 0b01010000;
-            mode_2_data |= 0b00010100;
+            mode_1_data |= 0b00000101;
+            mode_2_data |= 0b01000001;
 
             // Seamlessly advance the magnetic phase based on direction
             if(M1.motor_drive == UP) {
@@ -100,20 +100,20 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
 
             switch(M1.current_phase) {
                 case 0: // Step 1: Coil A (+), Coil B (+)
-                    act_1_data |= 0b10010000;
-                    act_2_data |= 0b00100100;
+                    act_1_data |= 0b00000110;
+                    act_2_data |= 0b01000010;
                     break;
                 case 1: // Step 2: Coil A (-), Coil B (+)
-                    act_1_data |= 0b01100000;
-                    act_2_data |= 0b00100100;
+                    act_1_data |= 0b00001001;
+                    act_2_data |= 0b01000010;
                     break;
                 case 2: // Step 3: Coil A (-), Coil B (-)
-                    act_1_data |= 0b01100000;
-                    act_2_data |= 0b00011000;
+                    act_1_data |= 0b00001001;
+                    act_2_data |= 0b10000001;
                     break;
                 case 3: // Step 4: Coil A (+), Coil B (-)
-                    act_1_data |= 0b10010000;
-                    act_2_data |= 0b00011000;
+                    act_1_data |= 0b00000110;
+                    act_2_data |= 0b10000001;
                     break;
             }
         }
@@ -121,8 +121,9 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
         if(M2.motor_drive != KEEP) {
             
             // Enable PWM2 (10) for all 4 half-bridges attached to Motor 2
-            mode_1_data |= 0b00001010;
-            mode_2_data |= 0b10000010;
+            mode_1_data |= 0b10000000;
+            mode_2_data |= 0b00101000;
+            mode_3_data |= 0b00000010;
 
             // Seamlessly advance the magnetic phase based on direction
             if(M2.motor_drive == UP) {
@@ -134,27 +135,32 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
 
             switch(M2.current_phase) {
                 case 0: // Step 1: Coil A (+), Coil B (+)
-                    act_1_data |= 0b00001001; 
-                    act_2_data |= 0b10000100; 
+                    act_1_data |= 0b10000000;
+                    act_3_data |= 0b00000001; 
+                    act_2_data |= 0b00011000; 
                     break;
                 case 1: // Step 2: Coil A (-), Coil B (+)
-                    act_1_data |= 0b00000110; 
-                    act_2_data |= 0b10000100; 
+                    act_1_data |= 0b01000000;
+                    act_3_data |= 0b00000010;
+                    act_2_data |= 0b00011000; 
                     break;
                 case 2: // Step 3: Coil A (-), Coil B (-)
-                    act_1_data |= 0b00000110; 
-                    act_2_data |= 0b01000010;
+                    act_1_data |= 0b01000000;
+                    act_3_data |= 0b00000010; 
+                    act_2_data |= 0b00100100;
                     break;
                 case 3: // Step 4: Coil A (+), Coil B (-)
-                    act_1_data |= 0b00001001; 
-                    act_2_data |= 0b01000010; 
+                    act_1_data |= 0b10000000;
+                    act_3_data |= 0b00000001; 
+                    act_2_data |= 0b00100100; 
                     break;
             }
         }
 
         if(M3.motor_drive != KEEP) {
             // Enable PWM3 (11) for all 4 half-bridges attached to Motor 3
-            mode_3_data |= 0b11111111;
+            mode_1_data |= 0b00110000;
+            mode_3_data |= 0b11111100;
 
             // Seamlessly advance the magnetic phase based on direction
             if(M3.motor_drive == UP) {
@@ -166,16 +172,20 @@ void TLE94112::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
 
             switch(M3.current_phase) {
                 case 0: // Step 1: Coil A (+), Coil B (+)
-                    act_3_data |= 0b10011001;
+                    act_3_data |= 0b10011000;
+                    act_1_data |= 0b00010000;
                     break;
                 case 1: // Step 2: Coil A (-), Coil B (+)
-                    act_3_data |= 0b01101001;
+                    act_3_data |= 0b01101000;
+                    act_1_data |= 0b00010000;
                     break;
                 case 2: // Step 3: Coil A (-), Coil B (-)
-                    act_3_data |= 0b01100110;
+                    act_3_data |= 0b01100100;
+                    act_1_data |= 0b00100000;
                     break;
                 case 3: // Step 4: Coil A (+), Coil B (-)
-                    act_3_data |= 0b10010110;
+                    act_3_data |= 0b10010100;
+                    act_1_data |= 0b00100000;
                     break;
             }
         }
