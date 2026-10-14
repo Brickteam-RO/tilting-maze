@@ -8,8 +8,8 @@
 #include <stdarg.h>
 
 typedef enum {
-    LCD_CMD,
-    LCD_DATA
+    LCD_CMD     = 0x00,
+    LCD_DATA    = 0x01
 } LCD_MODE;
 
 /**
