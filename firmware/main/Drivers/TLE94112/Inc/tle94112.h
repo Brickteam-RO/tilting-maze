@@ -1,18 +1,7 @@
 #ifndef TLE94112_H
 #define TLE94112_H
 
-#include "stm32f1xx_hal.h"
 #include "stdint.h"
-
-extern SPI_HandleTypeDef hspi1;
-
-struct STM32_Pin {
-    GPIO_TypeDef* port;
-    uint16_t pin;
-};
-
-// Global Enable pin for the TLE94112 drivers
-extern STM32_Pin DRIVER_EN;
 
 // Register Adresses
 #define HB_ACT_1_CTRL_ADDR      0b10000011
@@ -55,23 +44,21 @@ class MOTOR {
 
 class TLE94112 {
     private:
-        const STM32_Pin *CS_PIN;
+        uint8_t act_1_data;
+        uint8_t act_2_data;
+        uint8_t act_3_data;
+        uint8_t mode_1_data;
+        uint8_t mode_2_data;
+        uint8_t mode_3_data;
 
-        uint16_t reverse_16bit(uint16_t x);
-
-        void spi_transmit_16(uint16_t data);
-        void delay_us(uint32_t us);
     public:
         MOTOR M1, M2, M3;
 
-        TLE94112(const STM32_Pin *CS);
-        ~TLE94112();
-
-        void spi_transmit_16_cs(uint16_t data);
-        void init();
-        void start();
-        void stop();
-        void step_motors(uint32_t num_steps, uint32_t speed_delay_ms);
+        TLE94112();
+        void clear_step_data();
+        void calculate_step_data();
+        void reset_state();
+        uint8_t get_register_data(uint8_t reg_addr) const;
 };
 
 #endif // TLE94112_H
