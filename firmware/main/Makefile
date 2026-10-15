@@ -37,7 +37,7 @@ BUILD_DIR = build
 ######################################
 # Add the names of directories inside the Drivers/ folder here separated by spaces.
 # Example: CUSTOM_DRIVERS = TLE94112 LCD_16x2
-CUSTOM_DRIVERS = 
+CUSTOM_DRIVERS = LCD
 
 ######################################
 # source
@@ -202,5 +202,13 @@ clean:
 # dependencies
 #######################################
 -include $(wildcard $(BUILD_DIR)/*.d)
+
+#######################################
+# flash
+#######################################
+flash: $(BUILD_DIR)/$(TARGET).bin
+	st-flash write $< 0x08000000
+
+.PHONY: flash
 
 # *** EOF ***

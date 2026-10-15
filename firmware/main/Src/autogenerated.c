@@ -350,6 +350,7 @@ void assert_failed(uint8_t *file, uint32_t line)
 #endif /* USE_FULL_ASSERT */
 
 void hal_setup() {
+    HAL_Init();
     SystemClock_Config();
     MX_GPIO_Init();
     MX_I2C2_Init();
