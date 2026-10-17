@@ -34,7 +34,7 @@ class DaughterBoard {
         void start();
         void stop();
 
-        void step_motors(uint32_t num_steps, uint32_t speed_delay_ms);
+        void execute_single_step();
 };
 
 #endif // DAUGHTERBOARD_H

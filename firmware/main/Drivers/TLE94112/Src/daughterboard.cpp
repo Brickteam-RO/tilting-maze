@@ -87,24 +87,18 @@ void DaughterBoard::stop() {
     }
 }
 
-void DaughterBoard::step_motors(uint32_t num_steps, uint32_t speed_delay_ms) {
-    start();
+void DaughterBoard::execute_single_step() {
 
-    for(uint32_t step_count = 0; step_count < num_steps; step_count++) {
-        for(int i = 0; i < 7; i++) {
-            drivers[i].calculate_step_data();
-        }
-
-        transmit_daisy_chain(HB_ACT_1_CTRL_ADDR);
-        transmit_daisy_chain(HB_ACT_2_CTRL_ADDR);
-        transmit_daisy_chain(HB_ACT_3_CTRL_ADDR);
-
-        transmit_daisy_chain(HB_MODE_1_CTRL_ADDR);
-        transmit_daisy_chain(HB_MODE_2_CTRL_ADDR);
-        transmit_daisy_chain(HB_MODE_3_CTRL_ADDR);
-        
-        HAL_Delay(speed_delay_ms);
+    for(int i = 0; i < 7; i++) {
+        drivers[i].calculate_step_data();
     }
 
-    stop();
+    transmit_daisy_chain(HB_ACT_1_CTRL_ADDR);
+    transmit_daisy_chain(HB_ACT_2_CTRL_ADDR);
+    transmit_daisy_chain(HB_ACT_3_CTRL_ADDR);
+
+    transmit_daisy_chain(HB_MODE_1_CTRL_ADDR);
+    transmit_daisy_chain(HB_MODE_2_CTRL_ADDR);
+    transmit_daisy_chain(HB_MODE_3_CTRL_ADDR);
+    
 }
