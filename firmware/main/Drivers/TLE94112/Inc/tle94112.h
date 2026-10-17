@@ -38,7 +38,14 @@ class MOTOR {
         movement motor_drive;
         uint8_t current_phase;
 
+        /**
+         * @brief Starts the motor in KEEP state.
+         */
         MOTOR();
+        /**
+         * @brief Updates the motor direction.
+         * @param mov represents the new direction(UP, DOWN, KEEP).
+         */
         void set_direction(movement mov);
 };
 
@@ -54,10 +61,31 @@ class TLE94112 {
     public:
         MOTOR M1, M2, M3;
 
+        /**
+         * @brief Sets up the TLE94112 and makes sure all 3 motors are off initially.
+         */
         TLE94112();
+
+        /**
+         * @brief Fills the register variables with 0 to start.
+         */
         void clear_step_data();
+
+        /**
+         * @brief Checks what M1, M2 and M3 want to do 
+         * and calculates the exact bits needed for SPI transmission.
+         */
         void calculate_step_data();
+
+        /**
+         * @brief Forces all 3 motors to stop and resets their steps.
+         */
         void reset_state();
+
+        /**
+         * @brief Gives the bits to the DaughterBoard to transmit over SPI.
+         * @param reg_addr represents the register that the board is asking for.
+         */
         uint8_t get_register_data(uint8_t reg_addr) const;
 };
 

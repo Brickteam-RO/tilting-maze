@@ -22,18 +22,53 @@ class DaughterBoard {
         void delay_us(uint32_t us);
 
     public:
+        
         TLE94112 drivers[7];
+
+        /**
+         * @brief Sets up the board with its ID
+         * @param id represents the board ID(0-4)
+         */
         DaughterBoard(uint8_t id);
         ~DaughterBoard();
 
+        /**
+         * @brief Selects the board on the DEMUX so it can receive SPI data.
+         */
         void select_board();
+
+        /**
+         * @brief Dynamic SPI function. Asks all 7 chips what bits they need 
+         * and send them over daisy chain.
+         * @param reg_addr represents the register we want to update.
+         */
         void transmit_daisy_chain(uint8_t reg_addr);
+
+        /**
+         * @brief Fixed SPI function. Sends the same byte to all 7 chips.
+         * @param reg_addr represents the register we want to update.
+         * @param fixed_data represents the byte we want to send to all chips.
+         */
         void transmit_daisy_chain(uint8_t reg_addr, uint8_t fixed_data);
 
+        /**
+         * @brief Clears old data and turns on Freewheeling.
+         */
         void init();
+
+        /**
+         * @brief Safely turns on the PWM signal.
+         */
         void start();
+
+        /**
+         * @brief Turns off the PWM signal and stops all motors.
+         */
         void stop();
 
+        /**
+         * @brief Calculates and executes one motor step for this board.
+         */
         void execute_single_step();
 };
 
