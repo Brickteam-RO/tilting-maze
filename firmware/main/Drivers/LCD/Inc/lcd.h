@@ -1,5 +1,9 @@
 #pragma once
 
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
 #include "stm32f1xx_hal.h"
 
 #include <stdint.h>
@@ -40,3 +44,7 @@ void lcd_transmit(uint8_t data, LCD_MODE mode);
 
 /* Print formatted string to LCD */
 void lcd_print(const char* format, ...);
+
+#ifdef __cplusplus
+}
+#endif

@@ -4,7 +4,7 @@
 #include "stm32f1xx_hal.h"
 #include "tle94112.h"
 
-extern SPI_HandleTypeDef hspi1;
+extern "C" SPI_HandleTypeDef hspi1;
 
 // DEMUX-SELECTION & SPI Pins
 #define SEL_0_PORT GPIOB
