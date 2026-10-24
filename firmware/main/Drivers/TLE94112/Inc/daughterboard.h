@@ -16,6 +16,9 @@ extern "C" SPI_HandleTypeDef hspi1;
 #define SPI_CS_PORT GPIOA
 #define SPI_CS_PIN GPIO_PIN_4
 
+// Mask for LABT(Last Address Bit Token)
+#define LABT_MASK 0b00000010
+
 class DaughterBoard {
     private:
         uint8_t board_id;
