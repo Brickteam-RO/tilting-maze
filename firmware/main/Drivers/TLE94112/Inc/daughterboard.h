@@ -5,6 +5,7 @@
 #include "tle94112.h"
 
 extern "C" SPI_HandleTypeDef hspi1;
+extern "C" TIM_HandleTypeDef htim1;
 
 // DEMUX-SELECTION & SPI Pins
 #define SEL_0_PORT GPIOB

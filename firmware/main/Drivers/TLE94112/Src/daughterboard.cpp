@@ -5,8 +5,8 @@ DaughterBoard::DaughterBoard(uint8_t id) : board_id(id) {}
 DaughterBoard::~DaughterBoard() {}
 
 void DaughterBoard::delay_us(uint32_t us) {
-    uint32_t count = us * (SystemCoreClock / 1000000) / 4;
-    while(count--) { __NOP(); }
+    __HAL_TIM_SET_COUNTER(&htim1, 0);
+    while(__HAL_TIM_GET_COUNTER(&htim1) < us); 
 }
 
 void DaughterBoard::select_board() {
