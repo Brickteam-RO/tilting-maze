@@ -32,3 +32,4 @@ CMakePresets.json
 # VSCode Specific
 # ----------------------------------------------------------------------
 .vscode
+qemu_test/
