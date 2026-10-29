@@ -284,7 +284,6 @@ int* solve_maze(int** input_maze) {
         path_output[i] = pathStep(m, i);
     }
     
-    // Terminator pentru array, util ca să știi când se termină drumul
     path_output[m.path_len] = -1;
 
     return path_output;
