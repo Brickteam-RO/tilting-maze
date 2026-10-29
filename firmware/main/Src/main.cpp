@@ -2,6 +2,8 @@
 #include "uart.h"
 #include "tilt_control.h"
 
+extern "C" UART_HandleTypeDef huart1;
+
 L298N driver1({
         GPIOA, GPIO_PIN_0,
         GPIOA, GPIO_PIN_1
@@ -31,9 +33,10 @@ void setup() {
 int main() {
     setup();
 
-    set_uart_mode(UART_MODE_BLOCKING);
+    set_uart_mode(UART_MODE_DMA);
 
     while (1) {
-        uart_printf("testing\n");     
+        uart_printf("testing\r\n");    
+        HAL_Delay(1000); 
     }
 }
