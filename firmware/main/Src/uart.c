@@ -3,13 +3,14 @@
 #include "stm32f1xx_hal.h"
 #include "stm32f1xx_hal_dma.h"
 
+#include <stdbool.h>
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdint.h>
 
 extern UART_HandleTypeDef huart1;
 
-static uart_mode_t uart_mode = UART_MODE_DMA;
+static uart_mode_t uart_mode = UART_MODE_BLOCKING;
 static DMA_HandleTypeDef hdma_usart1_tx;
 static bool dma_initialized = false;
 

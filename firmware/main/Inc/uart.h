@@ -2,7 +2,11 @@
 
 #ifdef __cplusplus
 extern "C" {
+#include <cstdbool>
+#else
+#include <stdbool.h>
 #endif
+
 
 /**
  * @brief Enum for UART operation modes.
