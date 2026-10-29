@@ -36,6 +36,9 @@ void DaughterBoard::transmit_daisy_chain(uint8_t reg_addr) {
 
     select_board();
 
+    uint8_t force_sdi_low = 0x00; // force SDI line to be LOW before falling CSN
+    HAL_SPI_Transmit(&hspi1, &force_sdi_low, 1, HAL_MAX_DELAY);
+
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_RESET);
     HAL_SPI_Transmit(&hspi1, spi_tx, 14, HAL_MAX_DELAY);
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_SET);
@@ -58,6 +61,9 @@ void DaughterBoard::transmit_daisy_chain(uint8_t reg_addr, uint8_t fixed_data) {
     }
 
     select_board();
+
+    uint8_t force_sdi_low = 0x00; // force SDI line to be LOW before falling CSN
+    HAL_SPI_Transmit(&hspi1, &force_sdi_low, 1, HAL_MAX_DELAY);
 
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_RESET);
     HAL_SPI_Transmit(&hspi1, spi_tx, 14, HAL_MAX_DELAY);
