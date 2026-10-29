@@ -243,6 +243,18 @@ namespace UART {
 
         return print(msg, mode) && print("\r\n", mode);
     }
+
+    bool UART_DEVICE::printf(const char* format, ...) {
+        char buffer[256];
+
+        va_list args;
+        va_start(args, format);
+
+        vsnprintf(buffer, sizeof(buffer), format, args);
+        va_end(args);
+
+        return print(buffer, DMA);
+    }
 }
 
 extern "C" void USART1_IRQHandler(void) {

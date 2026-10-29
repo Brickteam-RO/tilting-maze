@@ -1,6 +1,8 @@
 #pragma once
 
 #include <cstdint>
+#include <cstdarg>
+#include <cstdio>
 
 #include "stm32f1xx_hal.h"
 #include "stm32f1xx_hal_uart.h"
@@ -129,5 +131,14 @@ namespace UART {
 
         /** @brief Prints a message to the UART device, followed by a newline character. */
         bool println(const char* msg, TRANSMIT_MODE mode = BLOCKING);
+        
+        /**
+         * @brief Prints a formatted message using DMA mode
+         * 
+         * @param format Format string(printf style)
+         * @param ... Variable arguments for formatting
+         * @return true if successful, false otherwise.
+         */
+        bool printf(const char* format, ...);
     };
 }
