@@ -9,6 +9,8 @@ MAZE::MAZE() : boards{DaughterBoard(0), DaughterBoard(1), DaughterBoard(2), Daug
 }
 
 void MAZE::init() {
+    HAL_TIM_Base_Start(&htim1);
+
     for(int i = 0; i < 5; i++) {
         boards[i].init();
     }

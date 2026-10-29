@@ -5,8 +5,8 @@ DaughterBoard::DaughterBoard(uint8_t id) : board_id(id) {}
 DaughterBoard::~DaughterBoard() {}
 
 void DaughterBoard::delay_us(uint32_t us) {
-    uint32_t count = us * (SystemCoreClock / 1000000) / 4;
-    while(count--) { __NOP(); }
+    __HAL_TIM_SET_COUNTER(&htim1, 0);
+    while(__HAL_TIM_GET_COUNTER(&htim1) < us); 
 }
 
 void DaughterBoard::select_board() {
@@ -20,35 +20,53 @@ void DaughterBoard::select_board() {
 }
 
 void DaughterBoard::transmit_daisy_chain(uint8_t reg_addr) {
-    uint16_t spi_frame[7];
+    
+    uint8_t spi_tx[14];
+
+    for(int i = 0; i < 6; i++) {
+        spi_tx[i] = reg_addr & (~LABT_MASK); 
+    }
+
+    spi_tx[6] = reg_addr | LABT_MASK;
 
     for(int i = 0; i < 7; i++) {
         uint8_t target_ic_index = 6 - i;
-        uint8_t data_8bit = drivers[target_ic_index].get_register_data(reg_addr);
-
-        spi_frame[i] = (reg_addr << 8) | data_8bit;
+        spi_tx[7 + i] = drivers[target_ic_index].get_register_data(reg_addr);
     }
 
     select_board();
 
+    uint8_t force_sdi_low = 0x00; // force SDI line to be LOW before falling CSN
+    HAL_SPI_Transmit(&hspi1, &force_sdi_low, 1, HAL_MAX_DELAY);
+
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_RESET);
-    HAL_SPI_Transmit(&hspi1, (uint8_t*)spi_frame, 7, HAL_MAX_DELAY);
+    HAL_SPI_Transmit(&hspi1, spi_tx, 14, HAL_MAX_DELAY);
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_SET);
 
     delay_us(2);
 }
 
 void DaughterBoard::transmit_daisy_chain(uint8_t reg_addr, uint8_t fixed_data) {
-    uint16_t spi_frame[7];
+
+    uint8_t spi_tx[14];
     
+    for(int i = 0; i < 6; i++) {
+        spi_tx[i] = reg_addr & (~LABT_MASK);
+    }
+
+    spi_tx[6] = reg_addr | LABT_MASK;
+
     for(int i = 0; i < 7; i++) {
-        spi_frame[i] = (reg_addr << 8) | fixed_data;
+        spi_tx[7 + i] = fixed_data;
     }
 
     select_board();
 
+    uint8_t force_sdi_low = 0x00; // force SDI line to be LOW before falling CSN
+    HAL_SPI_Transmit(&hspi1, &force_sdi_low, 1, HAL_MAX_DELAY);
+
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_RESET);
-    HAL_SPI_Transmit(&hspi1, (uint8_t*)spi_frame, 7, HAL_MAX_DELAY);
+    HAL_SPI_Transmit(&hspi1, spi_tx, 14, HAL_MAX_DELAY);
     HAL_GPIO_WritePin(SPI_CS_PORT, SPI_CS_PIN, GPIO_PIN_SET);
 
     delay_us(5);
