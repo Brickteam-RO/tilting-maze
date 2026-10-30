@@ -16,7 +16,7 @@ struct vec2 {
     bool operator==(const vec2& other) const { return r == other.r && c == other.c; }
 };
 
-constexpr uint8_t MAZE_SIDE_LEN = 8;
+constexpr uint8_t MAZE_SIDE_LEN = 10;
 constexpr uint8_t CELL_COUNT = MAZE_SIDE_LEN * MAZE_SIDE_LEN;
 
 /** @brief Number of words needed to represent the maze.
