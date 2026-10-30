@@ -245,4 +245,47 @@ void generate(Maze& maze, uint32_t seed)
     solve(maze);
 }
 
+static int maze_matrix[MAZE_SIDE_LEN][MAZE_SIDE_LEN];
+static int* maze_ptrs[MAZE_SIDE_LEN];
+static int path_output[CELL_COUNT + 1];
+
+int** generate_maze(uint32_t seed) {
+    static Maze m;
+    generate(m, seed); 
+
+    for (int i = 0; i < MAZE_SIDE_LEN; i++) {
+        maze_ptrs[i] = maze_matrix[i]; 
+        for (int j = 0; j < MAZE_SIDE_LEN; j++) {
+            maze_matrix[i][j] = cellWall(m, vec2(i, j)) ? 1 : 0;
+        }
+    }
+    
+    return maze_ptrs;
+}
+
+int* solve_maze(int** input_maze) {
+    static Maze m;
+    
+    for (uint8_t i = 0; i < WORD_COUNT; ++i) {
+        m.walls[i] = 0u;
+    }
+
+    for (int i = 0; i < MAZE_SIDE_LEN; i++) {
+        for (int j = 0; j < MAZE_SIDE_LEN; j++) {
+            if (input_maze[i][j] == 1) {
+                setCell(m.walls, vec2(i, j));
+            }
+        }
+    }
+
+    solve(m);
+
+    for (int i = 0; i < m.path_len; i++) {
+        path_output[i] = pathStep(m, i);
+    }
+    
+    path_output[m.path_len] = -1;
+
+    return path_output;
+}
 }   // namespace MazeCore

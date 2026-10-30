@@ -16,7 +16,7 @@ struct vec2 {
     bool operator==(const vec2& other) const { return r == other.r && c == other.c; }
 };
 
-constexpr uint8_t MAZE_SIDE_LEN = 10;
+constexpr uint8_t MAZE_SIDE_LEN = 8;
 constexpr uint8_t CELL_COUNT = MAZE_SIDE_LEN * MAZE_SIDE_LEN;
 
 /** @brief Number of words needed to represent the maze.
@@ -68,5 +68,18 @@ uint8_t pathStep(const Maze& maze, uint8_t i);
  * @param seed Seed used for xorshift rng
  */
 void generate(Maze& maze, uint32_t seed);
+
+/** 
+ * @brief Generates an 8x8 maze and returns a 2D array representation
+ * @param seed Random seed for maze generation
+ */
+int** generate_maze(uint32_t seed);
+
+/** 
+ * @brief Solves a given 8x8 maze matrix and returns an array of directions
+ * @param input_maze 2D array of the maze (1 for wall, 0 for empty)
+ * @return Array of directions (0=down, 1=up, 2=right, 3=left), terminated with -1
+ */
+int* solve_maze(int** input_maze);
 
 }   // namespace MazeCore
