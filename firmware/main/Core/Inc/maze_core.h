@@ -16,12 +16,12 @@ struct vec2 {
     bool operator==(const vec2& other) const { return r == other.r && c == other.c; }
 };
 
-constexpr uint8_t MAZE_SIDE_LEN = 10;
+constexpr uint8_t MAZE_SIDE_LEN = 8;
 constexpr uint8_t CELL_COUNT = MAZE_SIDE_LEN * MAZE_SIDE_LEN;
 
 /** @brief Number of words needed to represent the maze.
- *  Our maze is comprised of 100 reachable cells, so we need 100 bits to represent the walls. We use a 32-bit (unsigned) integer, known as a word from now on,
- *  to represent 32 cells out of our 100. Therefore, we need 4 words (4 * 32 = 128 bits) to hold the entire maze. As you can see, we have 28 extra bits left,
+ *  Our maze is comprised of 64 reachable cells, so we need 64 bits to represent the walls. We use a 32-bit (unsigned) integer, known as a word from now on,
+ *  to represent 32 cells out of our 64. Therefore, we need 2 words (2 * 32 = 64 bits) to hold the entire maze. As you can see, there are no extra bits left,
  *  which are left unused.
  */
 constexpr uint8_t WORD_COUNT = (CELL_COUNT + 31) / 32;

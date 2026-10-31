@@ -16,7 +16,7 @@ from pi_comp import protocol
 
 
 def make_maze(**overrides):
-    """A minimal valid maze: an empty grid and a straight path along row 0 then column 9."""
+    """A minimal valid maze: an empty grid and a straight path along row 0 then column 7."""
     walls = [[0] * protocol.SIDE for _ in range(protocol.SIDE)]
     path = [protocol.RIGHT] * (protocol.SIDE - 1) + [protocol.DOWN] * (protocol.SIDE - 1)
 
@@ -25,7 +25,7 @@ def make_maze(**overrides):
         "seed": 42,
         "side": protocol.SIDE,
         "start": [0, 0],
-        "goal": [9, 9],
+        "goal": [7, 7],
         "solvable": True,
         "walls": walls,
         "path": path,
@@ -101,7 +101,7 @@ def test_valid_maze_round_trips():
 
 def test_wrong_row_count_is_rejected():
     with pytest.raises(protocol.ProtocolError, match="rows"):
-        protocol.parse_line(line(make_maze(walls=[[0] * 10] * 9)))
+        protocol.parse_line(line(make_maze(walls=[[0] * 8] * 7)))
 
 
 def test_wrong_column_count_is_rejected():
@@ -151,7 +151,7 @@ def test_walk_path_counts_cells():
     cells = protocol.walk_path(msg)
     assert len(cells) == len(msg["path"]) + 1
     assert cells[0] == (0, 0)
-    assert cells[-1] == (9, 9)
+    assert cells[-1] == (7, 7)
 
 
 def test_decode_diag():
@@ -169,7 +169,7 @@ def test_wall_counts():
 
 
 def test_pack_walls_matches_the_firmware_bit_layout():
-    """Cell (r, c) is bit r*10+c, little-endian within each 32-bit word.
+    """Cell (r, c) is bit r*8+c, little-endian within each 32-bit word.
 
     Mirrors setCell()/testCell() in maze_core.cpp.
     """
@@ -177,15 +177,14 @@ def test_pack_walls_matches_the_firmware_bit_layout():
 
     walls[0][0] = 1        # index 0   -> word 0, bit 0
     walls[0][5] = 1        # index 5   -> word 0, bit 5
-    walls[3][2] = 1        # index 32  -> word 1, bit 0
-    walls[9][9] = 1        # index 99  -> word 3, bit 3
+    walls[4][0] = 1        # index 32  -> word 1, bit 0
+    walls[7][7] = 1        # index 63  -> word 1, bit 31
 
     words = protocol.pack_walls(walls)
 
     assert words[0] == (1 << 0) | (1 << 5)
-    assert words[1] == (1 << 0)
-    assert words[2] == 0
-    assert words[3] == (1 << 3)
+    assert len(words) == 2
+    assert words[1] == (1 << 0) | (1 << 31)
 
 
 def test_pack_walls_round_trips():
@@ -215,7 +214,7 @@ def test_status_with_realtime_fields():
 
 
 def test_status_invalid_ball_coordinates():
-    raw = '{"type":"status","tick":123,"ball":[10,0]}'
+    raw = '{"type":"status","tick":123,"ball":[8,0]}'
     with pytest.raises(protocol.ProtocolError, match="off board"):
         protocol.parse_line(raw)
 

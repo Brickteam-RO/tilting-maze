@@ -40,8 +40,8 @@ from typing import Any
 #: Protocol version announced in the ``hello`` message.
 PROTO_VERSION = 1
 
-#: Maze side length. Fixed by hardware at 100 motorised cells (``MAZE_SIDE_LEN``).
-SIDE = 10
+#: Maze side length. Fixed by hardware at 64 motorised cells (``MAZE_SIDE_LEN``).
+SIDE = 8
 CELL_COUNT = SIDE * SIDE
 
 #: Opposite corners, in (row, column). ``START_COORDS`` / ``GOAL_COORDS``.
@@ -293,7 +293,7 @@ def walk_path(msg: dict[str, Any]) -> list[tuple[int, int]]:
 def pack_walls(walls: list[list[int]]) -> list[int]:
     """Repack an expanded grid back into the firmware's bitfield layout.
 
-    Mirrors ``setCell``/``testCell`` in maze_core.cpp: cell (r, c) is bit ``r * 10 + c``,
+    Mirrors ``setCell``/``testCell`` in maze_core.cpp: cell (r, c) is bit ``r * 8 + c``,
     stored little-endian within a word. Only used for verification - if this round-trips,
     the row-major ordering on the wire matches what the board actually holds.
     """
