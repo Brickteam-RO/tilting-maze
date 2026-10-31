@@ -50,8 +50,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--seed",
         type=int,
-        default=42,
-        help="maze seed for the simulated board, default 42",
+        default=None,
+        help="fixed maze seed for the simulated board; default is a new random maze each pass",
     )
 
     return parser

@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import queue
+import random
 import shutil
 import subprocess
 import threading
@@ -56,14 +57,21 @@ def maze_line(seed: int) -> str:
     return result.stdout.strip()
 
 
+def random_seed() -> int:
+    return random.randint(1, 2**32 - 1)
+
+
 def stream_lines(
-    seed: int = 42,
+    seed: int | None = 42,
     *,
     realtime: bool = True,
     source: SimulatedSource | None = None,
 ) -> Iterator[str]:
     hello = f'{{"type":"hello","proto":{protocol.PROTO_VERSION},"board":"stm32f103c8-sim"}}'
-    maze = maze_line(seed)
+    # seed=None means a fresh random maze for every pass instead of a fixed one.
+    randomize = seed is None
+    current_seed = random_seed() if randomize else seed
+    maze = maze_line(current_seed)
     maze_msg = json.loads(maze)
     cells = protocol.walk_path(maze_msg)
 
@@ -136,6 +144,13 @@ def stream_lines(
             if hold_ticks >= hold_target:
                 step_idx = 0
                 hold_ticks = 0
+                if randomize:
+                    current_seed = random_seed()
+                    maze = maze_line(current_seed)
+                    cells = protocol.walk_path(json.loads(maze))
+                    total_steps = len(cells)
+                    last_announce = time.monotonic()
+                    yield maze
 
         if now - last_announce >= ANNOUNCE_PERIOD_S:
             last_announce = now
@@ -144,7 +159,7 @@ def stream_lines(
 
 
 class SimulatedSource:
-    def __init__(self, seed: int = 42, events: queue.Queue | None = None) -> None:
+    def __init__(self, seed: int | None = 42, events: queue.Queue | None = None) -> None:
         self.seed = seed
         self.events: queue.Queue = events if events is not None else queue.Queue()
         self.step_delay: float = 0.2  # default 5 Hz
@@ -206,7 +221,7 @@ class SimulatedSource:
         )
 
 
-def serve_pty(seed: int = 42) -> None:
+def serve_pty(seed: int | None = 42) -> None:
     if not hasattr(os, "openpty"):
         raise RuntimeError("--serve-pty needs a Unix pty; run it on Linux or the Pi")
 

@@ -36,6 +36,7 @@ class ConnectionBar(tk.Frame):
         on_connect: Callable[[str, int], None],
         on_disconnect: Callable[[], None],
         on_freq: Callable[[float], None] | None = None,
+        on_seed: Callable[[int | None], None] | None = None,
         simulate: bool = False,
         port: str | None = None,
     ) -> None:
@@ -44,6 +45,7 @@ class ConnectionBar(tk.Frame):
         self._on_connect = on_connect
         self._on_disconnect = on_disconnect
         self._on_freq = on_freq
+        self._on_seed = on_seed
         self._connected = False
         self._port_map: dict[str, str] = {}
         self._current_device: str | None = None
@@ -98,6 +100,8 @@ class ConnectionBar(tk.Frame):
 
         # Simulation Frequency Selector
         if simulate:
+            self._build_seed_controls()
+
             freq_frame = tk.Frame(self, bg=COLORS["panel"])
             freq_frame.pack(side=tk.RIGHT, padx=14, pady=10)
 
@@ -120,6 +124,49 @@ class ConnectionBar(tk.Frame):
                     pady=2,
                 )
                 btn.pack(side=tk.LEFT, padx=2)
+
+    def _build_seed_controls(self) -> None:
+        seed_frame = tk.Frame(self, bg=COLORS["panel"])
+        seed_frame.pack(side=tk.LEFT, padx=14, pady=10)
+
+        tk.Label(
+            seed_frame, text="SEED:", bg=COLORS["panel"], fg=COLORS["muted"], font=FONT_LABEL
+        ).pack(side=tk.LEFT, padx=(0, 6))
+
+        self.seed_entry = tk.Entry(
+            seed_frame,
+            width=12,
+            bg=COLORS["bg"],
+            fg=COLORS["text"],
+            insertbackground=COLORS["text"],
+            relief=tk.FLAT,
+            font=FONT_UI,
+        )
+        self.seed_entry.pack(side=tk.LEFT, padx=(0, 6), ipady=3)
+        self.seed_entry.bind("<Return>", lambda e: self._generate())
+
+        _button(seed_frame, "GENERATE", self._generate, padx=10).pack(side=tk.LEFT, padx=2)
+        _button(seed_frame, "RANDOM", self._random, padx=10).pack(side=tk.LEFT, padx=2)
+
+    def _generate(self) -> None:
+        text = self.seed_entry.get().strip()
+        try:
+            seed = int(text)
+        except ValueError:
+            self.seed_entry.config(fg=COLORS["error"])
+            return
+        if not 0 <= seed <= 0xFFFFFFFF:
+            self.seed_entry.config(fg=COLORS["error"])
+            return
+        self.seed_entry.config(fg=COLORS["text"])
+        if self._on_seed is not None:
+            self._on_seed(seed)
+
+    def _random(self) -> None:
+        self.seed_entry.delete(0, tk.END)
+        self.seed_entry.config(fg=COLORS["text"])
+        if self._on_seed is not None:
+            self._on_seed(None)
 
     def _set_freq(self, hz: float) -> None:
         if self._on_freq is not None:

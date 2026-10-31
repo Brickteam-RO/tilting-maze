@@ -28,7 +28,7 @@ class CompanionApp(tk.Tk):
         port: str | None = None,
         baud: int = reader.DEFAULT_BAUD,
         simulate: bool = False,
-        seed: int = 42,
+        seed: int | None = 42,
     ) -> None:
         super().__init__()
 
@@ -72,6 +72,7 @@ class CompanionApp(tk.Tk):
             self._on_connect,
             self._on_disconnect,
             on_freq=self._on_set_freq,
+            on_seed=self._on_set_seed,
             simulate=self._simulate,
             port=self._port,
         )
@@ -115,6 +116,14 @@ class CompanionApp(tk.Tk):
         delay = 1.0 / max(0.5, hz)
         if self._source is not None and hasattr(self._source, "set_step_delay"):
             self._source.set_step_delay(delay)
+
+    def _on_set_seed(self, seed: int | None) -> None:
+        self._seed = seed
+        delay = getattr(self._source, "step_delay", None)
+        source = simulator.SimulatedSource(seed=seed, events=self._events)
+        if delay is not None:
+            source.step_delay = delay
+        self._start_source(source)
 
     def _start_source(self, source: Any) -> None:
         self._stop_source()
